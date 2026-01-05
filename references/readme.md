@@ -10,7 +10,7 @@
 
 > **Author:** Paul Gordijn  
 > **Email:** Paul.Gordijn@kznwildlife.com  
-> **Date:** 19-11-2025
+> **Date:** 20-11-2025
 </center>
 
 > This directory contains the Biodiversity, Spatial Planning & Information's (**BSPI**) reference BibTeX database, and associated miscellaneous scripts for manipulating reference entries, plus information on how to use the database in the ['JabRef' GUI](https://www.jabref.org). For extensive help files on JabRef visit https://www.jabref.org.
