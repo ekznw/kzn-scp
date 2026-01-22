@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "C-Plan",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "website",
+    "section": "",
+    "text": "This dir will contain the quarto files for building the cplan webpage."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Technical introduction",
+    "section": "",
+    "text": "Following international protocol we structured our provincial C-Plan around these key questions (SANBI and UNEP-WCMC 2024; Jung et al. 2025):\n\nWhat biodiversity and where is it?\nWhat is the state of this biodiversity?\nWhere and how should conservation efforts be prioritized?\n\nThese questions form the basis for the structure of this C-Plan. The first key question involves collation and modelling of data in order to obtain the best available spatial representation of biodiversity. The second is largely concerned with the conservation or risk status of biodiversity that will guide the mapping of biodiversity, and the prioritization analyses in point three."
+  },
+  {
+    "objectID": "intro.html#main-stages-of-the-systematic-conservation-plan",
+    "href": "intro.html#main-stages-of-the-systematic-conservation-plan",
+    "title": "Intro",
+    "section": "",
+    "text": "flowchart TD\n\n%% === Main stages ===\nobj1([What & where])\nobj2([Status assessment])\nobj3([Representation & &lt;br&gt; persistence targets])\nobj4([Prioritization analysis])\nobj5([Product development])\n\nobj1 --&gt; obj2\nobj2 --&gt; obj3\nobj3 --&gt; obj4\nobj4 --&gt; obj5\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\nobj2 -.-&gt; obj1\nobj3 -.-&gt; obj2\nobj4 -.-&gt; obj3\nobj5 -.-&gt; obj4\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart TB\n\n%% === Main stages ===\nobj1[What & where]\nobj2[Status assessment]\nobj3[Representation & &lt;br&gt; persistence targets]\nobj4[Prioritization analysis]\n\nobj1 --&gt; obj2\nobj2 --&gt; obj3\nobj3 --&gt; obj4\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\nobj2 -.-&gt; obj1\nobj3 -.-&gt; obj2\nobj4 -.-&gt; obj3\n\n\n%% === Inputs to obj1 (What & where) ===\nobj1_1([Ecosystem representation]) --&gt; obj1\nobj1_2([Refugia habitat & corridors]) --&gt; obj1\nobj1_3([Critical habitat features]) --&gt; obj1\nobj1_4([Species representation]) --&gt; obj1\nobj1_5([\"Spatial avoidance (cost)\"]) --&gt; obj1\n\n\n%% === Ecosystem representation details ===\n\nobj1_1_1([Baseline ecosystem]) --&gt; obj1_1_2([Landcover modification])\nobj1_1_2 --&gt; obj1_1_3([Ecosystem modification])\nobj1_1_3 --&gt; obj1_1_4([Development sprawl])\nobj1_1_4 --&gt; obj1_1_5([\"Fragmentation & connectivity\"])\nobj1_1_6([\"Climate refugia (& scenarios)\"])--&gt; obj1_1_5\n\n%% Link ecosystem detail back up\nobj1_1_2 --&gt; obj1_1\nobj1_1_5 --&gt; obj1_2\nobj1_1_6 --&gt; obj1_2\n\n%% Optional grey-ish relation represented as dashed\nobj1_1_2 -.-&gt; obj1_5\n\n%% === Species representation details ===\nobj1_4_1([Point locality data]) --&gt; obj1_4_2([Species Distribution Models])\nobj1_4_1 --&gt; obj1_4\nobj1_4_2 --&gt; obj1_4\n\n%% Bidirectional link: SDMs &lt;-&gt; Climate refugia\nobj1_4_2 --&gt; obj1_1_6\nobj1_1_6 --&gt; obj1_4_2\n\n%% === Status assessment inputs ===\nobj2_1([National & international risk status]) --&gt; obj2\nobj2_2([Provincial risk status]) --&gt; obj2\n\n%% === Targets inputs ===\nobj3_1([National & international targets]) --&gt; obj3\nobj3_2([Provincial targets]) --&gt; obj3"
+  },
+  {
+    "objectID": "intro.html#stages-of-the-systematic-conservation-plan",
+    "href": "intro.html#stages-of-the-systematic-conservation-plan",
+    "title": "Intro",
+    "section": "",
+    "text": "flowchart TD\n\n%% === Main stages ===\nobj1([What & where])\nobj2([Status assessment])\nobj3([Representation & &lt;br&gt; persistence targets])\nobj4([Prioritization analysis])\nobj5([Product development])\n\nobj1 --&gt; obj2\nobj2 --&gt; obj3\nobj3 --&gt; obj4\nobj4 --&gt; obj5\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\nobj2 -.-&gt; obj1\nobj3 -.-&gt; obj2\nobj4 -.-&gt; obj3\nobj5 -.-&gt; obj4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart TB\n\n%% === Main stages ===\nobj1[What & where]\nobj2[Status assessment]\nobj3[Representation & &lt;br&gt; persistence targets]\nobj4[Prioritization analysis]\n\nobj1 --&gt; obj2\nobj2 --&gt; obj3\nobj3 --&gt; obj4\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\nobj2 -.-&gt; obj1\nobj3 -.-&gt; obj2\nobj4 -.-&gt; obj3\n\n\n%% === Inputs to obj1 (What & where) ===\nobj1_1([Ecosystem representation]) --&gt; obj1\nobj1_2([Refugia habitat & corridors]) --&gt; obj1\nobj1_3([Critical habitat features]) --&gt; obj1\nobj1_4([Species representation]) --&gt; obj1\nobj1_5([\"Spatial avoidance (cost)\"]) --&gt; obj1\n\n\n%% === Ecosystem representation details ===\n\nobj1_1_1([Baseline ecosystem]) --&gt; obj1_1_2([Landcover modification])\nobj1_1_2 --&gt; obj1_1_3([Ecosystem modification])\nobj1_1_3 --&gt; obj1_1_4([Development sprawl])\nobj1_1_4 --&gt; obj1_1_5([\"Fragmentation & connectivity\"])\nobj1_1_6([\"Climate refugia (& scenarios)\"])--&gt; obj1_1_5\n\n%% Link ecosystem detail back up\nobj1_1_2 --&gt; obj1_1\nobj1_1_5 --&gt; obj1_2\nobj1_1_6 --&gt; obj1_2\n\n%% Optional grey-ish relation represented as dashed\nobj1_1_2 -.-&gt; obj1_5\n\n%% === Species representation details ===\nobj1_4_1([Point locality data]) --&gt; obj1_4_2([Species Distribution Models])\nobj1_4_1 --&gt; obj1_4\nobj1_4_2 --&gt; obj1_4\n\n%% Bidirectional link: SDMs &lt;-&gt; Climate refugia\nobj1_4_2 --&gt; obj1_1_6\nobj1_1_6 --&gt; obj1_4_2\n\n%% === Status assessment inputs ===\nobj2_1([National & international risk status]) --&gt; obj2\nobj2_2([Provincial risk status]) --&gt; obj2\n\n%% === Targets inputs ===\nobj3_1([National & international targets]) --&gt; obj3\nobj3_2([Provincial targets]) --&gt; obj3"
+  },
+  {
+    "objectID": "intro.html#stages-of-the-systematic-c-plan",
+    "href": "intro.html#stages-of-the-systematic-c-plan",
+    "title": "Technical introduction",
+    "section": "",
+    "text": "flowchart TD\n\n%% === Main stages ===\nobj1([What & where])\nobj2([Status assessment])\nobj3([Representation & &lt;br&gt; persistence targets])\nobj4([Prioritization analysis])\nobj5([Product development])\n\nobj1 --&gt; obj2\nobj2 --&gt; obj3\nobj3 --&gt; obj4\nobj4 --&gt; obj5\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\nobj2 -.-&gt; obj1\nobj3 -.-&gt; obj2\nobj4 -.-&gt; obj3\nobj5 -.-&gt; obj4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart TB\n\n%% === Main stages ===\nobj1[What & where]\nobj2[Status assessment]\nobj3[Representation & &lt;br&gt; persistence targets]\nobj4[Prioritization analysis]\n\nobj1 --&gt; obj2\nobj2 --&gt; obj3\nobj3 --&gt; obj4\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\nobj2 -.-&gt; obj1\nobj3 -.-&gt; obj2\nobj4 -.-&gt; obj3\n\n\n%% === Inputs to obj1 (What & where) ===\nobj1_1([Ecosystem representation]) --&gt; obj1\nobj1_2([Refugia habitat & corridors]) --&gt; obj1\nobj1_3([Critical habitat features]) --&gt; obj1\nobj1_4([Species representation]) --&gt; obj1\nobj1_5([\"Spatial avoidance (cost)\"]) --&gt; obj1\n\n\n%% === Ecosystem representation details ===\n\nobj1_1_1([Baseline ecosystem]) --&gt; obj1_1_2([Landcover modification])\nobj1_1_2 --&gt; obj1_1_3([Ecosystem modification])\nobj1_1_3 --&gt; obj1_1_4([Development sprawl])\nobj1_1_4 --&gt; obj1_1_5([\"Fragmentation & connectivity\"])\nobj1_1_6([\"Climate refugia (& scenarios)\"])--&gt; obj1_1_5\n\n%% Link ecosystem detail back up\nobj1_1_2 --&gt; obj1_1\nobj1_1_5 --&gt; obj1_2\nobj1_1_6 --&gt; obj1_2\n\n%% Optional grey-ish relation represented as dashed\nobj1_1_2 -.-&gt; obj1_5\n\n%% === Species representation details ===\nobj1_4_1([Point locality data]) --&gt; obj1_4_2([Species Distribution Models])\nobj1_4_1 --&gt; obj1_4\nobj1_4_2 --&gt; obj1_4\n\n%% Bidirectional link: SDMs &lt;-&gt; Climate refugia\nobj1_4_2 --&gt; obj1_1_6\nobj1_1_6 --&gt; obj1_4_2\n\n%% === Status assessment inputs ===\nobj2_1([National & international risk status]) --&gt; obj2\nobj2_2([Provincial risk status]) --&gt; obj2\n\n%% === Targets inputs ===\nobj3_1([National & international targets]) --&gt; obj3\nobj3_2([Provincial targets]) --&gt; obj3"
+  },
+  {
+    "objectID": "usage.html",
+    "href": "usage.html",
+    "title": "Usage",
+    "section": "",
+    "text": "Page for describing the practical usage of the product and how to access the data."
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "C-Plan data pipeline",
+    "section": "",
+    "text": "To promote open science and smooth updates to the C-Plan the data to documentation pipeline in Figure 1 was adopted.\nflowchart TD\n\n%% Group 1: cloud storage\n%% === sub node ===\nsubgraph G1[Cloud storage]\n    direction LR\n    %%style G1 fill:#c4d8c282,stroke:#3d573bff,stroke-width:2px\n    d([Metadata])\n    e([Data])\n    d &lt;--&gt; e\nend\n\n%% === main nodes ===\nsubgraph G2[GitHub code repo]\n%%style G2 fill:#80a17d82,stroke:#3d573bff,stroke-width:2px\na([Metadata systems])\nb([Scripts & &lt;br&gt; GIS software])\nc([Documentation])\n\na --&gt; b\nb --&gt; c\n\nb -.-&gt; a\nc -.-&gt; b\n\nd --&gt; a\ne --&gt; a\nend\n\n\n\n\nFigure 1: Data to documentation pipeline overview. Boxes indicate the storage and backup locations of the data and code, in the cloud and on GitHub, respectively."
+  },
+  {
+    "objectID": "intro.html#sec-updated-scp",
+    "href": "intro.html#sec-updated-scp",
+    "title": "Technical introduction",
+    "section": "",
+    "text": "Following international protocol we structured our provincial C-Plan around these key questions (SANBI and UNEP-WCMC 2024; Jung et al. 2025):\n\nWhat biodiversity and where is it?\nWhat is the state of this biodiversity?\nWhere and how should conservation efforts be prioritized?\n\nThese questions form the basis for the structure of this C-Plan. The first key question involves collation and modelling of data in order to obtain the best available spatial representation of biodiversity. The second is largely concerned with the conservation or risk status of biodiversity that will guide the mapping of biodiversity, and the prioritization analyses in point three."
+  },
+  {
+    "objectID": "intro.html#sec-aim",
+    "href": "intro.html#sec-aim",
+    "title": "Technical introduction",
+    "section": "Aim",
+    "text": "Aim\nUpdate the terrestrial SCP for KwaZulu‑Natal."
+  },
+  {
+    "objectID": "intro.html#sec-objectives",
+    "href": "intro.html#sec-objectives",
+    "title": "Technical introduction",
+    "section": "Objectives",
+    "text": "Objectives\nThe objectives of this SCP are as follows:\n\nDetermine the what and where of biodiversity — representation data (see ?@sec-eco-state): {style=“alpha”}\n\nDevelop a baseline‑ecosystem layer that broadly represents the spatial distribution of biotic communities (i.e., coarse‑filter features).\nDetermine the state of ecosystems and their biodiversity: {style=“roman”}\n\nAscertain the distribution of protected and conserved areas.\nRefine the baseline‑ecosystems layer to represent the current state of biodiversity.\n\nBolster the representation of all species.1\nRepresent ecosystem function and change — collection of additional spatial datasets.2 {style=“roman”}\n\nEcosystem processes\n\nEcosystem infrastructure\n\nEcosystem services\n\nEcological condition\n\nClimate change information\n\nSocio‑economic data\n\n\nDetermine the current state of ecosystems and their biodiversity: {style=“alpha”}\n\nEvaluate the risk and protection status of ecosystems.\nAlign and compare provincial (and where appropriate trans‑regional) ecosystem risk status.\nEvaluate the risk and protection status of species.\n\nSetting representation and persistence targets: {style=“alpha”}\n\nRepresentation and persistence of ecosystems, including alignment with the Global Biodiversity Framework [@cbd2022kmg].\nRepresentation and persistence of species.\n\nSystematic spatial prioritization: {style=“alpha”}\n\nSpatial framework of evaluation — planning units.\nCompilation of cost (decision‑support) layers.\nSystematic spatial prioritization analyses and scenario modelling (e.g., climate change and management effectiveness).\nSensitivity analysis.\n\nProduct development.\n\n\n\n\n\n\n\nflowchart TD\n\n%% === Main stages ===\nobj1([What & where])\nobj2([Status assessment])\nobj3([Representation & &lt;br&gt; persistence targets])\nobj4([Prioritization analysis])\nobj5([Product development])\n\nobj1 --&gt; obj2\nobj2 --&gt; obj3\nobj3 --&gt; obj4\nobj4 --&gt; obj5\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\nobj2 -.-&gt; obj1\nobj3 -.-&gt; obj2\nobj4 -.-&gt; obj3\nobj5 -.-&gt; obj4\n\n\n\n\n\n\n\n\nWhat & where\n\n\n\n\n\nflowchart LR\n\n%% === Main stages ===\nobj1[What & where]\n%%obj2([Status assessment])\n%%obj3([Representation & &lt;br&gt; persistence targets])\n%%obj4([Prioritization analysis])\n%%obj5([Product development])\n\n%%obj1 --&gt; obj2\n%%obj2 --&gt; obj3\n%%obj3 --&gt; obj4\n%%obj4 --&gt; obj5\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\n%%obj2 -.-&gt; obj1\n%%obj3 -.-&gt; obj2\n%%obj4 -.-&gt; obj3\n%%obj5 -.-&gt; obj4\n\n%% === Inputs to obj1 (What & where) ===\nobj1_1([Ecosystem representation]) --&gt; obj1\nobj1_2([Refugia habitat & corridors]) --&gt; obj1\nobj1_3([Critical habitat features]) --&gt; obj1\nobj1_4([Species representation]) --&gt; obj1\nobj1_5([\"Spatial avoidance (cost)\"]) --&gt; obj1\n\n%% === Ecosystem representation details ===\n\nobj1_1_1([Baseline ecosystem]) --&gt; obj1_1_2([Landcover modification])\nobj1_1_2 --&gt; obj1_1_3([Ecosystem modification])\nobj1_1_3 --&gt; obj1_1_4([Development sprawl])\nobj1_1_4 --&gt; obj1_1_5([\"Fragmentation & connectivity\"])\nobj1_1_6([\"Climate refugia (& scenarios)\"])--&gt; obj1_1_5\n\n%% Link ecosystem detail back up\nobj1_1_2 --&gt; obj1_1\nobj1_1_5 --&gt; obj1_2\nobj1_1_6 --&gt; obj1_2\n\n%% Optional grey-ish relation represented as dashed\nobj1_1_2 -.-&gt; obj1_5\n\n%% === Species representation details ===\nobj1_4_1([Point locality data]) --&gt; obj1_4_2([Species Distribution Models])\nobj1_4_1 --&gt; obj1_4\nobj1_4_2 --&gt; obj1_4\n\n%% Bidirectional link: SDMs &lt;-&gt; Climate refugia\nobj1_4_2 --&gt; obj1_1_6\nobj1_1_6 --&gt; obj1_4_2\n\n\n\n\n\n\n\n\nStatus assessment\n\n\nRepresentation & persistence targets\n\n\nPrioritization analysis\n\n\nProduct development\n\n\n\n\n\nflowchart TB\n\n%% === Main stages ===\nobj1[What & where]\nobj2[Status assessment]\nobj3[Representation & &lt;br&gt; persistence targets]\nobj4[Prioritization analysis]\n\nobj1 --&gt; obj2\nobj2 --&gt; obj3\nobj3 --&gt; obj4\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\nobj2 -.-&gt; obj1\nobj3 -.-&gt; obj2\nobj4 -.-&gt; obj3\n\n\n%% === Inputs to obj1 (What & where) ===\nobj1_1([Ecosystem representation]) --&gt; obj1\nobj1_2([Refugia habitat & corridors]) --&gt; obj1\nobj1_3([Critical habitat features]) --&gt; obj1\nobj1_4([Species representation]) --&gt; obj1\nobj1_5([\"Spatial avoidance (cost)\"]) --&gt; obj1\n\n\n%% === Ecosystem representation details ===\n\nobj1_1_1([Baseline ecosystem]) --&gt; obj1_1_2([Landcover modification])\nobj1_1_2 --&gt; obj1_1_3([Ecosystem modification])\nobj1_1_3 --&gt; obj1_1_4([Development sprawl])\nobj1_1_4 --&gt; obj1_1_5([\"Fragmentation & connectivity\"])\nobj1_1_6([\"Climate refugia (& scenarios)\"])--&gt; obj1_1_5\n\n%% Link ecosystem detail back up\nobj1_1_2 --&gt; obj1_1\nobj1_1_5 --&gt; obj1_2\nobj1_1_6 --&gt; obj1_2\n\n%% Optional grey-ish relation represented as dashed\nobj1_1_2 -.-&gt; obj1_5\n\n%% === Species representation details ===\nobj1_4_1([Point locality data]) --&gt; obj1_4_2([Species Distribution Models])\nobj1_4_1 --&gt; obj1_4\nobj1_4_2 --&gt; obj1_4\n\n%% Bidirectional link: SDMs &lt;-&gt; Climate refugia\nobj1_4_2 --&gt; obj1_1_6\nobj1_1_6 --&gt; obj1_4_2\n\n%% === Status assessment inputs ===\nobj2_1([National & international risk status]) --&gt; obj2\nobj2_2([Provincial risk status]) --&gt; obj2\n\n%% === Targets inputs ===\nobj3_1([National & international targets]) --&gt; obj3\nobj3_2([Provincial targets]) --&gt; obj3"
+  },
+  {
+    "objectID": "intro.html#footnotes",
+    "href": "intro.html#footnotes",
+    "title": "Technical introduction",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThese translate to the plan’s objectives↩︎\nWe use “species” in the broad sense, referring to any distinct taxonomic unit (e.g., subspecies) unless otherwise indicated.↩︎\nIf available, these data can be considered for inclusion in prioritization analysis and assessment.↩︎"
+  },
+  {
+    "objectID": "intro.html#sec-stages",
+    "href": "intro.html#sec-stages",
+    "title": "Technical introduction",
+    "section": "0.2 C-Plan stages",
+    "text": "0.2 C-Plan stages\nThe main stages of the C-Plan are depicted in Figure 1 below.\n\n\n\n\n\n\nflowchart TD\n\n%% === Main stages ===\nobj1([What & where])\nobj2([Status assessment])\nobj3([Representation & &lt;br&gt; persistence targets])\nobj4([Prioritization analysis])\nobj5([Product development])\n\nobj1 --&gt; obj2\nobj2 --&gt; obj3\nobj3 --&gt; obj4\nobj4 --&gt; obj5\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\nobj2 -.-&gt; obj1\nobj3 -.-&gt; obj2\nobj4 -.-&gt; obj3\nobj5 -.-&gt; obj4\n\n\n\n\nFigure 1: Flowchart depicting the iterative stages of gathering data, analyses, and outputs of the systematic conservation plan (c.f. SANBI and UNEP-WCMC (2024)).\n\n\n\n\n\nThe stages1 of this SCP are as follows:\n\nDetermine the what and where of biodiversity — representation data (see ATsec-eco-state):\n\nDevelop a baseline‑ecosystem layer that broadly represents the spatial distribution of biotic communities (i.e., coarse‑filter features).\nDetermine the state of ecosystems and their biodiversity:\n\nAscertain the distribution of protected and conserved areas.\nRefine the baseline‑ecosystems layer to represent the current state of biodiversity.\n\nBolster the representation of all species.2\nRepresent ecosystem function and change — collection of additional spatial datasets.3\n\nEcosystem processes\n\nEcosystem infrastructure\n\nEcosystem services\n\nEcological condition\n\nClimate change information\n\nSocio‑economic data\n\n\nDetermine the current state of ecosystems and their biodiversity:\n\nEvaluate the risk and protection status of ecosystems.\nAlign and compare provincial (and where appropriate trans‑regional) ecosystem risk status.\nEvaluate the risk and protection status of species.\n\nSet representation and persistence targets:\n\nRepresentation and persistence of ecosystems, including alignment with the Global Biodiversity Framework (Convention on Biological Diversity 2022).\nRepresentation and persistence of species.\n\nSpatial prioritization:\n\nSpatial framework of evaluation — planning units.\nCompilation of cost (decision‑support) layers.\nSystematic spatial prioritization analyses and scenario modelling (e.g., climate change and management effectiveness).\nSensitivity analysis.\n\nProduct development.\n\n\n0.2.1 What & where\n\n\n\n\n\nflowchart TD\n\n%% === Main stages ===\nobj1[What & where]\n%%obj2([Status assessment])\n%%obj3([Representation & &lt;br&gt; persistence targets])\n%%obj4([Prioritization analysis])\n%%obj5([Product development])\n\n%%obj1 --&gt; obj2\n%%obj2 --&gt; obj3\n%%obj3 --&gt; obj4\n%%obj4 --&gt; obj5\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\n%%obj2 -.-&gt; obj1\n%%obj3 -.-&gt; obj2\n%%obj4 -.-&gt; obj3\n%%obj5 -.-&gt; obj4\n\n%% === Inputs to obj1 (What & where) ===\nobj1_1([Ecosystem representation]) --&gt; obj1\nobj1_2([Refugia habitat & corridors]) --&gt; obj1\nobj1_3([Critical habitat features]) --&gt; obj1\nobj1_4([Species representation]) --&gt; obj1\nobj1_5([\"Spatial avoidance (cost)\"]) --&gt; obj1\n\n%% === Ecosystem representation details ===\n\nobj1_1_1([Baseline ecosystem]) --&gt; obj1_1_2([Landcover modification])\nobj1_1_2 --&gt; obj1_1_3([Ecosystem modification])\nobj1_1_3 --&gt; obj1_1_4([Development sprawl])\nobj1_1_4 --&gt; obj1_1_5([\"Fragmentation & connectivity\"])\nobj1_1_6([\"Climate refugia (& scenarios)\"])--&gt; obj1_1_5\n\n%% Link ecosystem detail back up\nobj1_1_2 --&gt; obj1_1\nobj1_1_5 --&gt; obj1_2\nobj1_1_6 --&gt; obj1_2\n\n%% Optional grey-ish relation represented as dashed\nobj1_1_2 -.-&gt; obj1_5\n\n%% === Species representation details ===\nobj1_4_1([Point locality data]) --&gt; obj1_4_2([Species Distribution Models])\nobj1_4_1 --&gt; obj1_4\nobj1_4_2 --&gt; obj1_4\n\n%% Bidirectional link: SDMs &lt;-&gt; Climate refugia\nobj1_4_2 --&gt; obj1_1_6\nobj1_1_6 --&gt; obj1_4_2"
+  },
+  {
+    "objectID": "intro.html#sec-eco-rep",
+    "href": "intro.html#sec-eco-rep",
+    "title": "Technical introduction",
+    "section": "3.1 Ecosystem representation",
+    "text": "3.1 Ecosystem representation\nIncorporating ecosystem types in the SCP process serves to broadly capture the spatial distribution of distinct-biological communities, and thereby the full suite of species—i.e., gamma diversity (Whittaker 1960)—across the region of interest (Ladislav Mucina 2024). Following the previous terrestrial SCP for KwaZulu-Natal (Escott 2010), a vegetation-type map formed a robust surrogate for ecosystem types. Vegetation types commonly serve as surrogates for ecosystem types because they largely capture differences in biodiversity patterns across the landscape (SANBI and UNEP-WCMC 2024).\nFor an up-to-date representation of ecosystem extent, the provincial-vegetation map (i.e., coverage) had to be adjusted. The provincial-vegetation coverage serves as a representation of “natural” vegetation communities prior to GC pressures ca. 1750 (L. Mucina, Rutherford, and Powrie 2018). Therefore, the coverage had to be adjusted to reflect the current state of ecosystems using the best available data.\n\n\n3.1.1 Ecosystem and biodiversity state datasets\n\n3.1.1.1 Protected and conserved ecosystems\n\n\n3.1.1.2 Ecosystem protection and conservation\n\n\n\n3.1.2 Species representation\n\n3.1.2.1 Species selection criteria"
+  },
+  {
+    "objectID": "intro.html#introduction",
+    "href": "intro.html#introduction",
+    "title": "Technical introduction",
+    "section": "4.1 Introduction",
+    "text": "4.1 Introduction\nThe broad-ranging approach for representation of biodiversity in the SCP was complemented by a targeted approach (see Section 3.1.2). The targeted approach required a systematic selection of species (SANBI and UNEP-WCMC 2024). Scientific experts on the KwaZulu-Natal Biodiversity Plan Steering Committee developed the criteria for the inclusion of species in a workshop session with external stakeholders. For the KwaZulu-Natal SCP, these criteria were applied to each grouping of taxa as shown below."
+  },
+  {
+    "objectID": "intro.html#criteria-for-inclusion",
+    "href": "intro.html#criteria-for-inclusion",
+    "title": "Technical introduction",
+    "section": "4.2 Criteria for inclusion",
+    "text": "4.2 Criteria for inclusion\n\n\n\n\nTable 1: Criteria for inclusion of species in the targeted approach.\n\n\n\nIDCriteriaRules1Endemic to KwaZulu-Natal.Feature must be triggered by ≥1 criterion; criteria equal weighting; may include uncertain data but removed if insufficient; consider age and accuracy of data.2Near Endemic to KwaZulu-Natal (50–99% of taxon distribution falls within KwaZulu-Natal).3Threat status (CR, EN, Rare, VU, NT). Global or Regional. Highest threat status taken.4International obligation.5Umbrella species.6Isolated from core known range with genetic differences.7Edge of range species (may be well protected in KZN but globally/regionally threatened).8Life‑history stage essential for protection of species.9Species conservation plan or biodiversity management plan.10Other (specify).11Resource use threat.12Specific populations (e.g., Tembe elephants, berg eland)."
+  },
+  {
+    "objectID": "intro.html#taxonspecific-species-selection",
+    "href": "intro.html#taxonspecific-species-selection",
+    "title": "Technical introduction",
+    "section": "4.3 Taxon‑specific species selection",
+    "text": "4.3 Taxon‑specific species selection\nFollowing the criteria in Table 1, species were selected for groupings of taxa: amphibians, aquatic species, birds, invertebrates, mammals, and plants.\n\n4.3.1 Amphibians (championed by A. Armstrong)\nAll endemic, near-endemic, and threatened (CR, EN, VU) species were included.\n\n\n4.3.2 Aquatic species (championed by S. Khubheka)\n\n\n4.3.3 Birds (championed by B. Coverdale)\n\n\n4.3.4 Invertebrates (championed by A. Armstrong)\nAll endemic, near-endemic and threatened (CR, EN, VU) taxa are included. Only taxa in the Biodiversity Database are included in the analysis.\n\n\n4.3.5 Mammals (championed by B. Coverdale)\n\n\n4.3.6 Plants (championed by C. Carbutt)\nThe targeted plant species list for the updated KZN SCP revision was developed as follows:\n\nAn extract of the plant list used for the previous SCP by Escott (2010) was made.\nThe extract was evaluated by the plant group (Ezemvelo KZN Wildlife + SANBI) at the C‑Plan workshop at Didima, Jan 2025.\nThe list was further refined and checked.\nSpecies names were updated for taxonomic changes.\nRed List status updated to SANBI RL version 2024.\nThe list was tabled at the July 2025 C‑Plan Steering Committee meeting.\nApproved pending minor revision.\nFully revised in Aug 2025 per Steering Committee directives.\n~23 taxa were the focus: extinct or widespread non‑endemic taxa removed; endemic/near‑endemic or declining taxa retained.\nFinal revised list (Aug 2025) was uploaded to MS Teams as directed.\n\n\n\n4.3.7 Reptiles (championed by A. Armstrong)\nAll endemic, near-endemic and threatened (CR, EN, VU) species are included."
+  },
+  {
+    "objectID": "data.html#data-quality",
+    "href": "data.html#data-quality",
+    "title": "C-Plan data pipeline",
+    "section": "1 Data quality",
+    "text": "1 Data quality\nStatement on data quality and assessments — using the best available data."
+  },
+  {
+    "objectID": "intro.html#what-where",
+    "href": "intro.html#what-where",
+    "title": "Technical introduction",
+    "section": "2.1 What & where",
+    "text": "2.1 What & where\n\n\n\n\n\n\n\n\nflowchart TD\n\n%% === Main stages ===\nobj1[What & where]\n%%obj2([Status assessment])\n%%obj3([Representation & &lt;br&gt; persistence targets])\n%%obj4([Prioritization analysis])\n%%obj5([Product development])\n\n%%obj1 --&gt; obj2\n%%obj2 --&gt; obj3\n%%obj3 --&gt; obj4\n%%obj4 --&gt; obj5\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\n%%obj2 -.-&gt; obj1\n%%obj3 -.-&gt; obj2\n%%obj4 -.-&gt; obj3\n%%obj5 -.-&gt; obj4\n\n%% === Inputs to obj1 (What & where) ===\nobj1_1([Ecosystem representation]) --&gt; obj1\nobj1_2([Refugia habitat & corridors]) --&gt; obj1\nobj1_3([Critical habitat features]) --&gt; obj1\nobj1_4([Species representation]) --&gt; obj1\nobj1_5([\"Spatial avoidance (cost)\"]) --&gt; obj1\n\n%% === Ecosystem representation details ===\n\nobj1_1_1([Baseline ecosystem]) --&gt; obj1_1_2([Landcover modification])\nobj1_1_2 --&gt; obj1_1_3([Ecosystem modification])\nobj1_1_3 --&gt; obj1_1_4([Development sprawl])\nobj1_1_4 --&gt; obj1_1_5([\"Fragmentation & connectivity\"])\nobj1_1_6([\"Climate refugia (& scenarios)\"])--&gt; obj1_1_5\n\n%% Link ecosystem detail back up\nobj1_1_2 --&gt; obj1_1\nobj1_1_5 --&gt; obj1_2\nobj1_1_6 --&gt; obj1_2\n\n%% Optional grey-ish relation represented as dashed\nobj1_1_2 -.-&gt; obj1_5\n\n%% === Species representation details ===\nobj1_4_1([Point locality data]) --&gt; obj1_4_2([Species Distribution Models])\nobj1_4_1 --&gt; obj1_4\nobj1_4_2 --&gt; obj1_4\n\n%% Bidirectional link: SDMs &lt;-&gt; Climate refugia\nobj1_4_2 --&gt; obj1_1_6\nobj1_1_6 --&gt; obj1_4_2\n\n\n\n\n\n\n\n\nFigure 2: Inputs to determining the what and where of biodiversity."
+  },
+  {
+    "objectID": "data.html#section",
+    "href": "data.html#section",
+    "title": "C-Plan data pipeline",
+    "section": "2 ",
+    "text": "2"
+  },
+  {
+    "objectID": "sdm.html",
+    "href": "sdm.html",
+    "title": "Species distribution models",
+    "section": "",
+    "text": "1 Intro\n\nDetermine which areas of kzn (and proximal areas) are critical for biodiversity under current and future climate scenarios.\n\n\n\n2 Predictor variables\n\n\n\n\n\n\nflowchart TD\n\nsubgraph g1[Species Distribution Models]\na[(Current)]\nb[(Future)]\nend\n\nsubgraph g2[Predictors]\ng([BIOCLIM&lt;/br&gt;current])\nh([BIOCLIM&lt;/br&gt;scenario's])\ni([Abiotic&lt;/br&gt;template])\nend\n\ng --&gt; a\nh --&gt; b\ni -.-&gt; a\ni -.-&gt; b\n\n\n\n\nFigure 1: The BIOCLIM variables under ‘current’ climate are consistent with ‘future’ climate scenario’s enabling robust prediciton of distribution shifts.\n\n\n\n\n\n\n\n3 Model building\n\n\n\n\n\n\nflowchart LR\n\na[(Model&lt;/br&gt;variables)]\nb([Redundancy&lt;/br&gt;checks:&lt;/br&gt;PCA/VIF])\nc[SDM&lt;/br&gt;create]\nd{SDM&lt;/br&gt;predictions}\ne[Current&lt;/br&gt;climate]\nf[Future&lt;/br&gt;climate]\ng[(Contiguous&lt;/br&gt;Outputs)]\n\na --&gt; b --&gt; c --&gt; d\nd --&gt; e\nd --&gt; f\ne --&gt; g\nf --&gt; g\n\n\n\n\nFigure 2: Process of taking input predictor variables and generating contiguous current- to future- climate species disrtibution maps. Species data is fed into SDM models as a variable to determine relations between predictors and species distributions.\n\n\n\n\n\n\n\n4 Outputs\n\n\n5 Products"
+  },
+  {
+    "objectID": "connectivity.html",
+    "href": "connectivity.html",
+    "title": "Landscape Integrity",
+    "section": "",
+    "text": "flowchart LR\n\na[(\"|1. Modification&lt;/br&gt;coverage\")]\nb[(\"|2. Resistance&lt;/br&gt;surface\")]\nc([\"|3. Landscape Integrity /&lt;/br&gt;Fragmentation metrics\"])\nd[\"|4. Corridor identification\"]\n\na --&gt; c\nb --&gt; c\nc --&gt; d\n\n\n\n\nFigure 1: Overview of the landscape integrity evaluation to idenifying landscape corridors. 1. A modification coverage is used to identify natural, near-natural, and functional areas. 2. By applying a resistance surface of species movement through the modified landscape, 3. a fragmentation analysis can be performed, to 4. identify corridors for species movement, and areas with good landscape integritiy, i.e., high connectivity, sufficient number and size of habitat patches. R Core Team (2025) packages ‘landscapemetrics’ (Hesselbarth et al. 2019) was used to analyse landscape integrity, and ‘gdistance’ (van Etten 2017) to estimate least-cost paths, and ‘grainscape’ (Chubaty, Galpern, and Doctolero 2025) to evaluate graph connectivity.\n\n\n\n\n\n\n\n\n\nReferences\n\nChubaty, Alex M, Paul Galpern, and Sam Doctolero. 2025. grainscape: Landscape Connectivity, Habitat, and Protected Area Networks. https://CRAN.R-project.org/package=grainscape.\n\n\nHesselbarth, Maximilian HK, Marco Sciaini, Kimberly A With, Kerstin Wiegand, and Jakub Nowosad. 2019. “Landscapemetrics: An Open-Source r Tool to Calculate Landscape Metrics.” Ecography 42 (10): 1648–57. https://doi.org/https://doi.org/10.1111/ecog.04617.\n\n\nR Core Team. 2025. R Version 4.5.2: A Language and Environment for Statistical Computing. Vienna, AT: R Foundation for Statistical Computing; URL: https://www.R-project.org/. https://www.R-project.org/.\n\n\nvan Etten, Jacob. 2017. “R Package Gdistance: Distances and Routes on Geographical Grids.” Journal of Statistical Software 76 (13): 1–21. https://doi.org/10.18637/jss.v076.i13."
+  },
+  {
+    "objectID": "intro-docx.html",
+    "href": "intro-docx.html",
+    "title": "Technical introduction",
+    "section": "",
+    "text": "Download Word (docx)"
+  },
+  {
+    "objectID": "intro-docx.html#what-where",
+    "href": "intro-docx.html#what-where",
+    "title": "Technical introduction",
+    "section": "2.1 What & where",
+    "text": "2.1 What & where\n\n\n\n\n\n\n\n\nFigure 2: Inputs to determining the what and where of biodiversity."
+  },
+  {
+    "objectID": "intro-docx.html#sec-eco-rep",
+    "href": "intro-docx.html#sec-eco-rep",
+    "title": "Technical introduction",
+    "section": "3.1 Ecosystem representation",
+    "text": "3.1 Ecosystem representation\nIncorporating ecosystem types in the SCP process serves to broadly capture the spatial distribution of distinct-biological communities, and thereby the full suite of species—i.e., gamma diversity (Whittaker 1960)—across the region of interest (Ladislav Mucina 2024). Following the previous terrestrial SCP for KwaZulu-Natal (Escott 2010), a vegetation-type map formed a robust surrogate for ecosystem types. Vegetation types commonly serve as surrogates for ecosystem types because they largely capture differences in biodiversity patterns across the landscape (SANBI and UNEP-WCMC 2024).\nFor an up-to-date representation of ecosystem extent, the provincial-vegetation map (i.e., coverage) had to be adjusted. The provincial-vegetation coverage serves as a representation of “natural” vegetation communities prior to GC pressures ca. 1750 (L. Mucina, Rutherford, and Powrie 2018). Therefore, the coverage had to be adjusted to reflect the current state of ecosystems using the best available data.\n\n\n3.1.1 Ecosystem and biodiversity state datasets\n\n3.1.1.1 Protected and conserved ecosystems\n\n\n3.1.1.2 Ecosystem protection and conservation\n\n\n\n3.1.2 Species representation\n\n3.1.2.1 Species selection criteria"
+  },
+  {
+    "objectID": "intro-docx.html#introduction",
+    "href": "intro-docx.html#introduction",
+    "title": "Technical introduction",
+    "section": "4.1 Introduction",
+    "text": "4.1 Introduction\nThe broad-ranging approach for representation of biodiversity in the SCP was complemented by a targeted approach (see Section 3.1.2). The targeted approach required a systematic selection of species (SANBI and UNEP-WCMC 2024). Scientific experts on the KwaZulu-Natal Biodiversity Plan Steering Committee developed the criteria for the inclusion of species in a workshop session with external stakeholders. For the KwaZulu-Natal SCP, these criteria were applied to each grouping of taxa as shown below."
+  },
+  {
+    "objectID": "intro-docx.html#criteria-for-inclusion",
+    "href": "intro-docx.html#criteria-for-inclusion",
+    "title": "Technical introduction",
+    "section": "4.2 Criteria for inclusion",
+    "text": "4.2 Criteria for inclusion\n\n\n\n\nTable 1: Criteria for inclusion of species in the targeted approach.\n\n\n\nIDCriteriaRules1Endemic to KwaZulu-Natal.Feature must be triggered by ≥1 criterion; criteria equal weighting; may include uncertain data but removed if insufficient; consider age and accuracy of data.2Near Endemic to KwaZulu-Natal (50–99% of taxon distribution falls within KwaZulu-Natal).3Threat status (CR, EN, Rare, VU, NT). Global or Regional. Highest threat status taken.4International obligation.5Umbrella species.6Isolated from core known range with genetic differences.7Edge of range species (may be well protected in KZN but globally/regionally threatened).8Life‑history stage essential for protection of species.9Species conservation plan or biodiversity management plan.10Other (specify).11Resource use threat.12Specific populations (e.g., Tembe elephants, berg eland)."
+  },
+  {
+    "objectID": "intro-docx.html#taxonspecific-species-selection",
+    "href": "intro-docx.html#taxonspecific-species-selection",
+    "title": "Technical introduction",
+    "section": "4.3 Taxon‑specific species selection",
+    "text": "4.3 Taxon‑specific species selection\nFollowing the criteria in Table 1, species were selected for groupings of taxa: amphibians, aquatic species, birds, invertebrates, mammals, and plants.\n\n4.3.1 Amphibians (championed by A. Armstrong)\nAll endemic, near-endemic, and threatened (CR, EN, VU) species were included.\n\n\n4.3.2 Aquatic species (championed by S. Khubheka)\n\n\n4.3.3 Birds (championed by B. Coverdale)\n\n\n4.3.4 Invertebrates (championed by A. Armstrong)\nAll endemic, near-endemic and threatened (CR, EN, VU) taxa are included. Only taxa in the Biodiversity Database are included in the analysis.\n\n\n4.3.5 Mammals (championed by B. Coverdale)\n\n\n4.3.6 Plants (championed by C. Carbutt)\nThe targeted plant species list for the updated KZN SCP revision was developed as follows:\n\nAn extract of the plant list used for the previous SCP by Escott (2010) was made.\nThe extract was evaluated by the plant group (Ezemvelo KZN Wildlife + SANBI) at the C‑Plan workshop at Didima, Jan 2025.\nThe list was further refined and checked.\nSpecies names were updated for taxonomic changes.\nRed List status updated to SANBI RL version 2024.\nThe list was tabled at the July 2025 C‑Plan Steering Committee meeting.\nApproved pending minor revision.\nFully revised in Aug 2025 per Steering Committee directives.\n~23 taxa were the focus: extinct or widespread non‑endemic taxa removed; endemic/near‑endemic or declining taxa retained.\nFinal revised list (Aug 2025) was uploaded to MS Teams as directed.\n\n\n\n4.3.7 Reptiles (championed by A. Armstrong)\nAll endemic, near-endemic and threatened (CR, EN, VU) species are included."
+  },
+  {
+    "objectID": "intro-docx.html#footnotes",
+    "href": "intro-docx.html#footnotes",
+    "title": "Technical introduction",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThese translate to the plan’s objectives↩︎\nWe use “species” in the broad sense, referring to any distinct taxonomic unit (e.g., subspecies) unless otherwise indicated.↩︎\nIf available, these data can be considered for inclusion in prioritization analysis and assessment.↩︎"
+  }
+]

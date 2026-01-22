@@ -1,0 +1,67 @@
+project:
+  type: website
+
+website:
+  title: "c-plan"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Usage
+        href: usage.qmd
+      - text: About
+        href: about.qmd
+      - text: Intro
+        href: intro.qmd
+      - text: "<span title='C-Plan data pipeline'>Data</span>"
+        href: data.qmd
+      - text: "<span title='Species Distribution Modeling'>SDM</span>"
+        href: sdm.qmd
+      - text: "<span title='Landscape integrity'>Connectivity</span>"
+        href: connectivity.qmd
+
+format:
+  html:
+    embed-resources: true
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    number-sections: true
+    mermaid:
+      theme: neutral            # neutral base so our colors show through
+      themeVariables:
+
+        # Core text colors
+        textColor:        "#1C1F24"   # body text in diagrams
+        primaryTextColor: "#1C1F24"   # node labels
+        secondaryTextColor: "#495057" # muted edge labels
+
+        # Node fills & borders
+        primaryColor:      "#E9F5EF"  # light green wash for primary nodes
+        primaryBorderColor: "#146C43"  # deep Ezemvelo green
+        secondaryColor:    "#EEF7FF"  # soft blue wash
+        tertiaryColor:     "#F6FBF8"  # very light mint for background nodes
+        clusterBkg:        "#EEF7F0"  # subgraph background
+        clusterBorder:     "#146C43"  # subgraph border
+
+        # Edges & arrows
+        lineColor:         "#146C43"  # main edge color
+        arrowheadColor:    "#146C43"
+
+        # Edge labels
+        edgeLabelBackground: "#FFFFFF"
+
+        # Sequence (optional but helpful)
+        actorBorder:       "#146C43"
+        actorBkg:          "#F6FBF8"
+        activationBkg:     "#E9F5EF"
+        activationBorder:  "#146C43"
+
+        # Gantt (optional)
+        ganttTaskColor:    "#3C8E7C"
+        ganttTaskTextColor: "#1C1F24"
+        ganttTaskBorderColor: "#146C43"
+        ganttSectionBkgColor: "#EEF7FF"
+        ganttSectionBorderColor: "#716F34"

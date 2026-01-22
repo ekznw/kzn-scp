@@ -1,0 +1,5 @@
+---
+title: Decision support layers
+abstract: Decision support layers are spatial data sets that should be used to guide the prioritization analyses that inform which areas are important for conservation.
+---
+

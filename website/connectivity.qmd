@@ -1,0 +1,24 @@
+---
+title: "Landscape Integrity"
+abstract: Landscape integrity, derived from habitat fragmentation and connectivity metrics, provides a means to assess the resilience of a landscape in consrevation. In conservation planning assessing connectivty in the form of corridors is particularly important.
+title-block-banner: true
+bibliography: references.bib
+---
+
+```{mermaid}
+%%| output: true
+%%| fig-align: center
+%%| fig-cap: Overview of the **landscape integrity** evaluation to idenifying landscape corridors. **1**. A modification coverage is used to identify natural, near-natural, and functional areas. **2**. By applying a resistance surface of species movement through the modified landscape, **3**. a fragmentation analysis can be performed, to **4**. identify corridors for species movement, and areas with good landscape integritiy, i.e., high connectivity, sufficient number and size of habitat patches. @coreteam2025rv4 packages 'landscapemetrics' [@hesselbarth2019lao] was used to analyse landscape integrity, and 'gdistance' [@vanetten2017rpg] to estimate least-cost paths, and 'grainscape' [@chubaty2025glc] to evaluate graph connectivity.
+%%| label: fig-landscape-integ
+
+flowchart LR
+
+a[("|1. Modification</br>coverage")]
+b[("|2. Resistance</br>surface")]
+c(["|3. Landscape Integrity /</br>Fragmentation metrics"])
+d["|4. Corridor identification"]
+
+a --> c
+b --> c
+c --> d
+```

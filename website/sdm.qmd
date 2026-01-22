@@ -1,0 +1,67 @@
+---
+title: "Species distribution models"
+title-block-banner: true
+---
+
+# Intro
+- Determine which areas of kzn (and proximal areas) are critical for biodiversity under current and future climate scenarios.
+
+
+# Predictor variables
+
+```{mermaid}
+%%| output: true
+%%| fig-align: center
+%%| fig-cap: The [BIOCLIM variables](https://www.chelsa-climate.org/) under 'current' climate are consistent with 'future' climate scenario's enabling robust prediciton of distribution shifts.
+%%| label: fig-sdm-bioclim
+
+
+flowchart TD
+
+subgraph g1[Species Distribution Models]
+a[(Current)]
+b[(Future)]
+end
+
+subgraph g2[Predictors]
+g([BIOCLIM</br>current])
+h([BIOCLIM</br>scenario's])
+i([Abiotic</br>template])
+end
+
+g --> a
+h --> b
+i -.-> a
+i -.-> b
+```
+
+# Model building
+```{mermaid}
+%%| output: true
+%%| fig-align: center
+%%| fig-cap: Process of taking input predictor variables and generating contiguous current- to future- climate species disrtibution maps. Species data is fed into SDM models as a variable to determine relations between predictors and species distributions.
+%%| label: fig-sdm-dsm-model
+
+
+flowchart LR
+
+a[(Model</br>variables)]
+b([Redundancy</br>checks:</br>PCA/VIF])
+c[SDM</br>create]
+d{SDM</br>predictions}
+e[Current</br>climate]
+f[Future</br>climate]
+g[(Contiguous</br>Outputs)]
+
+a --> b --> c --> d
+d --> e
+d --> f
+e --> g
+f --> g
+```
+
+
+
+# Outputs
+
+# Products

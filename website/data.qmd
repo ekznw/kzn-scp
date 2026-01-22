@@ -1,0 +1,46 @@
+---
+title: "C-Plan data pipeline"
+---
+
+To promote open science and smooth updates to the C-Plan the data to documentation pipeline in @fig-dataflow was adopted.
+
+```{mermaid}
+%%| label: fig-dataflow
+%%| fig-cap: Data to documentation pipeline overview. Boxes indicate the storage and backup locations of the data and code, in the cloud and on GitHub, respectively.
+%%| fig-align: center
+
+flowchart TD
+
+%% Group 1: cloud storage
+%% === sub node ===
+subgraph G1[Cloud storage]
+    direction LR
+    %%style G1 fill:#c4d8c282,stroke:#3d573bff,stroke-width:2px
+    d([Metadata])
+    e([Data])
+    d <--> e
+end
+
+%% === main nodes ===
+subgraph G2[GitHub code repo]
+%%style G2 fill:#80a17d82,stroke:#3d573bff,stroke-width:2px
+a([Metadata systems])
+b([Scripts & <br> GIS software])
+c([Documentation])
+
+a --> b
+b --> c
+
+b -.-> a
+c -.-> b
+
+d --> a
+e --> a
+end
+```
+
+## Data quality
+
+Statement on data quality and assessments --- using the best available data.
+
+## 
