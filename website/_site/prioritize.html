@@ -6,13 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Paul Gordijn">
-<meta name="author" content="Felicity Elliot">
-<meta name="author" content="Ian Rushworth">
-<meta name="author" content="Debbie Jewitt">
-<meta name="author" content="Adrian Armstrong">
 
-<title>Technical introduction – c-plan</title>
+<title>Priotitization analyses – KZN SCP</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,26 +20,41 @@ width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
 }
 
-div.csl-bib-body { }
-div.csl-entry {
-clear: both;
-margin-bottom: 0em;
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-margin-left:2em;
-text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-min-width:2em;
-float:left;
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
 }
-div.csl-right-inline {
-margin-left:2em;
-padding-left:1em;
+pre.numberSource { margin-left: 3em; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-indent {
-margin-left: 2em;
-}</style>
+</style>
 
 
 <script>const headroomChanged = new CustomEvent("quarto-hrChanged", {
@@ -3851,80 +3861,6 @@ vertical-align: -.125em;
     "search-label": "Search"
   }
 }</script>
-<style type="text/css">.tabwid {
-font-size: initial;
-padding-bottom: 1em;
-}
-.tabwid table{
-border-spacing:0px !important;
-border-collapse:collapse;
-line-height:1;
-margin-left:auto;
-margin-right:auto;
-border-width: 0;
-border-color: transparent;
-caption-side: top;
-}
-.tabwid-caption-bottom table{
-caption-side: bottom;
-}
-.tabwid_left table{
-margin-left:0;
-}
-.tabwid_right table{
-margin-right:0;
-}
-.tabwid td, .tabwid th {
-padding: 0;
-}
-.tabwid a {
-text-decoration: none;
-}
-.tabwid thead {
-background-color: transparent;
-}
-.tabwid tfoot {
-background-color: transparent;
-}
-.tabwid table tr {
-background-color: transparent;
-}
-.katex-display {
-margin: 0 0 !important;
-}
-</style>
-<script>document.addEventListener("DOMContentLoaded", function(event) {
-  var els = document.querySelectorAll(".tabwid");
-  var tabwid_link = document.querySelector('link[href*="tabwid.css"]')
-  if (tabwid_link === null) {
-    const tabwid_styles = document.evaluate("//style[contains(., 'tabwid')]", document, null, XPathResult.ANY_TYPE, null );
-    tabwid_link = tabwid_styles.iterateNext();
-  }
-
-  Array.prototype.forEach.call(els, function(template) {
-      const dest = document.createElement("div");
-      template.parentNode.insertBefore(dest, template.nextSibling)
-      dest.setAttribute("class", "flextable-shadow-host");
-      const fantome = dest.attachShadow({mode: 'open'});
-      fantome.appendChild(template);
-      if (tabwid_link !== null) {
-        fantome.appendChild(tabwid_link.cloneNode(true));
-      }
-  });
-
-  const shadowHosts = document.querySelectorAll('.flextable-shadow-host:not(:has(div > table.no-shadow-dom))');
-  shadowHosts.forEach(host => {
-    if (host.shadowRoot) {
-      const spanElements = host.shadowRoot.querySelector('div > table > caption > span[id]');
-      if (spanElements) {
-        const id = spanElements.getAttribute("id");
-        host.setAttribute("id", id);
-      }
-    }
-  });
-
-});
-</script>
 
 
 <style type="text/css"></style>
@@ -3933,12 +3869,12 @@ margin: 0 0 !important;
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">c-plan</span>
+    <span class="navbar-title">KZN SCP</span>
     </a>
   </div>
             <div id="quarto-search" class title="Search"></div>
@@ -3983,74 +3919,7 @@ margin: 0 0 !important;
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Technical introduction</h1>
-                      </div>
-  </div>
-    
-  <div class="quarto-title-meta-author">
-    <div class="quarto-title-meta-heading">Authors</div>
-    <div class="quarto-title-meta-heading">Affiliations</div>
-    
-      <div class="quarto-title-meta-contents">
-      <p class="author">Paul Gordijn <a href="https://orcid.org/0000-0002-0580-3107" class="quarto-title-author-orcid"> <img role="img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-    </div>
-    <div class="quarto-title-meta-contents">
-          <p class="affiliation">
-              Ezemvelo KZN Wildlife, Biodiversity, Spatial Planning and Information
-            </p>
-        </div>
-      <div class="quarto-title-meta-contents">
-      <p class="author">Felicity Elliot </p>
-    </div>
-    <div class="quarto-title-meta-contents">
-          <p class="affiliation">
-              
-            </p>
-        </div>
-      <div class="quarto-title-meta-contents">
-      <p class="author">Ian Rushworth </p>
-    </div>
-    <div class="quarto-title-meta-contents">
-          <p class="affiliation">
-              Ezemvelo KZN Wildlife, Biodiversity, Scientific Services
-            </p>
-        </div>
-      <div class="quarto-title-meta-contents">
-      <p class="author">Debbie Jewitt </p>
-    </div>
-    <div class="quarto-title-meta-contents">
-          <p class="affiliation">
-              Ezemvelo KZN Wildlife, Conservation &amp; Research
-            </p>
-        </div>
-      <div class="quarto-title-meta-contents">
-      <p class="author">Adrian Armstrong </p>
-    </div>
-    <div class="quarto-title-meta-contents">
-          <p class="affiliation">
-              Ezemvelo KZN Wildlife, Conservation &amp; Research
-            </p>
-        </div>
-    </div>
-
-  <div class="quarto-title-meta">
-
-        
-    
-      
-    </div>
-    
-  <div>
-    <div class="abstract">
-      <div class="block-title">Abstract</div>
-      The three principal questions that guide the Ezemvelo KZN Wildlife Systematic Conservation Plan, that is, the C-Plan for the province of KwaZulu-Natal, are; 1) What biodiversity does the province contain and where is it, 2) what is the status of this biodiversity, and 3) addressed by a prioritization analysis — where and how should conservation efforts be prioritized. This technical introduction elaborates on each of these questions that are expanded into five stages, each critical for a detailed understanding of C-Plan products.
-    </div>
-  </div>
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -4058,287 +3927,76 @@ margin: 0 0 !important;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#sec-updated-scp" id="toc-sec-updated-scp" class="nav-link active" data-scroll-target="#sec-updated-scp"><span class="header-section-number">1</span> The C-Plan — Systematic Conservation Plan</a></li>
-  <li><a href="#sec-stages" id="toc-sec-stages" class="nav-link" data-scroll-target="#sec-stages"><span class="header-section-number">2</span> C-Plan stages</a>
+  <li><a href="#analysis-framework" id="toc-analysis-framework" class="nav-link active" data-scroll-target="#analysis-framework"><span class="header-section-number">1</span> Analysis framework</a>
   <ul class="collapse">
-  <li><a href="#what-where" id="toc-what-where" class="nav-link" data-scroll-target="#what-where"><span class="header-section-number">2.1</span> What &amp; where</a></li>
-  </ul></li>
-  <li><a href="#chap-ecosys-layer" id="toc-chap-ecosys-layer" class="nav-link" data-scroll-target="#chap-ecosys-layer"><span class="header-section-number">3</span> The what and where of biodiversity</a>
+  <li><a href="#model-inputs" id="toc-model-inputs" class="nav-link" data-scroll-target="#model-inputs"><span class="header-section-number">1.1</span> Model inputs</a>
   <ul class="collapse">
-  <li><a href="#sec-eco-rep" id="toc-sec-eco-rep" class="nav-link" data-scroll-target="#sec-eco-rep"><span class="header-section-number">3.1</span> Ecosystem representation</a>
-  <ul class="collapse">
-  <li><a href="#sec-eco-state" id="toc-sec-eco-state" class="nav-link" data-scroll-target="#sec-eco-state"><span class="header-section-number">3.1.1</span> Ecosystem and biodiversity state datasets</a></li>
-  <li><a href="#sec-spp-rep" id="toc-sec-spp-rep" class="nav-link" data-scroll-target="#sec-spp-rep"><span class="header-section-number">3.1.2</span> Species representation</a></li>
+  <li><a href="#planning-units" id="toc-planning-units" class="nav-link" data-scroll-target="#planning-units"><span class="header-section-number">1.1.1</span> Planning units</a></li>
+  <li><a href="#protected-area-coverage" id="toc-protected-area-coverage" class="nav-link" data-scroll-target="#protected-area-coverage"><span class="header-section-number">1.1.2</span> Protected area coverage</a></li>
+  <li><a href="#defining-the-problem" id="toc-defining-the-problem" class="nav-link" data-scroll-target="#defining-the-problem"><span class="header-section-number">1.1.3</span> Defining the problem</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#app-spp_crit" id="toc-app-spp_crit" class="nav-link" data-scroll-target="#app-spp_crit"><span class="header-section-number">4</span> Criteria for the selection of species</a>
-  <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">4.1</span> Introduction</a></li>
-  <li><a href="#criteria-for-inclusion" id="toc-criteria-for-inclusion" class="nav-link" data-scroll-target="#criteria-for-inclusion"><span class="header-section-number">4.2</span> Criteria for inclusion</a></li>
-  <li><a href="#taxonspecific-species-selection" id="toc-taxonspecific-species-selection" class="nav-link" data-scroll-target="#taxonspecific-species-selection"><span class="header-section-number">4.3</span> Taxon‑specific species selection</a>
-  <ul class="collapse">
-  <li><a href="#amphibians-championed-by-a.-armstrong" id="toc-amphibians-championed-by-a.-armstrong" class="nav-link" data-scroll-target="#amphibians-championed-by-a.-armstrong"><span class="header-section-number">4.3.1</span> Amphibians <em>(championed by A. Armstrong)</em></a></li>
-  <li><a href="#aquatic-species-championed-by-s.-khubheka" id="toc-aquatic-species-championed-by-s.-khubheka" class="nav-link" data-scroll-target="#aquatic-species-championed-by-s.-khubheka"><span class="header-section-number">4.3.2</span> Aquatic species <em>(championed by S. Khubheka)</em></a></li>
-  <li><a href="#birds-championed-by-b.-coverdale" id="toc-birds-championed-by-b.-coverdale" class="nav-link" data-scroll-target="#birds-championed-by-b.-coverdale"><span class="header-section-number">4.3.3</span> Birds <em>(championed by B. Coverdale)</em></a></li>
-  <li><a href="#invertebrates-championed-by-a.-armstrong" id="toc-invertebrates-championed-by-a.-armstrong" class="nav-link" data-scroll-target="#invertebrates-championed-by-a.-armstrong"><span class="header-section-number">4.3.4</span> Invertebrates <em>(championed by A. Armstrong)</em></a></li>
-  <li><a href="#mammals-championed-by-b.-coverdale" id="toc-mammals-championed-by-b.-coverdale" class="nav-link" data-scroll-target="#mammals-championed-by-b.-coverdale"><span class="header-section-number">4.3.5</span> Mammals <em>(championed by B. Coverdale)</em></a></li>
-  <li><a href="#plants-championed-by-c.-carbutt" id="toc-plants-championed-by-c.-carbutt" class="nav-link" data-scroll-target="#plants-championed-by-c.-carbutt"><span class="header-section-number">4.3.6</span> Plants <em>(championed by C. Carbutt)</em></a></li>
-  <li><a href="#reptiles-championed-by-a.-armstrong" id="toc-reptiles-championed-by-a.-armstrong" class="nav-link" data-scroll-target="#reptiles-championed-by-a.-armstrong"><span class="header-section-number">4.3.7</span> Reptiles <em>(championed by A. Armstrong)</em></a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#status-assessment" id="toc-status-assessment" class="nav-link" data-scroll-target="#status-assessment"><span class="header-section-number">5</span> Status assessment</a></li>
-  <li><a href="#representation-persistence-targets" id="toc-representation-persistence-targets" class="nav-link" data-scroll-target="#representation-persistence-targets"><span class="header-section-number">6</span> Representation &amp; persistence targets</a></li>
-  <li><a href="#prioritization-analysis" id="toc-prioritization-analysis" class="nav-link" data-scroll-target="#prioritization-analysis"><span class="header-section-number">7</span> Prioritization analysis</a></li>
-  <li><a href="#product-development" id="toc-product-development" class="nav-link" data-scroll-target="#product-development"><span class="header-section-number">8</span> Product development</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">9</span> References</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-
-<p><a href="intro-docx.docx" class="btn btn-primary">Download Word (docx)</a></p>
-<section id="sec-updated-scp" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> The C-Plan — Systematic Conservation Plan</h1>
-<p>Following international protocol we structured our provincial C-Plan around these key questions <span class="citation" data-cites="sanbi2024mbp jung2025aia">(<a href="#ref-sanbi2024mbp" role="doc-biblioref">SANBI and UNEP-WCMC 2024</a>; <a href="#ref-jung2025aia" role="doc-biblioref">Jung et al. 2025</a>)</span>:</p>
-<ol type="1">
-<li>What biodiversity and where is it?</li>
-<li>What is the state of this biodiversity?</li>
-<li>Where and how should conservation efforts be prioritized?</li>
-</ol>
-<p>These questions form the basis for the structure of this C-Plan. The first key question involves collation and modelling of data in order to obtain the best available spatial representation of biodiversity. The second is largely concerned with the conservation or risk status of biodiversity that will guide the mapping of biodiversity, and the prioritization analyses in point three.</p>
-</section>
-<section id="sec-stages" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> C-Plan stages</h1>
-<p>The main stages of the C-Plan are depicted in <a href="#fig-flow_main" class="quarto-xref">Figure 1</a> below.</p>
-<div id="fig-flow_main" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-flow_main-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div>
-
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Priotitization analyses</h1>
 </div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-flow_main-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure 1: Flowchart depicting the iterative stages of gathering data, analyses, and outputs of the systematic conservation plan (c.f. <span class="citation" data-cites="sanbi2024mbp">SANBI and UNEP-WCMC (<a href="#ref-sanbi2024mbp" role="doc-biblioref">2024</a>)</span>).
-</figcaption>
-</figure>
-</div>
-<p>The stages<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> of this SCP are as follows:</p>
-<ol type="1">
-<li><p><strong>The what and where of biodiversity — representation data</strong> (see ATsec-eco-state):</p>
-<ol type="a">
-<li><p>Develop a baseline‑ecosystem layer that broadly represents the spatial distribution of biotic communities (i.e., coarse‑filter features).</p></li>
-<li><p>Determine the state of ecosystems and their biodiversity:</p>
-<ol type="i">
-<li>Ascertain the distribution of protected and conserved areas.</li>
-<li>Refine the baseline‑ecosystems layer to represent the current state of biodiversity.</li>
-</ol></li>
-<li><p>Bolster the representation of all species.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></li>
-<li><p>Represent ecosystem function and change — collection of additional spatial datasets.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
-<ol type="i">
-<li>Ecosystem processes<br>
-</li>
-<li>Ecosystem infrastructure<br>
-</li>
-<li>Ecosystem services<br>
-</li>
-<li>Ecological condition<br>
-</li>
-<li>Climate change information<br>
-</li>
-<li>Socio‑economic data</li>
-</ol></li>
-</ol></li>
-<li><p><strong>Determine the current state of ecosystems and their biodiversity:</strong></p>
-<ol type="a">
-<li>Evaluate the risk and protection status of ecosystems.</li>
-<li>Align and compare provincial (and where appropriate trans‑regional) ecosystem risk status.</li>
-<li>Evaluate the risk and protection status of species.</li>
-</ol></li>
-<li><p><strong>Set representation and persistence targets:</strong></p>
-<ol type="a">
-<li>Representation and persistence of ecosystems, including alignment with the Global Biodiversity Framework <span class="citation" data-cites="cbd2022kmg">(<a href="#ref-cbd2022kmg" role="doc-biblioref">Convention on Biological Diversity 2022</a>)</span>.</li>
-<li>Representation and persistence of species.</li>
-</ol></li>
-<li><p><strong>Spatial prioritization:</strong></p>
-<ol type="a">
-<li>Spatial framework of evaluation — planning units.</li>
-<li>Compilation of cost (decision‑support) layers.</li>
-<li>Systematic spatial prioritization analyses and scenario modelling (e.g., climate change and management effectiveness).</li>
-<li>Sensitivity analysis.</li>
-</ol></li>
-<li><p><strong>Product development.</strong></p></li>
-</ol>
-<section id="what-where" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="what-where"><span class="header-section-number">2.1</span> What &amp; where</h2>
-<div id="fig-what_where" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-what_where-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div>
 
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-what_where-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure 2: Inputs to determining the what and where of biodiversity.
-</figcaption>
-</figure>
-</div>
-</section>
-</section>
-<section id="chap-ecosys-layer" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> The what and where of biodiversity</h1>
-<p>For robust representation of biodiversity and associated ecosystem infrastructure and services into the future, the what and where of biodiversity needs to consider change drivers. The functions of biodiversity, and associated ecosystems, also need to be considered for accurate representation when attempting to ensure conservation of these features.</p>
-<p>In order to maximise representation of biodiversity in a landscape, the <strong>SCP</strong> process adopts a two-pronged approach, specifically:</p>
-<ol type="1">
-<li>a <strong>wide-ranging</strong> (or coarse-filter): “Ecosystem representation” approach (see <a href="#sec-eco-rep" class="quarto-xref">Section 3.1</a>), and<br>
-</li>
-<li>a <strong>targeted</strong> (or fine-filter): “Species representation” approach (see <a href="#sec-spp-rep" class="quarto-xref">Section 3.1.2</a>) <span class="citation" data-cites="sanbi2024mbp">(<a href="#ref-sanbi2024mbp" role="doc-biblioref">SANBI and UNEP-WCMC 2024</a>)</span>.</li>
-</ol>
-<p>Representation of the ecosystem types in the area-of-interest largely fulfils the <strong>wide-ranging</strong> component, that is, if the SCP incorporates the full diversity of ecosystems, it is likely to represent their constituent taxa. The complementary approach, that is, the <strong>targeted</strong> approach, caters for specific, threatened taxa, or those not operating within the parameters of represented ecosystems <span class="citation" data-cites="margules2000scp">(<a href="#ref-margules2000scp" role="doc-biblioref">Margules and Pressey 2000</a>)</span>.</p>
-<section id="sec-eco-rep" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="sec-eco-rep"><span class="header-section-number">3.1</span> Ecosystem representation</h2>
-<p>Incorporating ecosystem types in the SCP process serves to broadly capture the spatial distribution of distinct-biological communities, and thereby the full suite of species—i.e., gamma diversity <span class="citation" data-cites="whittaker1960vot">(<a href="#ref-whittaker1960vot" role="doc-biblioref">Whittaker 1960</a>)</span>—across the region of interest <span class="citation" data-cites="mucina2024evb">(<a href="#ref-mucina2024evb" role="doc-biblioref">Ladislav Mucina 2024</a>)</span>. Following the previous terrestrial SCP for KwaZulu-Natal <span class="citation" data-cites="escott2010cpw">(<a href="#ref-escott2010cpw" role="doc-biblioref">Escott 2010</a>)</span>, a vegetation-type map formed a robust surrogate for ecosystem types. Vegetation types commonly serve as surrogates for ecosystem types because they largely capture differences in biodiversity patterns across the landscape <span class="citation" data-cites="sanbi2024mbp">(<a href="#ref-sanbi2024mbp" role="doc-biblioref">SANBI and UNEP-WCMC 2024</a>)</span>.</p>
-<p>For an up-to-date representation of ecosystem extent, the provincial-vegetation map (i.e., coverage) had to be adjusted. The provincial-vegetation coverage serves as a representation of “natural” vegetation communities prior to <strong>GC</strong> pressures ca. 1750 <span class="citation" data-cites="mucina2018tvm">(<a href="#ref-mucina2018tvm" role="doc-biblioref">L. Mucina, Rutherford, and Powrie 2018</a>)</span>. Therefore, the coverage had to be adjusted to reflect the current state of ecosystems using the best available data.</p>
-<!-- More info to follow here as the Vegetation Map technical working group gets under way. -->
-<section id="sec-eco-state" class="level3" data-number="3.1.1">
-<h3 data-number="3.1.1" class="anchored" data-anchor-id="sec-eco-state"><span class="header-section-number">3.1.1</span> Ecosystem and biodiversity state datasets</h3>
-<section id="protected-and-conserved-ecosystems" class="level4" data-number="3.1.1.1">
-<h4 data-number="3.1.1.1" class="anchored" data-anchor-id="protected-and-conserved-ecosystems"><span class="header-section-number">3.1.1.1</span> Protected and conserved ecosystems</h4>
-</section>
-<section id="ecosystem-protection-and-conservation" class="level4" data-number="3.1.1.2">
-<h4 data-number="3.1.1.2" class="anchored" data-anchor-id="ecosystem-protection-and-conservation"><span class="header-section-number">3.1.1.2</span> Ecosystem protection and conservation</h4>
-</section>
-</section>
-<section id="sec-spp-rep" class="level3" data-number="3.1.2">
-<h3 data-number="3.1.2" class="anchored" data-anchor-id="sec-spp-rep"><span class="header-section-number">3.1.2</span> Species representation</h3>
-<section id="species-selection-criteria" class="level4" data-number="3.1.2.1">
-<h4 data-number="3.1.2.1" class="anchored" data-anchor-id="species-selection-criteria"><span class="header-section-number">3.1.2.1</span> Species selection criteria</h4>
-</section>
-</section>
-</section>
-</section>
-<section id="app-spp_crit" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Criteria for the selection of species</h1>
-<section id="introduction" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">4.1</span> Introduction</h2>
-<p>The <em>broad-ranging</em> approach for representation of biodiversity in the SCP was complemented by a <em>targeted</em> approach (see <a href="#sec-spp-rep" class="quarto-xref">Section 3.1.2</a>). The targeted approach required a systematic selection of species <span class="citation" data-cites="sanbi2024mbp">(<a href="#ref-sanbi2024mbp" role="doc-biblioref">SANBI and UNEP-WCMC 2024</a>)</span>. Scientific experts on the KwaZulu-Natal Biodiversity Plan Steering Committee developed the criteria for the inclusion of species in a workshop session with external stakeholders. For the KwaZulu-Natal SCP, these criteria were applied to each grouping of taxa as shown below.</p>
-</section>
-<section id="criteria-for-inclusion" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="criteria-for-inclusion"><span class="header-section-number">4.2</span> Criteria for inclusion</h2>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="analysis-framework" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Analysis framework</h1>
 <div class="cell">
-<div id="tbl-spp-criteria" class="cell quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-spp-criteria-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table 1: Criteria for inclusion of species in the targeted approach.
-</figcaption>
-<div aria-describedby="tbl-spp-criteria-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell-output-display">
-<div class="tabwid"><style>.cl-6a31f96a{}.cl-6a2a1bc8{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-6a2a1bd2{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(46, 40, 40, 1.00);background-color:transparent;}.cl-6a2d7c8c{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-6a2d7c96{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-6a2d9fb4{width:0.48in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fbe{width:7.191in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fbf{width:12.48in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fc0{width:0.48in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fc1{width:7.191in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fc8{width:12.48in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fc9{width:0.48in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fd2{width:7.191in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fd3{width:12.48in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fd4{width:0.48in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fdc{width:7.191in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fdd{width:12.48in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fde{width:0.48in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fdf{width:7.191in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6a2d9fe6{width:12.48in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-6a31f96a"><thead><tr style="overflow-wrap:break-word;"><th class="cl-6a2d9fb4"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bc8">ID</span></p></th><th class="cl-6a2d9fbe"><p class="cl-6a2d7c96"><span class="cl-6a2a1bc8">Criteria</span></p></th><th class="cl-6a2d9fbf"><p class="cl-6a2d7c96"><span class="cl-6a2a1bc8">Rules</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-6a2d9fc0"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bd2">1</span></p></td><td class="cl-6a2d9fc1"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">Endemic to KwaZulu-Natal.</span></p></td><td class="cl-6a2d9fc8"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">Feature must be triggered by ≥1 criterion; criteria equal weighting; may include uncertain data but removed if insufficient; consider age and accuracy of data.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6a2d9fc9"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bd2">2</span></p></td><td class="cl-6a2d9fd2"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">Near Endemic to KwaZulu-Natal (50–99% of taxon distribution falls within KwaZulu-Natal).</span></p></td><td class="cl-6a2d9fd3"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6a2d9fc0"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bd2">3</span></p></td><td class="cl-6a2d9fc1"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">Threat status (CR, EN, Rare, VU, NT). Global or Regional. Highest threat status taken.</span></p></td><td class="cl-6a2d9fc8"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6a2d9fc0"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bd2">4</span></p></td><td class="cl-6a2d9fc1"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">International obligation.</span></p></td><td class="cl-6a2d9fc8"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6a2d9fc0"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bd2">5</span></p></td><td class="cl-6a2d9fc1"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">Umbrella species.</span></p></td><td class="cl-6a2d9fc8"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6a2d9fc0"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bd2">6</span></p></td><td class="cl-6a2d9fc1"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">Isolated from core known range with genetic differences.</span></p></td><td class="cl-6a2d9fc8"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6a2d9fc0"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bd2">7</span></p></td><td class="cl-6a2d9fc1"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">Edge of range species (may be well protected in KZN but globally/regionally threatened).</span></p></td><td class="cl-6a2d9fc8"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6a2d9fc0"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bd2">8</span></p></td><td class="cl-6a2d9fc1"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">Life‑history stage essential for protection of species.</span></p></td><td class="cl-6a2d9fc8"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6a2d9fc0"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bd2">9</span></p></td><td class="cl-6a2d9fc1"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">Species conservation plan or biodiversity management plan.</span></p></td><td class="cl-6a2d9fc8"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6a2d9fc0"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bd2">10</span></p></td><td class="cl-6a2d9fc1"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">Other (specify).</span></p></td><td class="cl-6a2d9fc8"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6a2d9fd4"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bd2">11</span></p></td><td class="cl-6a2d9fdc"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">Resource use threat.</span></p></td><td class="cl-6a2d9fdd"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6a2d9fde"><p class="cl-6a2d7c8c"><span class="cl-6a2a1bd2">12</span></p></td><td class="cl-6a2d9fdf"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2">Specific populations (e.g., Tembe elephants, berg eland).</span></p></td><td class="cl-6a2d9fe6"><p class="cl-6a2d7c96"><span class="cl-6a2a1bd2"></span></p></td></tr></tbody></table></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pkgs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;prioritizr&quot;</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>installed_pkgs <span class="ot">&lt;-</span> <span class="fu">sapply</span>(pkgs, <span class="cf">function</span>(x) {</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (x <span class="sc">%in%</span> <span class="fu">installed.packages</span>() <span class="sc">==</span> <span class="cn">FALSE</span>) {</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>        <span class="fu">install.packages</span>(x, <span class="at">quite =</span> <span class="cn">TRUE</span>, <span class="at">ask =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-</div>
-</figure>
-</div>
-</div>
+<section id="model-inputs" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="model-inputs"><span class="header-section-number">1.1</span> Model inputs</h2>
+<section id="planning-units" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="planning-units"><span class="header-section-number">1.1.1</span> Planning units</h3>
 </section>
-<section id="taxonspecific-species-selection" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="taxonspecific-species-selection"><span class="header-section-number">4.3</span> Taxon‑specific species selection</h2>
-<p>Following the criteria in <a href="#tbl-spp-criteria" class="quarto-xref">Table 1</a>, species were selected for groupings of taxa: amphibians, aquatic species, birds, invertebrates, mammals, and plants.</p>
-<section id="amphibians-championed-by-a.-armstrong" class="level3" data-number="4.3.1">
-<h3 data-number="4.3.1" class="anchored" data-anchor-id="amphibians-championed-by-a.-armstrong"><span class="header-section-number">4.3.1</span> Amphibians <em>(championed by A. Armstrong)</em></h3>
-<p>All endemic, near-endemic, and threatened (CR, EN, VU) species were included.</p>
+<section id="protected-area-coverage" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="protected-area-coverage"><span class="header-section-number">1.1.2</span> Protected area coverage</h3>
 </section>
-<section id="aquatic-species-championed-by-s.-khubheka" class="level3" data-number="4.3.2">
-<h3 data-number="4.3.2" class="anchored" data-anchor-id="aquatic-species-championed-by-s.-khubheka"><span class="header-section-number">4.3.2</span> Aquatic species <em>(championed by S. Khubheka)</em></h3>
+<section id="defining-the-problem" class="level3" data-number="1.1.3">
+<h3 data-number="1.1.3" class="anchored" data-anchor-id="defining-the-problem"><span class="header-section-number">1.1.3</span> Defining the problem</h3>
+<section id="the-min-set" class="level4" data-number="1.1.3.1">
+<h4 data-number="1.1.3.1" class="anchored" data-anchor-id="the-min-set"><span class="header-section-number">1.1.3.1</span> The ‘min set’</h4>
 </section>
-<section id="birds-championed-by-b.-coverdale" class="level3" data-number="4.3.3">
-<h3 data-number="4.3.3" class="anchored" data-anchor-id="birds-championed-by-b.-coverdale"><span class="header-section-number">4.3.3</span> Birds <em>(championed by B. Coverdale)</em></h3>
-</section>
-<section id="invertebrates-championed-by-a.-armstrong" class="level3" data-number="4.3.4">
-<h3 data-number="4.3.4" class="anchored" data-anchor-id="invertebrates-championed-by-a.-armstrong"><span class="header-section-number">4.3.4</span> Invertebrates <em>(championed by A. Armstrong)</em></h3>
-<p>All endemic, near-endemic and threatened (CR, EN, VU) taxa are included. Only taxa in the Biodiversity Database are included in the analysis.</p>
-</section>
-<section id="mammals-championed-by-b.-coverdale" class="level3" data-number="4.3.5">
-<h3 data-number="4.3.5" class="anchored" data-anchor-id="mammals-championed-by-b.-coverdale"><span class="header-section-number">4.3.5</span> Mammals <em>(championed by B. Coverdale)</em></h3>
-</section>
-<section id="plants-championed-by-c.-carbutt" class="level3" data-number="4.3.6">
-<h3 data-number="4.3.6" class="anchored" data-anchor-id="plants-championed-by-c.-carbutt"><span class="header-section-number">4.3.6</span> Plants <em>(championed by C. Carbutt)</em></h3>
-<p>The targeted plant species list for the updated KZN SCP revision was developed as follows:</p>
-<ol type="1">
-<li>An extract of the plant list used for the previous SCP by <span class="citation" data-cites="escott2010cpw">Escott (<a href="#ref-escott2010cpw" role="doc-biblioref">2010</a>)</span> was made.</li>
-<li>The extract was evaluated by the plant group (Ezemvelo KZN Wildlife + SANBI) at the C‑Plan workshop at Didima, Jan 2025.</li>
-<li>The list was further refined and checked.</li>
-<li>Species names were updated for taxonomic changes.</li>
-<li>Red List status updated to SANBI RL version 2024.</li>
-<li>The list was tabled at the July 2025 C‑Plan Steering Committee meeting.</li>
-<li>Approved pending minor revision.</li>
-<li>Fully revised in Aug 2025 per Steering Committee directives.</li>
-<li>~23 taxa were the focus: extinct or widespread non‑endemic taxa removed; endemic/near‑endemic or declining taxa retained.</li>
-<li>Final revised list (Aug 2025) was uploaded to MS Teams as directed.</li>
-</ol>
-</section>
-<section id="reptiles-championed-by-a.-armstrong" class="level3" data-number="4.3.7">
-<h3 data-number="4.3.7" class="anchored" data-anchor-id="reptiles-championed-by-a.-armstrong"><span class="header-section-number">4.3.7</span> Reptiles <em>(championed by A. Armstrong)</em></h3>
-<p>All endemic, near-endemic and threatened (CR, EN, VU) species are included.</p>
-</section>
-</section>
-</section>
-<section id="status-assessment" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Status assessment</h1>
-</section>
-<section id="representation-persistence-targets" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Representation &amp; persistence targets</h1>
-</section>
-<section id="prioritization-analysis" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> Prioritization analysis</h1>
-</section>
-<section id="product-development" class="level1" data-number="8">
-<h1 data-number="8"><span class="header-section-number">8</span> Product development</h1>
-</section>
-<section id="references" class="level1" data-number="9">
-
-
+<section id="penalties" class="level4" data-number="1.1.3.2">
+<h4 data-number="1.1.3.2" class="anchored" data-anchor-id="penalties"><span class="header-section-number">1.1.3.2</span> Penalties</h4>
+<section id="boundary-penalties" class="level5" data-number="1.1.3.2.1">
+<h5 data-number="1.1.3.2.1" class="anchored" data-anchor-id="boundary-penalties"><span class="header-section-number">1.1.3.2.1</span> Boundary penalties</h5>
 
 
 </section>
+</section>
+</section>
+</section>
+</section>
 
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">9 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-cbd2022kmg" class="csl-entry" role="listitem">
-Convention on Biological Diversity. 2022. <span>“Kunming–Montreal Global Biodiversity Framework.”</span> Montreal, CN: Secretariat of the Convention on Biological Diversity; CBD/COP/DEC/15/4. <a href="https://www.cbd.int/doc/decisions/cop-15/cop-15-dec-04-en.pdf">https://www.cbd.int/doc/decisions/cop-15/cop-15-dec-04-en.pdf</a>.
-</div>
-<div id="ref-escott2010cpw" class="csl-entry" role="listitem">
-Escott, Boyd. 2010. <span>“Conservation Plan Work Notes.”</span> Technical report 2. 1 Peter Brown Dr, Montrose, ZA: Ezemvelo KZN Wildlife.
-</div>
-<div id="ref-jung2025aia" class="csl-entry" role="listitem">
-Jung, Martin, Vanessa M Adams, Diogo Alagador, Jorge G Álvarez-Romero, Miguel B Araujo, Anni Arponen, Maria Beger, et al. 2025. <span>“An Interoperable and Standardized Protocol for Reporting Systematic Conservation Planning Projects.”</span> <em>Conservation Science and Practice</em>, e70097.
-</div>
-<div id="ref-margules2000scp" class="csl-entry" role="listitem">
-Margules, Christopher Robert, and Robert L Pressey. 2000. <span>“Systematic Conservation Planning.”</span> <em>Nature</em> 405 (6783): 243–53.
-</div>
-<div id="ref-mucina2024evb" class="csl-entry" role="listitem">
-Mucina, Ladislav. 2024. <span>“Ecological Versus Biogeographical Regionalization: Colliding or Colluding?”</span> <em>Journal of Biogeography</em> 51 (9): 1795–1800.
-</div>
-<div id="ref-mucina2018tvm" class="csl-entry" role="listitem">
-Mucina, L., M. C. Rutherford, and L. W. Powrie. 2018. <em>The Vegetation Map of South Africa, Lesotho and Swaziland</em>. Edited by South African National Biodiversity Institute. Pretoria, ZA: South African National Biodiversity Institute. <a href="https://bgis.sanbi.org/Projects/Detail/186">bgis.sanbi.org/Projects/Detail/186</a>.
-</div>
-<div id="ref-sanbi2024mbp" class="csl-entry" role="listitem">
-SANBI, and UNEP-WCMC. 2024. <em>Mapping Biodiversity Priorities: A Practical Approach to Spatial Biodiversity Assessment and Priortisation to Inform National Policy, Planning, Decisions and Action</em>. 2nd ed. South African National Biodiversity Institute. Pretoria, ZA.
-</div>
-<div id="ref-whittaker1960vot" class="csl-entry" role="listitem">
-Whittaker, Robert Harding. 1960. <span>“Vegetation of the Siskiyou Mountains, Oregon and California.”</span> <em>Ecological Monographs</em> 30 (3): 279–338.
-</div>
-</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>These translate to the plan’s objectives<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>We use “species” in the broad sense, referring to any distinct taxonomic unit (e.g., subspecies) unless otherwise indicated.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>If available, these data can be considered for inclusion in prioritization analysis and assessment.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

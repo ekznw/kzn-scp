@@ -1,0 +1,61 @@
+---
+title: "Technical introduction"
+abstract:
+    The three principal questions that guide the Ezemvelo KZN Wildlife Systematic Conservation Plan, are; 1) What biodiversity does the province contain and where is it, 2) what is the status of this biodiversity, and 3) addressed by a prioritisation analysis --- where and how should conservation efforts be prioritized. This technical introduction elaborates on each of these questions that are expanded into five stages, each critical for a detailed understanding of the conservation plan's associated products.
+
+author:
+    - name: Paul Gordijn
+      orcid: "0000-0002-0580-3107"
+      affiliations:
+        id: bspi
+        name: Biodiversity, Spatial Planning and Information, Ezemvelo KZN Wildlife
+    - name: Felicity Elliot
+      affiliations:
+        ref: bspi
+    - name: Shannon Rushworth
+      affiliations:
+        ref: bspi
+    - name: Andy Blackmore
+      affiliations:
+        id: iem
+        name: Integrated Environmental Management & Protected Area Planning, Ezemvelo KZN Wildlife
+    - name: Craig Mulqueeny
+      affiliations:
+        id: ss
+        name: Scientific Services, Ezemvelo KZN Wildlife
+    - name: Ian Rushworth
+      affiliations:
+        ref: ss
+    - name: Adrian Armstrong
+      affiliations:
+        id: cra
+        name: Scientific Services, Conservation and Research, Ezemvelo KZN Wildlife
+    - name: Clinton Carbutt
+      affiliations:
+        ref: cra
+    - name: Brent Coverdale
+      affiliations:
+        ref: cra
+    - name: Debbie Jewitt
+      affiliations:
+        ref: cra
+    - name: Skhumuzo Khubeka
+      affiliations:
+        ref: cra
+
+
+title-block-banner: true
+bibliography: /home/paulg/Documents/refs/bspi.bib
+
+execute: 
+  warning: false
+  message: false
+
+# DOCX:
+# To convert to word run the build word script
+# cd website
+# . scripts/build_word.sh
+---
+
+# Species representation
+

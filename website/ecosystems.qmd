@@ -1,0 +1,62 @@
+---
+title: "Ecosystem representation"
+abstract:
+    The ecosystem coverage selected for the KwaZulu-Natal Systematic Conservation Plan has been developed over many decades using the acute knowledge of Ezemvelo specialist scientists. 
+
+author:
+    - name: Debbie Jewitt
+      orcid: "0000-0002-0580-3107"
+      affiliations:
+        id: cra
+        name: Biodiversity, Spatial Planning and Information, Ezemvelo KZN Wildlife
+    - name: Felicity Elliot
+      affiliations:
+        ref: bspi
+    - name: Shannon Rushworth
+      affiliations:
+        ref: bspi
+    - name: Andy Blackmore
+      affiliations:
+        id: iem
+        name: Integrated Environmental Management & Protected Area Planning, Ezemvelo KZN Wildlife
+    - name: Craig Mulqueeny
+      affiliations:
+        id: ss
+        name: Scientific Services, Ezemvelo KZN Wildlife
+    - name: Ian Rushworth
+      affiliations:
+        ref: ss
+    - name: Adrian Armstrong
+      affiliations:
+        id: cra
+        name: Scientific Services, Conservation and Research, Ezemvelo KZN Wildlife
+    - name: Clinton Carbutt
+      affiliations:
+        ref: cra
+    - name: Brent Coverdale
+      affiliations:
+        ref: cra
+    - name: Debbie Jewitt
+      affiliations:
+        ref: cra
+    - name: Skhumuzo Khubeka
+      affiliations:
+        ref: cra
+
+
+title-block-banner: true
+bibliography: /home/paulg/Documents/refs/bspi.bib
+
+execute: 
+  warning: false
+  message: false
+
+# DOCX:
+# To convert to word run the build word script
+# cd website
+# . scripts/build_word.sh
+---
+
+# Ecosystem representation
+
+

@@ -1,103 +1,151 @@
+# KwaZulu-Natal Systematic Conservation Plan (KZN SCP)
 
-# C-Plan GitHub Repository
+This repository hosts the code, analyses, and documentation for Ezemvelo KwaZulu-Natal Wildlife’s (EKZNW) Systematic Conservation Plan (KZN SCP).
 
-This repository contains code and documentation for **Ezemvelo KwaZulu-Natal Wildlife's (EKZNW) Systematic Conservation Plan**, also known as **C-Plan**
+The KZN SCP is an evidence‑based spatial planning framework integrating biodiversity data, ecosystem information, climate projections, and decision‑support analyses used to guide conservation action in KwaZulu‑Natal.
 
 
 ---
-## 📖 What is C-Plan?
-C-Plan is a **Systematic Conservation Planning tool** used to analyze biodiversity data and produce conservation statistics to inform spatial planning. This repository includes:
-- **Quarto documents** for rationale, methodology, results & discussion.
-- **Code** (R, Python) for data processing and analysis.
-- **Bibliography files** for references.
----
 
+## What is the KZN SCP?
 
-## 📝 Documentation in Quarto
-The C-Plan documentation is written in **Quarto** files (`.qmd`). These files combine:
-- **Text**: Descriptions, reasoning, and methodology.
-- **Code**: Executable chunks in R, Python, or Julia.
-- **Output**: Tables, charts, and maps generated dynamically.
+The KZN Systematic Conservation Plan is:
 
+- A framework for identifying the most important areas required to conserve biodiversity and ecological processes.
+- A repeatable, data‑driven process that uses standardised methods to assess ecosystems, species, climate resilience, landscape processes, and costs.
+- A transparent, science‑based product used to inform land‑use planning, environmental decision‑making, protected area expansion, and biodiversity assessments.
+- A modern planning instrument, built using open‑science tools that support reproducibility, version control, and collaboration.
 
-### ✅ Why Quarto?
-Quarto is a **reproducible publishing system**. It lets you:
-- Write **narrative + code** in one document.
-- Render outputs to **HTML**, **PDF**, or **Word**.
-- Keep analysis and documentation in sync.
-
-
-Quarto is widely adopted by organizations for **scientific publishing**, **data analysis**, and **dynamic documentation**. Here are some examples:
-
-- **NASA Openscapes**  
-  NASA uses Quarto for collaborative science documentation and training resources.  
-  🔗 [NASA Openscapes Quarto Clinic ](https://openscapes.github.io/quarto-clinic/)
-
-- **SANBI NBA (South Africa)**  
-  Provides Quarto templates and workflows for the National Biodiversity Assessment.  
-  🔗 [SANBI NBA website](https://github.com/SANBI-NBA/nba-website)
-
-These examples show how Quarto supports **open science**, **reproducibility**, and **collaboration** across global biodiversity and conservation initiatives.
+Important:
+The KZN SCP is NOT the discontinued C‑Plan software.
+It is EKZNW’s provincial conservation planning framework, built using contemporary tools and scientific standards.
 
 ---
 
-## 📚 Bibliography
-References are managed in a `.bib` file stored in this repository:
-- Add new references to `references.bib`.
-- Use **Citation keys** in Quarto like `@Smith2020` to cite sources.
-- Quarto automatically formats citations and builds a reference list.
+## Documentation in Quarto
+
+All documentation for the KZN SCP is written in Quarto (.qmd) — an open‑source system that integrates:
+
+- Narrative text
+- Executable R code (primarily terra, data.table, and base R)
+- Dynamic outputs (maps, tables, plots, spatial summaries)
+
+Quarto allows us to maintain:
+
+- One source
+- Many outputs (HTML, DOCX, PDF)
+- Code and documentation that remain synchronised
+
+This ensures the SCP is reproducible, traceable, and transparent — essential qualities for conservation planning.
 
 ---
 
-## 🔗 What is Git and GitHub?
-- **Git**: A version control system that tracks changes in files.
-- **GitHub**: A platform for hosting Git repositories and collaborating.
+## Why Quarto?
 
-### ✅ Why use Git/GitHub?
-- **Version history**: See who changed what and when.
-- **Collaboration**: Multiple contributors can work without overwriting each other.
-- **Transparency**: All changes are tracked.
+Quarto is widely adopted across science, data analysis, and conservation because it supports:
+
+- Reproducible workflows (code + text together)
+- Multiple output formats (HTML, DOCX, PDF)
+- Version control with Git
+- Long‑term maintainability
+
+Examples from the conservation/science community:
+
+- NASA Openscapes  
+  Used for training, collaborative science, and reproducible workflows.  
+  https://openscapes.github.io/quarto-clinic/
+
+- SANBI National Biodiversity Assessment  
+  Uses Quarto to document analysis methods, models, and metadata.  
+  https://github.com/SANBI-NBA/nba-website
+
+The KZN SCP follows these same principles of open science and transparent methodology.
 
 ---
 
-## 👩‍💻 How to Contribute
-1. **Install** [Git](https://git-scm.com/install), [Quarto](https://quarto.org/docs/get-started/), and [Positron](https://positron.posit.co/).
-2. **Clone the repository**:
-   ```bash
-   git clone https://github.com/ekznw/cplan.git
-   cd cplan
-   ```
-3. **Open the project in Positron**:
-   - Positron provides a **dual view**: source `.qmd` files and rendered previews.
-   - Use **Quarto Preview** in Positron to see live rendering of text + code.
-4. **Create a branch** for your changes:
-   ```bash
+## Bibliography and References
+
+References are managed through .bib files stored in the repository.
+
+- Add new entries to references.bib (or a project‑specific .bib file).
+- Use citation keys in Quarto, e.g. @mucina2018tvm.
+- Quarto automatically builds formatted reference lists.
+
+This supports consistent, traceable documentation and improves scientific integrity.
+
+---
+
+## Git & GitHub
+
+- Git tracks all changes (code, data processing instructions, documentation).
+- GitHub hosts the repository for collaboration, versioning, and peer review.
+
+GitHub ensures:
+
+- Traceability — who changed what, and why
+- Reproducibility — every version of the SCP can be recreated
+- Collaboration — multiple contributors without overwriting work
+
+This helps build institutional memory and shared capacity in EKZNW.
+
+---
+
+## How to Contribute
+
+1. Install:
+   - Git
+   - Quarto
+   - Positron or RStudio (Positron recommended)
+
+2. Clone the repository:
+   git clone https://github.com/ekznw/kzn_scp.git
+   cd kzn_scp
+
+3. Open the project in Positron:
+   - Edit .qmd files
+   - Render documentation with Quarto Preview
+
+4. Create a feature branch:
    git checkout -b your-feature-name
-   ```
-5. **Edit Quarto files** (`.qmd`) or bibliography (`.bib`).
-6. **Preview your changes**:
-   - In Positron: Click **Preview** or run:
-     ```bash
-     quarto preview
-     ```
-7. **Commit and push**:
-   ```bash
+
+5. Edit analysis or documentation:
+   - R scripts in R/ (using terra + data.table where possible)
+   - Quarto documents in docs/ or website/
+   - Bibliography in .bib
+
+6. Preview documentation:
+   quarto preview
+
+7. Commit and push:
    git add .
    git commit -m "Describe your changes"
    git push origin your-feature-name
-   ```
-8. **Open a Pull Request** on GitHub.
+
+8. Open a Pull Request on GitHub.
 
 ---
 
-## ✅ Tips for New Contributors
-- Positron makes it easy to work with Quarto: you can edit source and see rendered output side-by-side.
-- Don’t worry if you’ve never used Git or Quarto—start small!
-- Use **GitHub Desktop** if you prefer a GUI for Git.
-- Ask questions in Issues if you’re stuck.
+## Tips for New Contributors
+
+- You don’t need to be an R programmer to contribute — start by editing text.
+- Use Positron or GitHub Desktop if the command line feels unfamiliar.
+- Ask questions via GitHub Issues.
+- Small edits are welcome — they improve the clarity and strength of the plan.
+- Coding skills are not required immediately, but contributors often begin learning R and Git through this workflow.
+
+The goal is to help more EKZNW staff engage with modern, reproducible conservation planning.
 
 ---
 
+## Repository Structure (example — update as needed)
 
+kzn_scp/
+  ├── website/           # SCP website (Quarto)
+  ├── analysis/          # R scripts (terra, data.table)
+  ├── data/              # Raw/non-sensitive data (if allowed)
+  ├── docs/              # Methodology & reporting
+  ├── references/        # Bibliography (.bib)
+  ├── README.md          # This file
+  └── .gitignore
 
-
+---

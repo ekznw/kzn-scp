@@ -1,0 +1,25 @@
+---
+title: Priotitization analyses
+---
+
+# Analysis framework
+```{r prioritizr}
+pkgs <- c("prioritizr")
+installed_pkgs <- sapply(pkgs, function(x) {
+    if (x %in% installed.packages() == FALSE) {
+        install.packages(x, quite = TRUE, ask = FALSE)
+    }
+})
+
+```
+
+## Model inputs
+### Planning units
+### Protected area coverage
+### Defining the problem
+#### The 'min set'
+```{r}
+
+```
+#### Penalties
+##### Boundary penalties

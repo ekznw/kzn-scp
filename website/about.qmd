@@ -1,5 +1,17 @@
 ---
-title: "About"
+# about section of the website. section contains general acknowledgements.
+title: "Systematic Conservation Planning"
 ---
 
-About this site
+# The planning community
+
+The KwaZulu-Natal Systematic Conservation Plan has a legacy of robust science backed, built through community involvement. Ezemvelo KZN Wildlife is proud to have worked alongside many members of the KZN community for this Systematic Conservation Plan.
+
+```{r}
+#| echo: false
+#| label: partners
+
+# see the parnerships csv for adding acknowledgements
+```
+
+

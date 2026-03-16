@@ -1,8 +1,12 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!intro-docx.qmd"
+  output-dir: _site
 
 website:
-  title: "c-plan"
+  title: "KZN SCP"
   navbar:
     left:
       - text: Home
@@ -13,12 +17,18 @@ website:
         href: about.qmd
       - text: Intro
         href: intro.qmd
-      - text: "<span title='C-Plan data pipeline'>Data</span>"
-        href: data.qmd
-      - text: "<span title='Species Distribution Modeling'>SDM</span>"
-        href: sdm.qmd
+      - text: "<span title='Representation: species'>Species</span>"
+        href: species.qmd
+      - text: "<span title='Representation: ecosystems'>Ecosystems</span>"
+        href: ecosystems.qmd
+      - text: "<span title='Decision support'>Support</span>"
+        href: support.qmd
       - text: "<span title='Landscape integrity'>Connectivity</span>"
         href: connectivity.qmd
+      - text: "<span title='Species Distribution Modeling'>SDM</span>"
+        href: sdm.qmd
+      - text: "<span title='SCP data pipeline'>Data</span>"
+        href: data.qmd
 
 format:
   html:

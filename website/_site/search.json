@@ -25,7 +25,7 @@
     "href": "intro.html",
     "title": "Technical introduction",
     "section": "",
-    "text": "Following international protocol we structured our provincial C-Plan around these key questions (SANBI and UNEP-WCMC 2024; Jung et al. 2025):\n\nWhat biodiversity and where is it?\nWhat is the state of this biodiversity?\nWhere and how should conservation efforts be prioritized?\n\nThese questions form the basis for the structure of this C-Plan. The first key question involves collation and modelling of data in order to obtain the best available spatial representation of biodiversity. The second is largely concerned with the conservation or risk status of biodiversity that will guide the mapping of biodiversity, and the prioritization analyses in point three."
+    "text": "Download Word (docx)"
   },
   {
     "objectID": "intro.html#main-stages-of-the-systematic-conservation-plan",
@@ -88,7 +88,7 @@
     "href": "intro.html#footnotes",
     "title": "Technical introduction",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nThese translate to the plan’s objectives↩︎\nWe use “species” in the broad sense, referring to any distinct taxonomic unit (e.g., subspecies) unless otherwise indicated.↩︎\nIf available, these data can be considered for inclusion in prioritization analysis and assessment.↩︎"
+    "text": "Footnotes\n\n\nThese translate to the plan’s objectives↩︎\nWe use “species” in the broad sense, referring to any distinct taxonomic unit (e.g., subspecies) unless otherwise indicated.↩︎\nIf available, these data can be considered for inclusion in prioritisation analysis and assessment.↩︎"
   },
   {
     "objectID": "intro.html#sec-stages",
@@ -102,14 +102,14 @@
     "href": "intro.html#sec-eco-rep",
     "title": "Technical introduction",
     "section": "3.1 Ecosystem representation",
-    "text": "3.1 Ecosystem representation\nIncorporating ecosystem types in the SCP process serves to broadly capture the spatial distribution of distinct-biological communities, and thereby the full suite of species—i.e., gamma diversity (Whittaker 1960)—across the region of interest (Ladislav Mucina 2024). Following the previous terrestrial SCP for KwaZulu-Natal (Escott 2010), a vegetation-type map formed a robust surrogate for ecosystem types. Vegetation types commonly serve as surrogates for ecosystem types because they largely capture differences in biodiversity patterns across the landscape (SANBI and UNEP-WCMC 2024).\nFor an up-to-date representation of ecosystem extent, the provincial-vegetation map (i.e., coverage) had to be adjusted. The provincial-vegetation coverage serves as a representation of “natural” vegetation communities prior to GC pressures ca. 1750 (L. Mucina, Rutherford, and Powrie 2018). Therefore, the coverage had to be adjusted to reflect the current state of ecosystems using the best available data.\n\n\n3.1.1 Ecosystem and biodiversity state datasets\n\n3.1.1.1 Protected and conserved ecosystems\n\n\n3.1.1.2 Ecosystem protection and conservation\n\n\n\n3.1.2 Species representation\n\n3.1.2.1 Species selection criteria"
+    "text": "3.1 Ecosystem representation\nIncorporating ecosystem types in the SCP process serves to broadly capture the spatial distribution of distinct-biological communities, and thereby the full suite of species—i.e., gamma diversity (Whittaker 1960)—across the region of interest (Mucina 2024). Following the previous terrestrial SCP for KwaZulu-Natal (Escott 2010), a vegetation-type map formed a robust surrogate for ecosystem types. Vegetation types commonly serve as surrogates for ecosystem types because they largely capture differences in biodiversity patterns across the landscape (SANBI and UNEP-WCMC 2024).\nFor an up-to-date representation of ecosystem extent, the provincial-vegetation map (i.e., coverage) had to be adjusted. The provincial-vegetation coverage serves as a representation of “natural” vegetation communities prior to GC pressures ca. 1750 (Mucina et al. 2018). Therefore, the coverage had to be adjusted to reflect the current state of ecosystems using the best available data.\n\n\n3.1.1 Ecosystem and biodiversity state datasets\n\n3.1.1.1 Protected and conserved ecosystems\n\n\n3.1.1.2 Ecosystem protection and conservation\n\n\n\n3.1.2 Species representation\n\n3.1.2.1 Species selection criteria"
   },
   {
     "objectID": "intro.html#introduction",
     "href": "intro.html#introduction",
     "title": "Technical introduction",
     "section": "4.1 Introduction",
-    "text": "4.1 Introduction\nThe broad-ranging approach for representation of biodiversity in the SCP was complemented by a targeted approach (see Section 3.1.2). The targeted approach required a systematic selection of species (SANBI and UNEP-WCMC 2024). Scientific experts on the KwaZulu-Natal Biodiversity Plan Steering Committee developed the criteria for the inclusion of species in a workshop session with external stakeholders. For the KwaZulu-Natal SCP, these criteria were applied to each grouping of taxa as shown below."
+    "text": "4.1 Introduction\nThe broad-ranging approach for representation of biodiversity in the SCP was complemented by a targeted approach (see Section 3.1.2). The targeted approach required a systematic selection of species (SANBI and UNEP-WCMC 2024). Ezemvelo KZN Wildlife scientists and a broad range of stakeholders at an SCP inaugural workshop (Elliot 2023), developed the criteria for the inclusion of species in a workshop session with external stakeholders. For the KwaZulu-Natal SCP, these criteria were applied to each grouping of taxa as shown below."
   },
   {
     "objectID": "intro.html#criteria-for-inclusion",
@@ -137,7 +137,7 @@
     "href": "intro.html#what-where",
     "title": "Technical introduction",
     "section": "2.1 What & where",
-    "text": "2.1 What & where\n\n\n\n\n\n\n\n\nflowchart TD\n\n%% === Main stages ===\nobj1[What & where]\n%%obj2([Status assessment])\n%%obj3([Representation & &lt;br&gt; persistence targets])\n%%obj4([Prioritization analysis])\n%%obj5([Product development])\n\n%%obj1 --&gt; obj2\n%%obj2 --&gt; obj3\n%%obj3 --&gt; obj4\n%%obj4 --&gt; obj5\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\n%%obj2 -.-&gt; obj1\n%%obj3 -.-&gt; obj2\n%%obj4 -.-&gt; obj3\n%%obj5 -.-&gt; obj4\n\n%% === Inputs to obj1 (What & where) ===\nobj1_1([Ecosystem representation]) --&gt; obj1\nobj1_2([Refugia habitat & corridors]) --&gt; obj1\nobj1_3([Critical habitat features]) --&gt; obj1\nobj1_4([Species representation]) --&gt; obj1\nobj1_5([\"Spatial avoidance (cost)\"]) --&gt; obj1\n\n%% === Ecosystem representation details ===\n\nobj1_1_1([Baseline ecosystem]) --&gt; obj1_1_2([Landcover modification])\nobj1_1_2 --&gt; obj1_1_3([Ecosystem modification])\nobj1_1_3 --&gt; obj1_1_4([Development sprawl])\nobj1_1_4 --&gt; obj1_1_5([\"Fragmentation & connectivity\"])\nobj1_1_6([\"Climate refugia (& scenarios)\"])--&gt; obj1_1_5\n\n%% Link ecosystem detail back up\nobj1_1_2 --&gt; obj1_1\nobj1_1_5 --&gt; obj1_2\nobj1_1_6 --&gt; obj1_2\n\n%% Optional grey-ish relation represented as dashed\nobj1_1_2 -.-&gt; obj1_5\n\n%% === Species representation details ===\nobj1_4_1([Point locality data]) --&gt; obj1_4_2([Species Distribution Models])\nobj1_4_1 --&gt; obj1_4\nobj1_4_2 --&gt; obj1_4\n\n%% Bidirectional link: SDMs &lt;-&gt; Climate refugia\nobj1_4_2 --&gt; obj1_1_6\nobj1_1_6 --&gt; obj1_4_2\n\n\n\n\n\n\n\n\nFigure 2: Inputs to determining the what and where of biodiversity."
+    "text": "2.1 What & where\n\n\n\n\n\n\n\n\n%% png: images/intro/fig02.png\n\nflowchart TD\n\n%% === Main stages ===\nobj1[What & where]\n%%obj2([Status assessment])\n%%obj3([Representation & &lt;br&gt; persistence targets])\n%%obj4([prioritisation analysis])\n%%obj5([Product development])\n\n%%obj1 --&gt; obj2\n%%obj2 --&gt; obj3\n%%obj3 --&gt; obj4\n%%obj4 --&gt; obj5\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\n%%obj2 -.-&gt; obj1\n%%obj3 -.-&gt; obj2\n%%obj4 -.-&gt; obj3\n%%obj5 -.-&gt; obj4\n\n%% === Inputs to obj1 (What & where) ===\nobj1_1([Ecosystem representation]) --&gt; obj1\nobj1_2([Refugia habitat & corridors]) --&gt; obj1\nobj1_3([Critical habitat features]) --&gt; obj1\nobj1_4([Species representation]) --&gt; obj1\nobj1_5([\"Spatial avoidance (cost)\"]) --&gt; obj1\n\n%% === Ecosystem representation details ===\n\nobj1_1_1([Baseline ecosystem]) --&gt; obj1_1_2([Landcover modification])\nobj1_1_2 --&gt; obj1_1_3([Ecosystem modification])\nobj1_1_3 --&gt; obj1_1_4([Development sprawl])\nobj1_1_4 --&gt; obj1_1_5([\"Fragmentation & connectivity\"])\nobj1_1_6([\"Climate refugia (& scenarios)\"])--&gt; obj1_1_5\n\n%% Link ecosystem detail back up\nobj1_1_2 --&gt; obj1_1\nobj1_1_5 --&gt; obj1_2\nobj1_1_6 --&gt; obj1_2\n\n%% Optional grey-ish relation represented as dashed\nobj1_1_2 -.-&gt; obj1_5\n\n%% === Species representation details ===\nobj1_4_1([Point locality data]) --&gt; obj1_4_2([Species Distribution Models])\nobj1_4_1 --&gt; obj1_4\nobj1_4_2 --&gt; obj1_4\n\n%% Bidirectional link: SDMs &lt;-&gt; Climate refugia\nobj1_4_2 --&gt; obj1_1_6\nobj1_1_6 --&gt; obj1_4_2\n\n\n\n\n\n\n\n\nFigure 2: Inputs to determining the what and where of biodiversity."
   },
   {
     "objectID": "data.html#section",
@@ -172,21 +172,21 @@
     "href": "intro-docx.html#what-where",
     "title": "Technical introduction",
     "section": "2.1 What & where",
-    "text": "2.1 What & where\n\n\n\n\n\n\n\n\nFigure 2: Inputs to determining the what and where of biodiversity."
+    "text": "2.1 What & where\n\n\n\n\n\n\nFigure 2: Inputs to determining the what and where of biodiversity."
   },
   {
     "objectID": "intro-docx.html#sec-eco-rep",
     "href": "intro-docx.html#sec-eco-rep",
     "title": "Technical introduction",
     "section": "3.1 Ecosystem representation",
-    "text": "3.1 Ecosystem representation\nIncorporating ecosystem types in the SCP process serves to broadly capture the spatial distribution of distinct-biological communities, and thereby the full suite of species—i.e., gamma diversity (Whittaker 1960)—across the region of interest (Ladislav Mucina 2024). Following the previous terrestrial SCP for KwaZulu-Natal (Escott 2010), a vegetation-type map formed a robust surrogate for ecosystem types. Vegetation types commonly serve as surrogates for ecosystem types because they largely capture differences in biodiversity patterns across the landscape (SANBI and UNEP-WCMC 2024).\nFor an up-to-date representation of ecosystem extent, the provincial-vegetation map (i.e., coverage) had to be adjusted. The provincial-vegetation coverage serves as a representation of “natural” vegetation communities prior to GC pressures ca. 1750 (L. Mucina, Rutherford, and Powrie 2018). Therefore, the coverage had to be adjusted to reflect the current state of ecosystems using the best available data.\n\n\n3.1.1 Ecosystem and biodiversity state datasets\n\n3.1.1.1 Protected and conserved ecosystems\n\n\n3.1.1.2 Ecosystem protection and conservation\n\n\n\n3.1.2 Species representation\n\n3.1.2.1 Species selection criteria"
+    "text": "3.1 Ecosystem representation\nIncorporating ecosystem types in the SCP process serves to broadly capture the spatial distribution of distinct-biological communities, and thereby the full suite of species—i.e., gamma diversity (Whittaker 1960)—across the region of interest (Mucina 2024). Following the previous terrestrial SCP for KwaZulu-Natal (Escott 2010), a vegetation-type map formed a robust surrogate for ecosystem types. Vegetation types commonly serve as surrogates for ecosystem types because they largely capture differences in biodiversity patterns across the landscape (SANBI and UNEP-WCMC 2024).\nFor an up-to-date representation of ecosystem extent, the provincial-vegetation map (i.e., coverage) had to be adjusted. The provincial-vegetation coverage serves as a representation of “natural” vegetation communities prior to GC pressures ca. 1750 (Mucina et al. 2018). Therefore, the coverage had to be adjusted to reflect the current state of ecosystems using the best available data.\n\n\n3.1.1 Ecosystem and biodiversity state datasets\n\n3.1.1.1 Protected and conserved ecosystems\n\n\n3.1.1.2 Ecosystem protection and conservation\n\n\n\n3.1.2 Species representation\n\n3.1.2.1 Species selection criteria"
   },
   {
     "objectID": "intro-docx.html#introduction",
     "href": "intro-docx.html#introduction",
     "title": "Technical introduction",
     "section": "4.1 Introduction",
-    "text": "4.1 Introduction\nThe broad-ranging approach for representation of biodiversity in the SCP was complemented by a targeted approach (see Section 3.1.2). The targeted approach required a systematic selection of species (SANBI and UNEP-WCMC 2024). Scientific experts on the KwaZulu-Natal Biodiversity Plan Steering Committee developed the criteria for the inclusion of species in a workshop session with external stakeholders. For the KwaZulu-Natal SCP, these criteria were applied to each grouping of taxa as shown below."
+    "text": "4.1 Introduction\nThe broad-ranging approach for representation of biodiversity in the SCP was complemented by a targeted approach (see Section 3.1.2). The targeted approach required a systematic selection of species (SANBI and UNEP-WCMC 2024). Ezemvelo KZN Wildlife scientists and a broad range of stakeholders at an SCP inaugural workshop (Elliot 2023), developed the criteria for the inclusion of species in a workshop session with external stakeholders. For the KwaZulu-Natal SCP, these criteria were applied to each grouping of taxa as shown below."
   },
   {
     "objectID": "intro-docx.html#criteria-for-inclusion",
@@ -207,6 +207,62 @@
     "href": "intro-docx.html#footnotes",
     "title": "Technical introduction",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nThese translate to the plan’s objectives↩︎\nWe use “species” in the broad sense, referring to any distinct taxonomic unit (e.g., subspecies) unless otherwise indicated.↩︎\nIf available, these data can be considered for inclusion in prioritization analysis and assessment.↩︎"
+    "text": "Footnotes\n\n\nThese translate to the plan’s objectives↩︎\nWe use “species” in the broad sense, referring to any distinct taxonomic unit (e.g., subspecies) unless otherwise indicated.↩︎\nIf available, these data can be considered for inclusion in prioritisation analysis and assessment.↩︎"
+  },
+  {
+    "objectID": "prioritize.html",
+    "href": "prioritize.html",
+    "title": "Priotitization analyses",
+    "section": "",
+    "text": "pkgs &lt;- c(\"prioritizr\")\ninstalled_pkgs &lt;- sapply(pkgs, function(x) {\n    if (x %in% installed.packages() == FALSE) {\n        install.packages(x, quite = TRUE, ask = FALSE)\n    }\n})"
+  },
+  {
+    "objectID": "intro_test.html",
+    "href": "intro_test.html",
+    "title": "Technical introduction",
+    "section": "",
+    "text": "Download Word (docx)"
+  },
+  {
+    "objectID": "intro_test.html#what-where",
+    "href": "intro_test.html#what-where",
+    "title": "Technical introduction",
+    "section": "2.1 What & where",
+    "text": "2.1 What & where\n\n\n\n\n\n\nFigure 2: Inputs to determining the what and where of biodiversity."
+  },
+  {
+    "objectID": "intro_test.html#sec-eco-rep",
+    "href": "intro_test.html#sec-eco-rep",
+    "title": "Technical introduction",
+    "section": "3.1 Ecosystem representation",
+    "text": "3.1 Ecosystem representation\nIncorporating ecosystem types in the SCP process serves to broadly capture the spatial distribution of distinct-biological communities, and thereby the full suite of species—i.e., gamma diversity (Whittaker 1960)—across the region of interest (Mucina 2024). Following the previous terrestrial SCP for KwaZulu-Natal (Escott 2010), a vegetation-type map formed a robust surrogate for ecosystem types. Vegetation types commonly serve as surrogates for ecosystem types because they largely capture differences in biodiversity patterns across the landscape (SANBI and UNEP-WCMC 2024).\nFor an up-to-date representation of ecosystem extent, the provincial-vegetation map (i.e., coverage) had to be adjusted. The provincial-vegetation coverage serves as a representation of “natural” vegetation communities prior to GC pressures ca. 1750 (Mucina et al. 2018). Therefore, the coverage had to be adjusted to reflect the current state of ecosystems using the best available data.\n\n\n3.1.1 Ecosystem and biodiversity state datasets\n\n3.1.1.1 Protected and conserved ecosystems\n\n\n3.1.1.2 Ecosystem protection and conservation\n\n\n\n3.1.2 Species representation\n\n3.1.2.1 Species selection criteria"
+  },
+  {
+    "objectID": "intro_test.html#introduction",
+    "href": "intro_test.html#introduction",
+    "title": "Technical introduction",
+    "section": "4.1 Introduction",
+    "text": "4.1 Introduction\nThe broad-ranging approach for representation of biodiversity in the SCP was complemented by a targeted approach (see Section 3.1.2). The targeted approach required a systematic selection of species (SANBI and UNEP-WCMC 2024). Ezemvelo KZN Wildlife scientists and a broad range of stakeholders at an SCP inaugural workshop (Elliot 2023), developed the criteria for the inclusion of species in a workshop session with external stakeholders. For the KwaZulu-Natal SCP, these criteria were applied to each grouping of taxa as shown below."
+  },
+  {
+    "objectID": "intro_test.html#criteria-for-inclusion",
+    "href": "intro_test.html#criteria-for-inclusion",
+    "title": "Technical introduction",
+    "section": "4.2 Criteria for inclusion",
+    "text": "4.2 Criteria for inclusion\n\n\n\n\nTable 1: Criteria for inclusion of species in the targeted approach.\n\n\n\nIDCriteriaRules1Endemic to KwaZulu-Natal.Feature must be triggered by ≥1 criterion; criteria equal weighting; may include uncertain data but removed if insufficient; consider age and accuracy of data.2Near Endemic to KwaZulu-Natal (50–99% of taxon distribution falls within KwaZulu-Natal).3Threat status (CR, EN, Rare, VU, NT). Global or Regional. Highest threat status taken.4International obligation.5Umbrella species.6Isolated from core known range with genetic differences.7Edge of range species (may be well protected in KZN but globally/regionally threatened).8Life‑history stage essential for protection of species.9Species conservation plan or biodiversity management plan.10Other (specify).11Resource use threat.12Specific populations (e.g., Tembe elephants, berg eland)."
+  },
+  {
+    "objectID": "intro_test.html#taxonspecific-species-selection",
+    "href": "intro_test.html#taxonspecific-species-selection",
+    "title": "Technical introduction",
+    "section": "4.3 Taxon‑specific species selection",
+    "text": "4.3 Taxon‑specific species selection\nFollowing the criteria in Table 1, species were selected for groupings of taxa: amphibians, aquatic species, birds, invertebrates, mammals, and plants.\n\n4.3.1 Amphibians (championed by A. Armstrong)\nAll endemic, near-endemic, and threatened (CR, EN, VU) species were included.\n\n\n4.3.2 Aquatic species (championed by S. Khubheka)\n\n\n4.3.3 Birds (championed by B. Coverdale)\n\n\n4.3.4 Invertebrates (championed by A. Armstrong)\nAll endemic, near-endemic and threatened (CR, EN, VU) taxa are included. Only taxa in the Biodiversity Database are included in the analysis.\n\n\n4.3.5 Mammals (championed by B. Coverdale)\n\n\n4.3.6 Plants (championed by C. Carbutt)\nThe targeted plant species list for the updated KZN SCP revision was developed as follows:\n\nAn extract of the plant list used for the previous SCP by Escott (2010) was made.\nThe extract was evaluated by the plant group (Ezemvelo KZN Wildlife + SANBI) at the C‑Plan workshop at Didima, Jan 2025.\nThe list was further refined and checked.\nSpecies names were updated for taxonomic changes.\nRed List status updated to SANBI RL version 2024.\nThe list was tabled at the July 2025 C‑Plan Steering Committee meeting.\nApproved pending minor revision.\nFully revised in Aug 2025 per Steering Committee directives.\n~23 taxa were the focus: extinct or widespread non‑endemic taxa removed; endemic/near‑endemic or declining taxa retained.\nFinal revised list (Aug 2025) was uploaded to MS Teams as directed.\n\n\n\n4.3.7 Reptiles (championed by A. Armstrong)\nAll endemic, near-endemic and threatened (CR, EN, VU) species are included."
+  },
+  {
+    "objectID": "intro_test.html#footnotes",
+    "href": "intro_test.html#footnotes",
+    "title": "Technical introduction",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThese translate to the plan’s objectives↩︎\nWe use “species” in the broad sense, referring to any distinct taxonomic unit (e.g., subspecies) unless otherwise indicated.↩︎\nIf available, these data can be considered for inclusion in prioritisation analysis and assessment.↩︎"
   }
 ]

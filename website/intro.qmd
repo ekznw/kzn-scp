@@ -1,64 +1,84 @@
 ---
 title: "Technical introduction"
 abstract:
-    The three principal questions that guide the Ezemvelo KZN Wildlife Systematic Conservation Plan, that is, the C-Plan for the province of KwaZulu-Natal, are; 1) What biodiversity does the province contain and where is it, 2) what is the status of this biodiversity, and 3) addressed by a prioritization analysis --- where and how should conservation efforts be prioritized. This technical introduction elaborates on each of these questions that are expanded into five stages, each critical for a detailed understanding of C-Plan products.
+    The three principal questions that guide the Ezemvelo KZN Wildlife Systematic Conservation Plan, are; 1) What biodiversity does the province contain and where is it, 2) what is the status of this biodiversity, and 3) addressed by a prioritisation analysis --- where and how should conservation efforts be prioritized. This technical introduction elaborates on each of these questions that are expanded into five stages, each critical for a detailed understanding of the conservation plan's associated products.
+
 author:
     - name: Paul Gordijn
       orcid: "0000-0002-0580-3107"
       affiliations:
         id: bspi
-        name: Ezemvelo KZN Wildlife, Biodiversity, Spatial Planning and Information
+        name: Biodiversity, Spatial Planning and Information, Ezemvelo KZN Wildlife
     - name: Felicity Elliot
       affiliations:
         ref: bspi
+    - name: Shannon Rushworth
+      affiliations:
+        ref: bspi
+    - name: Andy Blackmore
+      affiliations:
+        id: iem
+        name: Integrated Environmental Management & Protected Area Planning, Ezemvelo KZN Wildlife
+    - name: Craig Mulqueeny
+      affiliations:
+        id: ss
+        name: Scientific Services, Ezemvelo KZN Wildlife
     - name: Ian Rushworth
       affiliations:
-      - Ezemvelo KZN Wildlife, Biodiversity, Scientific Services
+        ref: ss
+    - name: Adrian Armstrong
+      affiliations:
+        id: cra
+        name: Scientific Services, Conservation and Research, Ezemvelo KZN Wildlife
+    - name: Clinton Carbutt
+      affiliations:
+        ref: cra
+    - name: Brent Coverdale
+      affiliations:
+        ref: cra
     - name: Debbie Jewitt
       affiliations:
-        Ezemvelo KZN Wildlife, Conservation & Research
-    - name: Adrian Armstrong
-      affiliations: Ezemvelo KZN Wildlife, Conservation & Research
+        ref: cra
+    - name: Skhumuzo Khubeka
+      affiliations:
+        ref: cra
+
 
 title-block-banner: true
-bibliography: references.bib
+bibliography: /home/paulg/Documents/refs/bspi.bib
 
 execute: 
   warning: false
   message: false
 
-
-format:
-  html:
-    toc: true
-  docx: default        # actually render DOCX for this page
+# DOCX:
+# To convert to word run the build word script
+# cd website
+# . scripts/build_word.sh
 ---
 
-# The C-Plan --- Systematic Conservation Plan {#sec-updated-scp}
+[Download Word (docx)](intro.docx){.btn .btn-primary}
 
-Following international protocol we structured our provincial C-Plan around these key questions [@sanbi2024mbp; @jung2025aia]:
+# The KwaZulu-Natal Systematic Conservation Plan {#sec-updated-scp}
+
+The Systematic Conservation Plan (SCP) around these key questions [@sanbi2024mbp; @jung2025aia]:
 
 1. What biodiversity and where is it?
 2. What is the state of this biodiversity?
-3. Where and how should conservation efforts be prioritized?
+3. Where and how should conservation efforts be prioritised?
 
-These questions form the basis for the structure of this C-Plan. The first key question involves collation and modelling of data in order to obtain the best available spatial representation of biodiversity. The second is largely concerned with the conservation or risk status of biodiversity that will guide the mapping of biodiversity, and the prioritization analyses in point three. 
+These questions form the basis for the structure of this conservation plan. The first key question involves collation and modelling of data in order to obtain the best available spatial representation of biodiversity. The second is largely concerned with the conservation or risk status of biodiversity that will guide the mapping of biodiversity, and the prioritisation analyses in point three.
 
-# C-Plan stages {#sec-stages}
+# Conservation plan stages {#sec-stages}
 
-The main stages of the C-Plan are depicted in @fig-flow_main below.
+The main stages of the conservation plan are depicted in @fig-flow_main below.
 
 ::: {#fig-flow_main}
 
-:::: {.content-visible when-format="docx"}
-
-![](images/intro/fig01.png)
-
-::::
-
-:::: {.content-visible when-format="html"}
 ```{mermaid}
 %%| fig-align: center
+
+%% png: images/intro/fig01.png
 
 flowchart TD
 
@@ -66,7 +86,7 @@ flowchart TD
 obj1([What & where])
 obj2([Status assessment])
 obj3([Representation & <br> persistence targets])
-obj4([Prioritization analysis])
+obj4([prioritisation analysis])
 obj5([Product development])
 
 obj1 --> obj2
@@ -81,7 +101,6 @@ obj3 -.-> obj2
 obj4 -.-> obj3
 obj5 -.-> obj4
 ```
-::::
 
 Flowchart depicting the iterative stages of gathering data, analyses, and outputs of the systematic conservation plan (c.f. @sanbi2024mbp).
 
@@ -100,7 +119,7 @@ The stages^[These translate to the plan's objectives] of this SCP are as follows
 
     a. Bolster the representation of all species.^[We use “species” in the broad sense, referring to any distinct taxonomic unit (e.g., subspecies) unless otherwise indicated.]
 
-    a. Represent ecosystem function and change — collection of additional spatial datasets.^[If available, these data can be considered for inclusion in prioritization analysis and assessment.]
+    a. Represent ecosystem function and change — collection of additional spatial datasets.^[If available, these data can be considered for inclusion in prioritisation analysis and assessment.]
 
         i. Ecosystem processes  
         i. Ecosystem infrastructure  
@@ -120,11 +139,11 @@ The stages^[These translate to the plan's objectives] of this SCP are as follows
     a. Representation and persistence of ecosystems, including alignment with the Global Biodiversity Framework [@cbd2022kmg].
     a. Representation and persistence of species.
 
-4. **Spatial prioritization:**
+4. **Spatial prioritisation:**
 
     a. Spatial framework of evaluation --- planning units.
     a. Compilation of cost (decision‑support) layers.
-    a. Systematic spatial prioritization analyses and scenario modelling (e.g., climate change and management effectiveness).
+    a. Systematic spatial prioritisation analyses and scenario modelling.
     a. Sensitivity analysis.
 
 5. **Product development.**
@@ -133,16 +152,11 @@ The stages^[These translate to the plan's objectives] of this SCP are as follows
 
 ::: {#fig-what_where}
 
-:::: {.content-visible when-format="docx"}
-
-![](images/intro/fig02.png)
-
-::::
-
-:::: {.content-visible when-format="html"}
 
 ```{mermaid}
 %%| fig-align: center
+
+%% png: images/intro/fig02.png
 
 flowchart TD
 
@@ -150,7 +164,7 @@ flowchart TD
 obj1[What & where]
 %%obj2([Status assessment])
 %%obj3([Representation & <br> persistence targets])
-%%obj4([Prioritization analysis])
+%%obj4([prioritisation analysis])
 %%obj5([Product development])
 
 %%obj1 --> obj2
@@ -197,7 +211,6 @@ obj1_4_2 --> obj1_4
 obj1_4_2 --> obj1_1_6
 obj1_1_6 --> obj1_4_2
 ```
-::::
 
 Inputs to determining the what and where of biodiversity.
 
@@ -232,11 +245,12 @@ For an up-to-date representation of ecosystem extent, the provincial-vegetation 
 ### Species representation {#sec-spp-rep}
 
 #### Species selection criteria
+
 # Criteria for the selection of species {#app-spp_crit}
 
 ## Introduction
 
-The *broad-ranging* approach for representation of biodiversity in the SCP was complemented by a *targeted* approach (see @sec-spp-rep). The targeted approach required a systematic selection of species [@sanbi2024mbp]. Scientific experts on the KwaZulu-Natal Biodiversity Plan Steering Committee developed the criteria for the inclusion of species in a workshop session with external stakeholders. For the KwaZulu-Natal SCP, these criteria were applied to each grouping of taxa as shown below.
+The *broad-ranging* approach for representation of biodiversity in the SCP was complemented by a *targeted* approach (see @sec-spp-rep). The targeted approach required a systematic selection of species [@sanbi2024mbp]. Ezemvelo KZN Wildlife scientists and a broad range of stakeholders at an SCP inaugural workshop [@elliot2023bcp], developed the criteria for the inclusion of species in a workshop session with external stakeholders. For the KwaZulu-Natal SCP, these criteria were applied to each grouping of taxa as shown below.
 
 ## Criteria for inclusion
 
@@ -323,15 +337,15 @@ All endemic, near-endemic and threatened (CR, EN, VU) species are included.
 
 # Representation & persistence targets
 
-# Prioritization analysis
+# Prioritisation analysis
 
 # Product development
 
 ::: {#fig-full_flow}
 
-:::: {.content-visible when-format="html"}
-
 ```{mermaid}
+
+%% png: images/intro/fig03.png
 
 flowchart TB
 
@@ -339,7 +353,7 @@ flowchart TB
 obj1[What & where]
 obj2[Status assessment]
 obj3[Representation & <br> persistence targets]
-obj4[Prioritization analysis]
+obj4[prioritisation analysis]
 
 obj1 --> obj2
 obj2 --> obj3
@@ -393,7 +407,5 @@ obj2_2([Provincial risk status]) --> obj2
 obj3_1([National & international targets]) --> obj3
 obj3_2([Provincial targets]) --> obj3
 ```
-
-::::
 
 :::
