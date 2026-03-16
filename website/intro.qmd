@@ -45,7 +45,7 @@ author:
 
 
 title-block-banner: true
-bibliography: /home/paulg/Documents/refs/bspi.bib
+bibliography: /home/paulg/refs/bspi.bib
 
 execute: 
   warning: false
@@ -58,6 +58,10 @@ execute:
 ---
 
 [Download Word (docx)](intro.docx){.btn .btn-primary}
+
+# Integration of biodiversity realms
+
+Insuring integration of the marine, estuarine, freshwater and terrestrial biodiversity realms is critical for a connected landscape to seascape scape approach. This integration ensures that critical marine realms are supported by important estuaries. These estuaries are maintained through a freshwater plan, and conservation in linked terrestrial environs is prioritised to support this overall land–ocean 'scape' ― a multi-realm 'ecoscape' [@wedding2025bla].
 
 # The KwaZulu-Natal Systematic Conservation Plan {#sec-updated-scp}
 
