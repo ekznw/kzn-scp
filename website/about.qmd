@@ -3,9 +3,16 @@
 title: "Systematic Conservation Planning"
 ---
 
+# KZN biodiversity
+
+What is so special about KZN biodiversity?
+    * description of KZN taxa and their diversity + endemism.
+    * conservation status stats.
+
 # The planning community
 
 The KwaZulu-Natal Systematic Conservation Plan has a legacy of robust science backed, built through community involvement. Ezemvelo KZN Wildlife is proud to have worked alongside many members of the KZN community for this Systematic Conservation Plan.
+
 
 ```{r}
 #| echo: false

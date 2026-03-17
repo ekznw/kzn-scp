@@ -1,0 +1,25 @@
+section_no,chapter_or_page, sub_section, content,appendix,editors,contributing authors
+0-1,About, KZN biodiversity,Summary of kzn biodiversity metrics and conservation status,,Craig Mulqueeny; Ian Rushworth; CRA,all
+0-2,About,Acknowledgements,List of contributing stakeholders.,,All,all
+0-3,About,Product usage,Introductory notes on the usage of the Conservation Plan usage. Links to data and handbook.,,Felicity Elliot,all
+0-4,Contents,,Auto generated,,Auto generated,
+1-1,Intro,Purpose,,,,all
+1-2,Intro,Structure of the KZN Conservation Plan committee,,,,
+1-3,Intro,Integration of biodiversity realms,"I.e. how do the marine, coastal, estuary, freshwater and 'terrestrial' plan work together.",,Paul Gordijn; Felicity Elliot,all
+1-4,Intro,Overview of the Conservation Planning Process,Broad perspective on how the following sections work together.,,Paul Gordijn; Felicity Elliot,all
+2-1,Features (Representation and persistence),Ecosystems,"Broad description of KZN ecosystems and comparitive notes with other sources, e.g., the national dataset.",,"Debbie Jewitt, Felicity Elliot, Paul Gordijn",all
+2-2,Features (Representation and persistence),Species,Broad description with maps of species hotspots. Summary tables. Notes on criteria for species selction and contributing sources of data. Note on species distribution models.,"(i) Full species tables by taxon with summary stats, conservation status; (ii) species distribution model methods and notes; (iii) data cleaning proceedure.","Adrian Armstrong, Brent Coverdale, Clinton Carbutt, Shannon Rushworth, & Skhumbuza Kubeka",all
+2-3,Features (Representation and persistence),Critical persistence features,,,,
+2-4,Features (Representation and persistence),Evolutionary refugia,Others have used biodiversity hotspots and/or centres of endemism.,,Adrian Armstrong; Clinton Carbutt; Skumbuza Khubeka;,all
+2-5,Features (Representation and persistence),Climate change refugia,(i) Biome shifts and identification of 'biome regugia' can use data from ZA paper with Phil Desmet; (ii) SDM with climate change scenario's.,,Ian Rushworth,all
+2-6,Features (Representation and persistence),Landscape connectivity,(i) Connectivity metrics and movement analyses using the modification coverage and land cover data.,,Ian Rushworth,all
+3-1,Decision support,Green infrastructure,Wind energy; solar energy.,,Paul Gordijn; Felicity Elliot,all
+3-2,Decision support,Modification tradeoffs,(i) Mining: some areas we can use to get PA's offset. Some areas we don't want mined at all; (ii) ,,Paul Gordijn; Felicity Elliot,all
+3-3,Decision support,Socio-ecological disturbance regimes,"(i) ecosystem state and socio-ecological drivers that alter ecosystems from their optimal functional state for biodiversity conservation. E.g. fire regimes, grazing regimes, housing density, illegal mining.",,Paul Gordijn; Felicity Elliot,all
+4-1,Targets,Intro,Purpose of targets and notes on how targets were set.,,Felicity Elliot; Paul Gordijn,all
+4-2,Targets,Rationale,Notes on the principles behind the target settting.,,Felicity Elliot; Paul Gordijn,
+4-3,Targets,Target figures,Graphical and tabular display of targets with notes. Some of this could be inserted into supporting material or the appendices.,,Felicity Elliot; Paul Gordijn,
+5-1,Prioritisation,Introduction,(i) Purpose; (ii) Approach with comparison to previous Conservation Plan; (iii) Stakeholder involvement and scenario development;,(i) Technical deep dive into Prioritzr methods; (ii) Scenario details;,Paul Gordijn; Felicity Elliot,all
+5-2,Prioritisation,Results and discussion,Results by scenario comparison bringing to a summary.,,Paul Gordijn; Felicity Elliot,all
+5-2,Discussion and conclusion,,,,TBD,all
+6-,Data structure and availability,,General notes on data availability.,,Paul Gordijn; Shannon Rushrowth,all
