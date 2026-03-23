@@ -1,24 +1,8 @@
 # KwaZulu-Natal Systematic Conservation Plan (KZN SCP)
 
-This repository hosts the code, analyses, and documentation for Ezemvelo KwaZulu-Natal Wildlife’s (EKZNW) Systematic Conservation Plan (KZN SCP).
+This repository hosts the code for analyses and documentation of Ezemvelo KwaZulu-Natal Wildlife’s (EKZNW) Systematic Conservation Plan (KZN SCP).
 
-The KZN SCP is an evidence‑based spatial planning framework integrating biodiversity data, ecosystem information, climate projections, and decision‑support analyses used to guide conservation action in KwaZulu‑Natal.
-
-
----
-
-## What is the KZN SCP?
-
-The KZN Systematic Conservation Plan is:
-
-- A framework for identifying the most important areas required to conserve biodiversity and ecological processes.
-- A repeatable, data‑driven process that uses standardised methods to assess ecosystems, species, climate resilience, landscape processes, and costs.
-- A transparent, science‑based product used to inform land‑use planning, environmental decision‑making, protected area expansion, and biodiversity assessments.
-- A modern planning instrument, built using open‑science tools that support reproducibility, version control, and collaboration.
-
-Important:
-The KZN SCP is NOT the discontinued C‑Plan software.
-It is EKZNW’s provincial conservation planning framework, built using contemporary tools and scientific standards.
+The KZN SCP is an evidence‑based, spatial-planning framework for integrating biodiversity data, ecosystem processes, ecosystem functioning, socio-ecological components, climate projections, and other decision‑support analyses to guide conservation action in KwaZulu‑Natal.
 
 ---
 

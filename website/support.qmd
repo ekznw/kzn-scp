@@ -1,5 +1,69 @@
 ---
 title: Decision support layers
 abstract: Decision support layers are spatial data sets that should be used to guide the prioritization analyses that inform which areas are important for conservation.
+
+author:
+    - name: Paul Gordijn
+      orcid: "0000-0002-0580-3107"
+      affiliations:
+        id: bspi
+        name: Biodiversity, Spatial Planning and Information, Ezemvelo KZN Wildlife
+    - name: Felicity Elliot
+      affiliations:
+        ref: bspi
+    - name: Shannon Rushworth
+      affiliations:
+        ref: bspi
+    - name: Andy Blackmore
+      affiliations:
+        id: iem
+        name: Integrated Environmental Management & Protected Area Planning, Ezemvelo KZN Wildlife
+    - name: Craig Mulqueeny
+      affiliations:
+        id: ss
+        name: Scientific Services, Ezemvelo KZN Wildlife
+    - name: Ian Rushworth
+      affiliations:
+        ref: ss
+    - name: Adrian Armstrong
+      affiliations:
+        id: cra
+        name: Scientific Services, Conservation and Research, Ezemvelo KZN Wildlife
+    - name: Clinton Carbutt
+      affiliations:
+        ref: cra
+    - name: Brent Coverdale
+      affiliations:
+        ref: cra
+    - name: Debbie Jewitt
+      affiliations:
+        ref: cra
+    - name: Skhumuzo Khubeka
+      affiliations:
+        ref: cra
+
+
+title-block-banner: true
+bibliography: /home/paulg/refs/bspi.bib
+
+execute: 
+  warning: false
+  message: false
+
 ---
+
+# Decision support layers
+
+Decision support layers are spatial coverages that inform decision-making in the prioritisation analyses. These coverages are therefore critical for influencing the conservation planning scenario solutions. Broadly specking, decision support coverages can be divided into the following themes:
+
+  - 
+  
+  
+The way these coverages can either be used to 'lock-in' characteristics of solutions, for example, existing protected areas can be 'locked in' as irreplaceable areas, or influence the characteristics of solutions, e.g., to promote contiguity of planning units. 
+
+# Constraints
+
+# Penalties
+
+
 

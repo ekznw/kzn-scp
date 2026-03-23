@@ -1,5 +1,5 @@
 ---
-title: "Technical introduction"
+title: "Introduction"
 abstract:
     The three principal questions that guide the Ezemvelo KZN Wildlife Systematic Conservation Plan, are; 1) What biodiversity does the province contain and where is it, 2) what is the status of this biodiversity, and 3) addressed by a prioritisation analysis --- where and how should conservation efforts be prioritized. This technical introduction elaborates on each of these questions that are expanded into five stages, each critical for a detailed understanding of the conservation plan's associated products.
 

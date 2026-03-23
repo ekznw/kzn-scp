@@ -1,0 +1,16 @@
+.quarto-title-block .quarto-title-banner {
+  background-image: url(img/corplogo120.png);
+  background-size: 120px;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-right: 10px;
+  background-origin: content-box;
+  color: #3c3327;
+}
+
+/* 
+/* Force the title text to your dark brown */
+header#title-block-header .title {
+  color: #383422 !important;
+}

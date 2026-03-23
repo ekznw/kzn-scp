@@ -1,5 +1,5 @@
 ---
-title: "C-Plan data pipeline"
+title: "Conservation plan data pipeline"
 ---
 
 To promote open science and smooth updates to the C-Plan the data to documentation pipeline in @fig-dataflow was adopted.

@@ -45,7 +45,7 @@ author:
 
 
 title-block-banner: true
-bibliography: /home/paulg/Documents/refs/bspi.bib
+bibliography: /home/paulg/refs/bspi.bib
 
 execute: 
   warning: false

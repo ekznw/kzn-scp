@@ -6,8 +6,9 @@ title: "Systematic Conservation Planning"
 # KZN biodiversity
 
 What is so special about KZN biodiversity?
-    * description of KZN taxa and their diversity + endemism.
-    * conservation status stats.
+
+  - Description of KZN taxa and their diversity + endemism.
+  - Conservation status stats.
 
 # The planning community
 
