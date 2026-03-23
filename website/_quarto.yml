@@ -6,7 +6,7 @@ project:
   output-dir: _site
 
 website:
-  title: "<span title='KZN Conservation Plan'>Conservation <br/> Plan ― KZN </span>"
+  title: "<span title='KZN Conservation Plan'>KwaZulu-Natal <br/> Conservation Plan </span>"
   navbar:
     left:
       - text: About
@@ -21,16 +21,26 @@ website:
             href: species.qmd
           - text: "<span title='Representation: ecosystems'>Ecosystems</span>"
             href: ecosystems.qmd
-      - text: "<span title='Decision support'>Decion support</span>"
+      - text: "<span title='Decision support'>Decision<br/>support</span>"
         href: support.qmd
-      - text: "<span title='Landscape integrity'>Connectivity</span>"
-        href: connectivity.qmd
-      - text: "<span title='Species Distribution Modeling'>SDM</span>"
-        href: sdm.qmd
-      - text: "<span title='Prioritisation analyses'>Prioritise</span>"
-        href: prioritize.qmd
-      - text: "<span title='SCP data pipeline'>Data</span>"
-        href: data.qmd
+      - text: "<span title='Supporting information'>Prioritization <br/> analysis</span>"
+        menu:
+        - text: Analysis framework
+          href: prioritize_framework.qmd
+        # planning units
+        # zones
+        # constraints
+        # penalties
+        # scenarios
+      - text: "<span title='Supporting information'>Supporting<br/>material</span>"
+        menu:
+          - text: "<span title='Fragmentation and Connectivity'>Landscape integrity</span>"
+            href: connectivity.qmd
+          - text: "Species Distribution Models"
+            href: sdm.qmd
+          - text: "<span title='SCP data pipeline'>Data systems</span>"
+            href: data.qmd
+
 
 format:
   html:
@@ -38,7 +48,8 @@ format:
     color: '#554838'
     embed-resources: true
     theme:
-      - sandstone
+      - cosmo
+      - brand
       - _ekznw_theme.scss
     smooth-scroll: true
     fontcolor: black

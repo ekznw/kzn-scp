@@ -1,18 +1,20 @@
 ---
 # about section of the website. section contains general acknowledgements.
-title: "Systematic Conservation Planning"
+title: "Systematic Conservation Planning <br/> in KwaZulu-Natal"
+abstract: The KwaZulu-Natal conservation plan is produced and maintained by Ezemvelo KwaZulu-Natal Wildlife in collaboration with many partners. This plan serves as the guidelines for protected area expansion, and land use activities that promote the persistence of biodiversity, associated ecosystem functioning, and linked cultural sites in South Africa.
 ---
 
 # KZN biodiversity
 
-What is so special about KZN biodiversity?
+What's special about KZN biodiversity?
 
   - Description of KZN taxa and their diversity + endemism.
   - Conservation status stats.
+  - Land use stats and emerging threats.
 
 # The planning community
 
-The KwaZulu-Natal Systematic Conservation Plan has a legacy of robust science backed, built through community involvement. Ezemvelo KZN Wildlife is proud to have worked alongside many members of the KZN community for this Systematic Conservation Plan.
+The KwaZulu-Natal Systematic Conservation Plan has a legacy of robust science backed, built through community involvement. The Ezemvelo KZN Wildlife Conservation Plan Steering Committee, established to guide the plan, works with internal and external scientists to maintain and revise the Conservation Plan. Input from partners, to ensure the plan is aligned to provincial and national objectives is critical.
 
 
 ```{r}

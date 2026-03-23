@@ -52,8 +52,6 @@ execute:
 
 ---
 
-# Decision support layers
-
 Decision support layers are spatial coverages that inform decision-making in the prioritisation analyses. These coverages are therefore critical for influencing the conservation planning scenario solutions. Broadly specking, decision support coverages can be divided into the following themes:
 
   - 

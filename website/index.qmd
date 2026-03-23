@@ -1,6 +1,5 @@
 ---
 title: "The KwaZulu-Natal Conservation Plan"
-title-block-banner: true
 ---
 
- - Summary info on kzn and why the conservation plan.
+  - Summary info on kzn and why the conservation plan.

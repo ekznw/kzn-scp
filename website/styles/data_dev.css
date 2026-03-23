@@ -1,11 +1,12 @@
 .quarto-title-block .quarto-title-banner {
   background-image: url(img/corplogo120.png);
-  background-size: 180px;
+  background-size: 170px;
   background-position: right;
   background-repeat: no-repeat;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 60px;
+  padding-bottom: 60px;
   background-origin: content-box;
   color: #554838;
 }
@@ -20,6 +21,12 @@ header#title-block-header .title {
   color: #495c3f !important;
 }
 
+/* Change title block banner background colour */
+.quarto-title-block .quarto-title-banner {
+  background-color: #e9e4cc !important;
+}
+
+
 /* Make navbar text darker and larger */
 .navbar,
 .navbar .navbar-nav {
@@ -30,7 +37,7 @@ header#title-block-header .title {
 .navbar .navbar-nav .nav-link,
 .navbar .navbar-brand {
   color: #222222 !important;          /* dark grey, or use #146C43 for green */
-  font-size: 0.98rem !important;      /* slightly larger than default */
+  font-size: large !important;      /* slightly larger than default */
   font-weight: 500;                   /* semi-bold for legibility */
 }
 
@@ -50,12 +57,13 @@ header#title-block-header .title {
 /* Dropdown menu text: clearer and slightly larger */
 
 .dropdown-menu {
-  font-size: 0.110rem;
+  font-size: 1.4rem;
 }
 
 .dropdown-item {
   color: #222222;
   background-color: #9b8a75;
+  font-size: large;
 }
 
 .dropdown-item:hover,

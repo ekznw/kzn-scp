@@ -1,10 +1,28 @@
 # KwaZulu-Natal Systematic Conservation Plan (KZN SCP)
 
-This repository hosts the code for analyses and documentation of Ezemvelo KwaZulu-Natal Wildlife’s (EKZNW) Systematic Conservation Plan (KZN SCP).
+> This repository hosts the code for analyses and documentation of Ezemvelo KwaZulu-Natal Wildlife’s (EKZNW) Systematic Conservation Plan (KZN SCP).
 
-The KZN SCP is an evidence‑based, spatial-planning framework for integrating biodiversity data, ecosystem processes, ecosystem functioning, socio-ecological components, climate projections, and other decision‑support analyses to guide conservation action in KwaZulu‑Natal.
+> The KZN SCP is an evidence‑based, spatial-planning framework for integrating biodiversity data, ecosystem processes, ecosystem functioning, socio-ecological components, climate projections, and other decision‑support analyses to guide conservation action in KwaZulu‑Natal.
 
 ---
+
+## Release versioning
+
+| Author(s) | Contributor(s) | Comments | Release version |
+| :-------- | ---------- | -------- | -------- |
+| Paul Gordijn |  | Beta version in progress  | 0.1 |
+
+## Scientific documentation
+
+Documentation was done using Quarto which allows integrating technical reporting and simultaneous website development. Quarto code for the documentation and analyses are housed in the `kzn-scp` [GitHub repository](https://github.com/ekznw/kzn-scp) enabling fine-scaled product and analytical version controlling.
+
+## How to contribute
+
+Technical writing can either be contributed to in 'word' or Quarto Markdown formats depending on user/group preference.
+
+ - Quarto: the easiest way to contribute to the write-up and associated website is through VSCodium/VSCode/Positron. These three software GUIs are free to download and use, and editing of documentation can either be done in 'markdown' format, or in the editors rendered view of the code.
+     + This form of editing is ideal as updates can be synced to the GitHub repository to enable robust version control.
+ - Word documentation: Quarto has capability to convert Quarto markdown (QMD) to DOCX format, however, not the other way around. For those without the recommended Quarto software, editing can be done in Microsoft Word. Because rendering from DOCX to QMD is not possible complex formatting in Word documents may not easily be transferrable to QMD ― therefore keep formatting in word simple.
 
 ## Documentation in Quarto
 

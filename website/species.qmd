@@ -1,7 +1,8 @@
 ---
-title: "Technical introduction"
+id: sec-species
+title: "Species representation"
 abstract:
-    The three principal questions that guide the Ezemvelo KZN Wildlife Systematic Conservation Plan, are; 1) What biodiversity does the province contain and where is it, 2) what is the status of this biodiversity, and 3) addressed by a prioritisation analysis --- where and how should conservation efforts be prioritized. This technical introduction elaborates on each of these questions that are expanded into five stages, each critical for a detailed understanding of the conservation plan's associated products.
+    Here the selection of species, occurrence data sources, conservation status, and species distributions are described.
 
 author:
     - name: Paul Gordijn
@@ -57,5 +58,93 @@ execute:
 # . scripts/build_word.sh
 ---
 
-# Species representation
+# Species representation {#sec-spp-rep}
 
+## Species selection criteria
+
+# Criteria for the selection of species {#app-spp_crit}
+
+## Introduction
+
+The *broad-ranging* approach for representation of biodiversity in the SCP was complemented by a *targeted* approach (see @sec-spp-rep). The targeted approach required a systematic selection of species [@sanbi2024mbp]. Ezemvelo KZN Wildlife scientists and a broad range of stakeholders at an SCP inaugural workshop [@elliot2023bcp], developed the criteria for the inclusion of species in a workshop session with external stakeholders. For the KwaZulu-Natal SCP, these criteria were applied to each grouping of taxa as shown below.
+
+## Criteria for inclusion
+
+```{r}
+#| tbl-cap: "Criteria for inclusion of species in the targeted approach."
+#| label: tbl-spp-criteria
+#| echo: false
+#| 
+
+library(knitr)
+library(kableExtra)
+library(flextable)
+
+criteria <- data.frame(
+  ID = 1:12,
+  Criteria = c(
+    "Endemic to KwaZulu-Natal.",
+    "Near Endemic to KwaZulu-Natal (50–99% of taxon distribution falls within KwaZulu-Natal).",
+    "Threat status (CR, EN, Rare, VU, NT). Global or Regional. Highest threat status taken.",
+    "International obligation.",
+    "Umbrella species.",
+    "Isolated from core known range with genetic differences.",
+    "Edge of range species (may be well protected in KZN but globally/regionally threatened).",
+    "Life‑history stage essential for protection of species.",
+    "Species conservation plan or biodiversity management plan.",
+    "Other (specify).",
+    "Resource use threat.",
+    "Specific populations (e.g., Tembe elephants, berg eland)."
+  ),
+  Rules = c(
+    "Feature must be triggered by ≥1 criterion; criteria equal weighting; may include uncertain data but removed if insufficient; consider age and accuracy of data.",
+    rep("", 11)
+  )
+)
+# knitr::kable(criteria) # this is supposed to render for word whilst the kable_styling will not
+tbl <- flextable(criteria) |> autofit()
+tbl <- color(x = tbl, color = "#2e2828")
+tbl
+
+# kable(criteria
+#       , label = "tbl-spp-criteria"
+# 	) %>%
+#   kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
+```
+
+## Taxon‑specific species selection
+
+Following the criteria in @tbl-spp-criteria, species were selected for groupings of taxa: amphibians, aquatic species, birds, invertebrates, mammals, and plants.
+
+### Amphibians *(championed by A. Armstrong)*
+
+All endemic, near-endemic, and threatened (CR, EN, VU) species were included.
+
+### Aquatic species *(championed by S. Khubheka)*
+
+### Birds *(championed by B. Coverdale)*
+
+### Invertebrates *(championed by A. Armstrong)*
+
+All endemic, near-endemic and threatened (CR, EN, VU) taxa are included. Only taxa in the Biodiversity Database are included in the analysis.
+
+### Mammals *(championed by B. Coverdale)*
+
+### Plants *(championed by C. Carbutt)*
+
+The targeted plant species list for the updated KZN SCP revision was developed as follows:
+
+1. An extract of the plant list used for the previous SCP by @escott2010cpw was made.
+1. The extract was evaluated by the plant group (Ezemvelo KZN Wildlife + SANBI) at the C‑Plan workshop at Didima, Jan 2025.
+1. The list was further refined and checked.
+1. Species names were updated for taxonomic changes.
+1. Red List status updated to SANBI RL version 2024.
+1. The list was tabled at the July 2025 C‑Plan Steering Committee meeting.
+1. Approved pending minor revision.
+1. Fully revised in Aug 2025 per Steering Committee directives.
+1. ~23 taxa were the focus: extinct or widespread non‑endemic taxa removed; endemic/near‑endemic or declining taxa retained.
+1. Final revised list (Aug 2025) was uploaded to MS Teams as directed.
+
+### Reptiles *(championed by A. Armstrong)*
+
+All endemic, near-endemic and threatened (CR, EN, VU) species are included.
