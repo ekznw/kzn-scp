@@ -16,6 +16,17 @@
 
 Documentation was done using Quarto which allows integrating technical reporting and simultaneous website development. Quarto code for the documentation and analyses are housed in the `kzn-scp` [GitHub repository](https://github.com/ekznw/kzn-scp) enabling fine-scaled product and analytical version controlling.
 
+## How to view the website
+
+Quarto websites can be deployed from GitHub for free. Until that step is taken by the Conservation Plan steering committee the website can be viewed 'locally' by:
+
+1. Going to the *draft* [kzn-scp GitHub site](https://github.com/ekznw/kzn-scp),
+2. Click the green `<> Code` button,
+3. Select the `Download ZIP` option,
+4. Extract the ZIP folder,
+5. Navigate to the extracted `website/_site` folder, &
+6. Open the `index.html` file.
+
 ## How to contribute
 
 Technical writing can either be contributed to in 'word' (DOCX) or Quarto (QMD) format depending on user/group preference.
