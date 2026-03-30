@@ -75,7 +75,7 @@ References are managed through .bib files stored in the repository.
 - Add new entries to [bspi_refs.bib](https://github.com/ekznw/refs/blob/main/bspi.bib).
 - Use citation keys in Quarto, e.g. [@mucina2018tvm], or @mucina2018tvm for with or without parentheses, respectively. Quarto will render citations appropriately.
 - Quarto automatically builds formatted reference lists.
-- Citations in MS Word:
+- Citations in MS Word:  
    - Follow Quarto rules above.
    - Word documents with citations will only be rendered from Quarto.
 
@@ -134,7 +134,9 @@ This helps build institutional memory and shared capacity in EKZNW.
 ---
 
 ## Repository Structure
-```
+
+
+```{.md}
 kzn_scp/
   ├── docx_collab/       # Word documents for team collaboration.
   ├── website/           # Conservation plan website (Quarto)
