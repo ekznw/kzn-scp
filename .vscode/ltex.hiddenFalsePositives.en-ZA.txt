@@ -1,0 +1,1 @@
+{"rule":"REP_PASSIVE_VOICE","sentence":"^\\QA hierarchical approach is recommended for integrating biodiversity plans where the most dependant realm is first linked to the @escott2016dkn; @lotter2015trf.\\E$"}

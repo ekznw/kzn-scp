@@ -1,0 +1,17 @@
+---
+id: features_critical_habitat
+title: "Critical habitat"
+abstract:
+    This section summarises critical-habitat features nessessary for the persistence of biodiversity in KwaZulu-Natal, and linked provinces.
+title-block-banner: true
+bibliography: /home/paulg/refs/bspi.bib
+
+execute: 
+  warning: false
+  message: false
+
+# DOCX:
+# To convert to word run the build word script
+# cd website
+# . scripts/build_word.sh
+---

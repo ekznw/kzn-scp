@@ -1,0 +1,29 @@
+---
+id: sec-species
+title: "Birds"
+abstract:
+    Here the selection of species, occurrence data sources, conservation status, and species distributions are described.
+
+author:
+    - name: Brent Coverdale
+      affiliations:
+        id: cra
+        name: Scientific Services, Conservation and Research, Ezemvelo KZN Wildlife
+
+
+title-block-banner: true
+bibliography: /home/paulg/refs/bspi.bib
+
+execute: 
+  warning: false
+  message: false
+
+# DOCX:
+# To convert to word run the build word script
+# cd website
+# . scripts/build_word.sh
+---
+
+# Birds
+
+All endemic, near-endemic, and threatened (CR, EN, VU) species were included.

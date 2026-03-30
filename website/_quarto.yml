@@ -17,10 +17,34 @@ website:
         href: intro.qmd
       - text: Features
         menu:
-          - text: "<span title='Representation: species'>Species</span>"
-            href: species.qmd
+          - text: Overview
+            href: features_overview.qmd
           - text: "<span title='Representation: ecosystems'>Ecosystems</span>"
-            href: ecosystems.qmd
+            href: features_ecosystems.qmd
+          - text: "---"
+          - text: Species representation
+            href: features_spp_intro.qmd
+          - text: Amphibians
+            href: features_spp_amphibians.qmd
+          - text: Aquatic species
+            href: features_spp_aquatic.qmd
+          - text: Birds
+            href: features_spp_avifauna.qmd
+          - text: Invertebrates
+            href: features_spp_invertebrates.qmd
+          - text: Mammals
+            href: features_spp_mammals.qmd
+          - text: Plants
+            href: features_spp_plants.qmd
+          - text: Reptiles
+            href: features_spp_reptiles.qmd
+          - text: "---"
+          - text: Critical habitat
+            href: features_critical_habitat.qmd
+          - text: Refugia habitat & corridors
+            href: features_corridors.qmd
+      - text: Targets
+        href: targets.qmd
       - text: "<span title='Decision support'>Decision<br/>support</span>"
         href: support.qmd
       - text: "<span title='Supporting information'>Prioritization <br/> analysis</span>"
@@ -57,7 +81,9 @@ format:
     toc-location: left
     toc-depth: 3
     number-sections: true
-    css: styles/data_dev.css
+    css: 
+      - styles/data_dev.css
+      - styles/overrides.css # what comes last will override
 
     mermaid:
       theme: neutral            # neutral base so our colors show through

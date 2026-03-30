@@ -1,0 +1,14 @@
+
+/* Try a very loud style so we can see if it works */
+.callout.callout-note {
+  background-color: rgb(238, 238, 229) !important;   /* body background */
+  border-color: rgb(115, 105, 72) !important;           /* border including left bar */
+  border-left-width: 6px !important;
+  border-left-style: solid !important;
+}
+
+.callout.callout-note .callout-header {
+  background-color: rgb(167, 185, 163) !important;    /* header bar */
+  color: rgb(80, 80, 73) !important;               /* header text */
+}
+

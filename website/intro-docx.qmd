@@ -1,7 +1,8 @@
 ---
-title: "Technical introduction"
+id: intro
+title: "Introduction"
 abstract:
-    The three principal questions that guide the Ezemvelo KZN Wildlife Systematic Conservation Plan, are; 1) What biodiversity does the province contain and where is it, 2) what is the status of this biodiversity, and 3) addressed by a prioritisation analysis --- where and how should conservation efforts be prioritized. This technical introduction elaborates on each of these questions that are expanded into five stages, each critical for a detailed understanding of the conservation plan's associated products.
+    The KwaZulu‑Natal terrestrial conservation plan is closely integrated with neighbouring conservation initiatives and seeks to connect multiple realms of biodiversity, from the marine to the terrestrial environment. Its overarching aim is to secure sufficient space for conservation while minimising constraints and maximising available opportunities. The following section outlines the conservation planning process and the rationale that underpins it.
 
 author:
     - name: Paul Gordijn
@@ -43,8 +44,6 @@ author:
       affiliations:
         ref: cra
 
-
-title-block-banner: true
 bibliography: /home/paulg/refs/bspi.bib
 
 execute: 
@@ -57,210 +56,48 @@ execute:
 # . scripts/build_word.sh
 ---
 
-[Download Word (docx)](intro-docx.docx){.btn .btn-primary}
+[Download Word (docx)](intro.docx){.btn .btn-secondary}
 
-# The KwaZulu-Natal Systematic Conservation Plan {#sec-updated-scp}
+# The KwaZulu-Natal systematic conservation plan {#sec-updated-scp}
 
-The Systematic Conservation Plan (SCP) around these key questions [@sanbi2024mbp; @jung2025aia]:
+## Plan aim & stages {#sec-stages}
 
-1. What biodiversity and where is it?
-2. What is the state of this biodiversity?
-3. Where and how should conservation efforts be prioritised?
+This terrestrial conservation plan aims to solve the problem of: how to ensure sufficient space for biodiversity conservation, in the KwaZulu-Natal terrestrial realm, whilst simultaneously minimising constraints and maximising opportunities (see @nte-cost). This is also known as the minimum set of protected areas' solution (i.e., the 'min set') [@margules2000scp; @hanson2025scp]. There are four broad stages that need to be addressed for resolution of this conservation problem [@escott2016dkn; @sanbi2024mbp] (@fig-flow_main).
 
-These questions form the basis for the structure of this conservation plan. The first key question involves collation and modelling of data in order to obtain the best available spatial representation of biodiversity. The second is largely concerned with the conservation or risk status of biodiversity that will guide the mapping of biodiversity, and the prioritisation analyses in point three. 
-
-# Conservation plan stages {#sec-stages}
-
-The main stages of the conservation plan are depicted in @fig-flow_main below.
+::::{.column-margin}
+::: {.callout-note #nte-cost title='Costs & decision support'}
+Constraints and opportunities are referred as **costs** in conservation planning. These costs are more than the monetary value of acquiring protected areas for conservation efforts. In conservation planning 'costing' involves how complex socio-ecological factors are quantified and tradeoffs made. The balancing of these tradeoffs is the **'decision support'** mechanism that helps optimise the conservation planning solution *with* other human land use activities [@escott2016dkn; @sanbi2024mbp].
+:::
+::::
 
 ::: {#fig-flow_main}
 
 ![](images/intro/fig01.png)
 
-Flowchart depicting the iterative stages of gathering data, analyses, and outputs of the systematic conservation plan (c.f. @sanbi2024mbp).
-
+The iterative stages, from gathering data, target setting, to prioritisation analyses, in conservation planning (c.f. @sanbi2024mbp). **(1)** The first stage addresses the what and where of biodiversity-related landscape features. **(2)** The second speaks to goal setting for the space biodiversity needs. **(3)** The third stage deals with setting up decision-making criteria that helps balance tradeoffs between the 'costs' of conservation efforts and socio-ecological factors (see @nte-cost). **(4)** Finally, the forth involves a robust and transparent analysis that solves the problem of the where and how should conservation efforts be prioritised at minimum 'cost'.
 :::
 
-The stages^[These translate to the plan's objectives] of this SCP are as follows:
+The what and where of biodiversity-related features requires a collation and modelling of biodiversity occurrence data in order to provide the best possible spatial representation of biodiversity. This helps guarantee that conservation efforts are directed to the most appropriate locations. Other important what and where features for biodiversity include key habitat features for breeding, or safe zones (refugia).
 
-1. **The what and where of biodiversity — representation data** (see ATsec-eco-state):
+The second stage concerns determination of meaningful representation and persistence targets. In other words, how much of which ecosystems and ecological features need to be represented, in the conservation plan, to secure the persistence of biodiversity. Setting up decision-support mechanisms helps us ensure that conservation efforts are focused on optimal locations. For this, other land uses and socio-ecological dynamics have to be considered [@margules2000scp; @hanson2025scp]. Once this data is gathered the final stage involves the prioritisation analysis. Multiple analyses are run showing different scenarios in a transparent process to demonstrate how the plan attempts to optimise conservation while supporting critical socio-ecological dynamics [@escott2016dkn; @sanbi2024mbp].
 
-    a. Develop a baseline‑ecosystem layer that broadly represents the spatial distribution of biotic communities (i.e., coarse‑filter features).
+# Integrating biodiversity realms
 
-    a. Determine the state of ecosystems and their biodiversity:
+Integrating the terrestrial conservation plan with the marine, estuarine, and freshwater biodiversity realms is critical for an overall *land- to sea-scape* approach. This integration ensures that critical marine realms are supported by important estuaries. These estuaries are supported by a freshwater plan, and conservation in linked terrestrial environs is prioritised to promote this overall land–ocean 'scape' ― a multi-realm *'ecoscape'* [@wedding2025bla].
 
-        i. Ascertain the distribution of protected and conserved areas.
-        i. Refine the baseline‑ecosystems layer to represent the current state of biodiversity.
-
-    a. Bolster the representation of all species.^[We use “species” in the broad sense, referring to any distinct taxonomic unit (e.g., subspecies) unless otherwise indicated.]
-
-    a. Represent ecosystem function and change — collection of additional spatial datasets.^[If available, these data can be considered for inclusion in prioritisation analysis and assessment.]
-
-        i. Ecosystem processes  
-        i. Ecosystem infrastructure  
-        i. Ecosystem services  
-        i. Ecological condition  
-        i. Climate change information  
-        i. Socio‑economic data  
-
-1. **Determine the current state of ecosystems and their biodiversity:**
-
-    a. Evaluate the risk and protection status of ecosystems.
-    a. Align and compare provincial (and where appropriate trans‑regional) ecosystem risk status.
-    a. Evaluate the risk and protection status of species.
-
-1. **Set representation and persistence targets:**
-
-    a. Representation and persistence of ecosystems, including alignment with the Global Biodiversity Framework [@cbd2022kmg].
-    a. Representation and persistence of species.
-
-4. **Spatial prioritisation:**
-
-    a. Spatial framework of evaluation --- planning units.
-    a. Compilation of cost (decision‑support) layers.
-    a. Systematic spatial prioritisation analyses and scenario modelling.
-    a. Sensitivity analysis.
-
-5. **Product development.**
-
-## What & where
-
-::: {#fig-what_where}
-
-
-![](images/intro/fig02.png)
-
-Inputs to determining the what and where of biodiversity.
-
+::::{.column-margin}
+::: {.callout-note #nte-cost title='Terrestrial and freshwater overlap'}
+Wetlands provide an interesting case of overlap in the terrestrial and freshwater realms. Many species directly use both of 'realms'. The terrestrial plan accounts for this overlap through its incorporation freshwater features, that is, 'freshwater' associated species, and freshwater bodies [@escott2016dkn; @lotter2015trf]. The terrestrial plan is however specifically engineered to address terrestrial-focused conservation problems necessitating a separate exercise to address freshwater conservation planning.
 :::
+::::
 
+The above linking from marine, estuary, freshwater to terrestrial, describes the hierarchical approach recommended for integrating biodiversity plans [@escott2016dkn; @lotter2015trf]. This 'linking' is done from the most dependant, that is, most affected by other adjacent realms, to the least-dependent realm. In conservation planning, the terrestrial realm is considered the least dependent, compared with the marine and estuarine realms, in KwaZulu-Natal [@escott2016dkn; @desmet2019ecb]. 
 
-# The what and where of biodiversity {#chap-ecosys-layer}
+Overlap between realms has to be dealt with systematically. For conservation planning in KwaZulu-Natal, the rugged topography with incised valleys and associated catchment systems is best addressed through a catchment management approach [@escott2016dkn; @desmet2019ecb]. This catchment management system neatly ties the terrestrial to the estuarine, coastal and marine realms.
 
-For robust representation of biodiversity and associated ecosystem infrastructure and services into the future, the what and where of biodiversity needs to consider change drivers. The functions of biodiversity, and associated ecosystems, also need to be considered for accurate representation when attempting to ensure conservation of these features.
-
-In order to maximise representation of biodiversity in a landscape, the **SCP** process adopts a two-pronged approach, specifically:
-
-1) a **wide-ranging** (or coarse-filter): “Ecosystem representation” approach (see [Section @sec-eco-rep]), and  
-2) a **targeted** (or fine-filter): “Species representation” approach (see [Section @sec-spp-rep]) [@sanbi2024mbp].
-
-Representation of the ecosystem types in the area-of-interest largely fulfils the **wide-ranging** component, that is, if the SCP incorporates the full diversity of ecosystems, it is likely to represent their constituent taxa. The complementary approach, that is, the **targeted** approach, caters for specific, threatened taxa, or those not operating within the parameters of represented ecosystems [@margules2000scp].
-
-## Ecosystem representation {#sec-eco-rep}
-
-Incorporating ecosystem types in the SCP process serves to broadly capture the spatial distribution of distinct-biological communities, and thereby the full suite of species—i.e., gamma diversity [@whittaker1960vot]—across the region of interest [@mucina2024evb]. Following the previous terrestrial SCP for KwaZulu-Natal [@escott2010cpw], a vegetation-type map formed a robust surrogate for ecosystem types. Vegetation types commonly serve as surrogates for ecosystem types because they largely capture differences in biodiversity patterns across the landscape [@sanbi2024mbp].
-
-For an up-to-date representation of ecosystem extent, the provincial-vegetation map (i.e., coverage) had to be adjusted. The provincial-vegetation coverage serves as a representation of “natural” vegetation communities prior to **GC** pressures ca. 1750 [@mucina2018tvm]. Therefore, the coverage had to be adjusted to reflect the current state of ecosystems using the best available data.
-
-<!-- More info to follow here as the Vegetation Map technical working group gets under way. -->
-
-### Ecosystem and biodiversity state datasets {#sec-eco-state}
-
-#### Protected and conserved ecosystems
-
-#### Ecosystem protection and conservation
-
-### Species representation {#sec-spp-rep}
-
-#### Species selection criteria
-
-# Criteria for the selection of species {#app-spp_crit}
-
-## Introduction
-
-The *broad-ranging* approach for representation of biodiversity in the SCP was complemented by a *targeted* approach (see @sec-spp-rep). The targeted approach required a systematic selection of species [@sanbi2024mbp]. Ezemvelo KZN Wildlife scientists and a broad range of stakeholders at an SCP inaugural workshop [@elliot2023bcp], developed the criteria for the inclusion of species in a workshop session with external stakeholders. For the KwaZulu-Natal SCP, these criteria were applied to each grouping of taxa as shown below.
-
-## Criteria for inclusion
-
-```{r}
-#| tbl-cap: "Criteria for inclusion of species in the targeted approach."
-#| label: tbl-spp-criteria
-#| echo: false
-#| 
-
-library(knitr)
-library(kableExtra)
-library(flextable)
-
-criteria <- data.frame(
-  ID = 1:12,
-  Criteria = c(
-    "Endemic to KwaZulu-Natal.",
-    "Near Endemic to KwaZulu-Natal (50–99% of taxon distribution falls within KwaZulu-Natal).",
-    "Threat status (CR, EN, Rare, VU, NT). Global or Regional. Highest threat status taken.",
-    "International obligation.",
-    "Umbrella species.",
-    "Isolated from core known range with genetic differences.",
-    "Edge of range species (may be well protected in KZN but globally/regionally threatened).",
-    "Life‑history stage essential for protection of species.",
-    "Species conservation plan or biodiversity management plan.",
-    "Other (specify).",
-    "Resource use threat.",
-    "Specific populations (e.g., Tembe elephants, berg eland)."
-  ),
-  Rules = c(
-    "Feature must be triggered by ≥1 criterion; criteria equal weighting; may include uncertain data but removed if insufficient; consider age and accuracy of data.",
-    rep("", 11)
-  )
-)
-# knitr::kable(criteria) # this is supposed to render for word whilst the kable_styling will not
-tbl <- flextable(criteria) |> autofit()
-tbl <- color(x = tbl, color = "#2e2828")
-tbl
-
-# kable(criteria
-#       , label = "tbl-spp-criteria"
-# 	) %>%
-#   kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
-```
-
-## Taxon‑specific species selection
-
-Following the criteria in @tbl-spp-criteria, species were selected for groupings of taxa: amphibians, aquatic species, birds, invertebrates, mammals, and plants.
-
-### Amphibians *(championed by A. Armstrong)*
-
-All endemic, near-endemic, and threatened (CR, EN, VU) species were included.
-
-### Aquatic species *(championed by S. Khubheka)*
-
-### Birds *(championed by B. Coverdale)*
-
-### Invertebrates *(championed by A. Armstrong)*
-
-All endemic, near-endemic and threatened (CR, EN, VU) taxa are included. Only taxa in the Biodiversity Database are included in the analysis.
-
-### Mammals *(championed by B. Coverdale)*
-
-### Plants *(championed by C. Carbutt)*
-
-The targeted plant species list for the updated KZN SCP revision was developed as follows:
-
-1. An extract of the plant list used for the previous SCP by @escott2010cpw was made.
-1. The extract was evaluated by the plant group (Ezemvelo KZN Wildlife + SANBI) at the C‑Plan workshop at Didima, Jan 2025.
-1. The list was further refined and checked.
-1. Species names were updated for taxonomic changes.
-1. Red List status updated to SANBI RL version 2024.
-1. The list was tabled at the July 2025 C‑Plan Steering Committee meeting.
-1. Approved pending minor revision.
-1. Fully revised in Aug 2025 per Steering Committee directives.
-1. ~23 taxa were the focus: extinct or widespread non‑endemic taxa removed; endemic/near‑endemic or declining taxa retained.
-1. Final revised list (Aug 2025) was uploaded to MS Teams as directed.
-
-### Reptiles *(championed by A. Armstrong)*
-
-All endemic, near-endemic and threatened (CR, EN, VU) species are included.
-
-# Status assessment
-
-# Representation & persistence targets
-
-# Prioritisation analysis
-
-# Product development
-
+<!-- 
 ::: {#fig-full_flow}
 
 ![](images/intro/fig03.png)
 
-:::
+::: -->

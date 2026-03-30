@@ -1,0 +1,40 @@
+---
+id: sec-species
+title: "Plants"
+abstract:
+    Here the selection of species, occurrence data sources, conservation status, and species distributions are described.
+
+author:
+    - name: Clinton Carbutt
+      affiliations:
+        id: cra
+        name: Scientific Services, Conservation and Research, Ezemvelo KZN Wildlife
+
+
+title-block-banner: true
+bibliography: /home/paulg/refs/bspi.bib
+
+execute: 
+  warning: false
+  message: false
+
+# DOCX:
+# To convert to word run the build word script
+# cd website
+# . scripts/build_word.sh
+---
+
+# Plants
+
+The targeted plant species list for the updated KZN SCP revision was developed as follows:
+
+1. An extract of the plant list used for the previous SCP by @escott2010cpw was made.
+1. The extract was evaluated by the plant group (Ezemvelo KZN Wildlife + SANBI) at the C‑Plan workshop at Didima, Jan 2025.
+1. The list was further refined and checked.
+1. Species names were updated for taxonomic changes.
+1. Red List status updated to SANBI RL version 2024.
+1. The list was tabled at the July 2025 C‑Plan Steering Committee meeting.
+1. Approved pending minor revision.
+1. Fully revised in Aug 2025 per Steering Committee directives.
+1. ~23 taxa were the focus: extinct or widespread non‑endemic taxa removed; endemic/near‑endemic or declining taxa retained.
+1. Final revised list (Aug 2025) was uploaded to MS Teams as directed.

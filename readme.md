@@ -20,9 +20,12 @@ Documentation was done using Quarto which allows integrating technical reporting
 
 Technical writing can either be contributed to in 'word' or Quarto Markdown formats depending on user/group preference.
 
- - Quarto: the easiest way to contribute to the write-up and associated website is through VSCodium/VSCode/Positron. These three software GUIs are free to download and use, and editing of documentation can either be done in 'markdown' format, or in the editors rendered view of the code.
-     + This form of editing is ideal as updates can be synced to the GitHub repository to enable robust version control.
- - Word documentation: Quarto has capability to convert Quarto markdown (QMD) to DOCX format, however, not the other way around. For those without the recommended Quarto software, editing can be done in Microsoft Word. Because rendering from DOCX to QMD is not possible complex formatting in Word documents may not easily be transferrable to QMD ― therefore keep formatting in word simple.
+ - Quarto (QMD): the native contribution method for the write-up, associated website, data preparation, and analyses, is through VSCodium/VSCode/Positron. These three software GUIs are free to download and use, and editing of documentation can either be done in 'markdown' format, or in the editors rendered view of the code.
+     + This form of editing can be synced to the GitHub repository to enable robust version control of all documentation and analyses.
+ - Word documentation (DOCX): Quarto can convert Quarto markdown (QMD) to DOCX format, but not the other way around. If not using Quarto, editing can be done in Microsoft Word (download docx's here: /docx_collab/YYYYMMDD). Once edits have been done someone on the team will convert to QMD format.
+     + Note: rendering from DOCX to QMD is not possible ― therefore keep formatting in word simple.
+     + For citation management see the 'Bibliography and Citations' section below.
+
 
 ## Documentation in Quarto
 
@@ -69,9 +72,12 @@ The KZN SCP follows these same principles of open science and transparent method
 
 References are managed through .bib files stored in the repository.
 
-- Add new entries to references.bib (or a project‑specific .bib file).
-- Use citation keys in Quarto, e.g. @mucina2018tvm.
+- Add new entries to [bspi_refs.bib](https://github.com/ekznw/refs/blob/main/bspi.bib).
+- Use citation keys in Quarto, e.g. [@mucina2018tvm], or @mucina2018tvm for with or without parentheses, respectively. Quarto will render citations appropriately.
 - Quarto automatically builds formatted reference lists.
+- Citations in MS Word:
+   - Follow Quarto rules above.
+   - Word documents with citations will only be rendered from Quarto.
 
 This supports consistent, traceable documentation and improves scientific integrity.
 
@@ -92,18 +98,18 @@ This helps build institutional memory and shared capacity in EKZNW.
 
 ---
 
-## How to Contribute
+## How to contribute via git
 
 1. Install:
    - Git
    - Quarto
-   - Positron or RStudio (Positron recommended)
+   - VSCodium (or Positron)
 
 2. Clone the repository:
    git clone https://github.com/ekznw/kzn_scp.git
    cd kzn_scp
 
-3. Open the project in Positron:
+3. Open the project in VSCodium:
    - Edit .qmd files
    - Render documentation with Quarto Preview
 
@@ -127,27 +133,18 @@ This helps build institutional memory and shared capacity in EKZNW.
 
 ---
 
-## Tips for New Contributors
-
-- You don’t need to be an R programmer to contribute — start by editing text.
-- Use Positron or GitHub Desktop if the command line feels unfamiliar.
-- Ask questions via GitHub Issues.
-- Small edits are welcome — they improve the clarity and strength of the plan.
-- Coding skills are not required immediately, but contributors often begin learning R and Git through this workflow.
-
-The goal is to help more EKZNW staff engage with modern, reproducible conservation planning.
-
----
-
-## Repository Structure (example — update as needed)
-
+## Repository Structure
+```
 kzn_scp/
-  ├── website/           # SCP website (Quarto)
-  ├── analysis/          # R scripts (terra, data.table)
-  ├── data/              # Raw/non-sensitive data (if allowed)
-  ├── docs/              # Methodology & reporting
-  ├── references/        # Bibliography (.bib)
-  ├── README.md          # This file
-  └── .gitignore
-
+  ├── docx_collab/       # Word documents for team collaboration.
+  ├── website/           # Conservation plan website (Quarto)
+  |       └── _site/     #  Rendered by Quarto.
+  |                      #  -> Download folder and open 'index.html' to
+  |                      #     view website.
+  ├── analysis/          # Scripts (terra, data.table, quarto, etc).
+  ├── data/              # Raw/non-sensitive data (where permissable);
+  |                      #  generally for summary data and presentation.
+  ├── readme.md          # This file.
+  └── .gitignore         # List of files not tracked/uploaded by git and GitHub.
+```
 ---

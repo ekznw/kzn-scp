@@ -1,0 +1,134 @@
+---
+title: "Features overview ― the what and where of biodiversity"
+abstract:
+    Accurate representation of features in a landscape, that is, the what and where of biodiversity, is critical for a robust conservation plan. The systematic collation of the what and where of biodiversity helps guarantee that the plan considers the current space used by biodiversity features ― enabling survival ― and future habitat that is critical, under current climate change tradjectories, to support the persistence of biodiversity.
+
+author:
+    - name: Paul Gordijn
+      orcid: "0000-0002-0580-3107"
+      affiliations:
+        id: cra
+        name: Biodiversity, Spatial Planning and Information, Ezemvelo KZN Wildlife
+    - name: Felicity Elliot
+      affiliations:
+        ref: bspi
+    - name: Shannon Rushworth
+      affiliations:
+        ref: bspi
+    - name: Andy Blackmore
+      affiliations:
+        id: iem
+        name: Integrated Environmental Management & Protected Area Planning, Ezemvelo KZN Wildlife
+    - name: Craig Mulqueeny
+      affiliations:
+        id: ss
+        name: Scientific Services, Ezemvelo KZN Wildlife
+    - name: Ian Rushworth
+      affiliations:
+        ref: ss
+    - name: Adrian Armstrong
+      affiliations:
+        id: cra
+        name: Scientific Services, Conservation and Research, Ezemvelo KZN Wildlife
+    - name: Clinton Carbutt
+      affiliations:
+        ref: cra
+    - name: Brent Coverdale
+      affiliations:
+        ref: cra
+    - name: Debbie Jewitt
+      affiliations:
+        ref: cra
+    - name: Skhumuzo Khubeka
+      affiliations:
+        ref: cra
+
+
+title-block-banner: true
+bibliography: /home/paulg/refs/bspi.bib
+
+execute: 
+  warning: false
+  message: false
+
+# DOCX:
+# To convert to word run the build word script
+# cd website
+# . scripts/build_word.sh
+---
+
+# The what and where of biodiversity {#chap-ecosys-layer}
+
+For robust representation of biodiversity, and associated ecosystem infrastructure and services into the future, the what and where of biodiversity has to be considered. Moreover, the functions of biodiversity, and associated ecosystems, also need to be considered for accurate representation when attempting to ensure conservation of these features.
+
+In order to maximise representation of biodiversity in a landscape, the conservation planning process adopts a two-pronged approach, specifically:
+
+1) a **wide-ranging** (or coarse-filter): “Ecosystem representation” approach (see [Ecosystems](features_ecosystems.qmd)), and  
+2) a **targeted** (or fine-filter): “Species representation” approach (see section [Species](features_spp_intro.qmd)) [@sanbi2024mbp].
+
+Representation of the ecosystem types in the area-of-interest largely fulfils the **wide-ranging** component, that is, if the SCP incorporates the full diversity of ecosystems, it is likely to represent their constituent taxa. The complementary approach, that is, the **targeted** approach, caters for specific, threatened taxa, or those not operating within the parameters of represented ecosystems [@margules2000scp].
+
+<!-- ::: {#fig-what_where}
+```{mermaid}
+%%| fig-align: center
+
+%% png: images/intro/fig02.png
+
+flowchart RL
+
+%% === Main stages ===
+obj1[What & where]
+%%obj2([Status assessment])
+%%obj3([Representation & <br> persistence targets])
+%%obj4([prioritisation analysis])
+%%obj5([Product development])
+
+%%obj1 --> obj2
+%%obj2 --> obj3
+%%obj3 --> obj4
+%%obj4 --> obj5
+
+
+%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)
+%%obj2 -.-> obj1
+%%obj3 -.-> obj2
+%%obj4 -.-> obj3
+%%obj5 -.-> obj4
+
+%% === Inputs to obj1 (What & where) ===
+obj1_1([Ecosystem representation]) --> obj1
+obj1_2([Refugia habitat & corridors]) --> obj1
+obj1_3([Critical habitat features]) --> obj1
+obj1_4([Species representation]) --> obj1
+%%obj1_5(["Spatial avoidance (cost)"]) --> obj1
+
+%% === Ecosystem representation details ===
+
+obj1_1_1([Baseline ecosystem]) --> obj1_1_2([Landcover modification])
+obj1_1_2 --> obj1_1_3([Ecosystem modification])
+obj1_1_3 --> obj1_1_4([Development sprawl])
+obj1_1_4 --> obj1_1_5(["Fragmentation & connectivity"])
+obj1_1_6(["Climate refugia (& scenarios)"])--> obj1_1_5
+
+%% Link ecosystem detail back up
+obj1_1_2 --> obj1_1
+obj1_1_5 --> obj1_2
+obj1_1_6 --> obj1_2
+
+%% Optional grey-ish relation represented as dashed
+%%obj1_1_2 -.-> obj1_5
+
+%% === Species representation details ===
+obj1_4_1([Point locality data]) --> obj1_4_2([Species Distribution Models])
+obj1_4_1 --> obj1_4
+obj1_4_2 --> obj1_4
+
+%% Bidirectional link: SDMs <-> Climate refugia
+obj1_4_2 --> obj1_1_6
+obj1_1_6 --> obj1_4_2
+```
+Inputs to determining the what and where of biodiversity.
+::: -->
+
+
+
