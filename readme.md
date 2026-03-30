@@ -18,14 +18,40 @@ Documentation was done using Quarto which allows integrating technical reporting
 
 ## How to contribute
 
-Technical writing can either be contributed to in 'word' or Quarto Markdown formats depending on user/group preference.
+Technical writing can either be contributed to in 'word' (DOCX) or Quarto (QMD) format depending on user/group preference.
 
- - Quarto (QMD): the native contribution method for the write-up, associated website, data preparation, and analyses, is through VSCodium/VSCode/Positron. These three software GUIs are free to download and use, and editing of documentation can either be done in 'markdown' format, or in the editors rendered view of the code.
-     + This form of editing can be synced to the GitHub repository to enable robust version control of all documentation and analyses.
- - Word documentation (DOCX): Quarto can convert Quarto markdown (QMD) to DOCX format, but not the other way around. If not using Quarto, editing can be done in Microsoft Word (download docx's here: /docx_collab/YYYYMMDD). Once edits have been done someone on the team will convert to QMD format.
-     + Note: rendering from DOCX to QMD is not possible ― therefore keep formatting in word simple.
-     + For citation management see the 'Bibliography and Citations' section below.
+ - **Quarto (QMD)**:
+   > The native contribution method for the write-up, associated website, data preparation, and analyses, is through VSCodium/Positron. These software GUIs are free to download and use, and editing of documentation can either be done in 'markdown' format, or in the editors rendered view of the code.
+   >   + This form of editing can be synced to the GitHub repository to enable robust version control of all documentation and analyses.
+   >   + See the 'How to contribute via git' section below using VSCodium.
+ - **Word documentation** (DOCX):
+   > Quarto can convert Quarto markdown (QMD) to DOCX format, but not the other way around. Follow this sequence for editing word documents.   
+   
+   > _To contribute as a team via word_:  
+      >  1.  Download DOCX for the relevant section from [here](https://github.com/ekznw/kzn-scp/tree/main/docx_collab).  
+      >  2. Select the most recent update (folders named by YYYYMMDD).  
+      >  3. Upload the document to Teams and share with collaborators.
+      >  4. Send to document/project coordinator for conversion to Quarto.
 
+   >  Note: rendering from DOCX to QMD is not possible ― therefore keep formatting in word simple.  
+ - For **citation management** see the 'Bibliography and Citations' section below.
+
+---
+
+## Bibliography and References
+
+References are managed through .bib files stored in the [BSPI repository](https://github.com/ekznw/refs).
+
+- Add new entries to [bspi_refs.bib](https://github.com/ekznw/refs/blob/main/bspi.bib).
+- Use citation keys in Quarto, e.g. [@mucina2018tvm], or @mucina2018tvm for with or without parentheses, respectively. Quarto will render citations appropriately.
+- Quarto automatically builds formatted reference lists.
+- Citations in MS Word:  
+   - Follow Quarto rules above.
+   - Word documents with citations will only be rendered from Quarto.
+
+This supports consistent, traceable documentation and improves scientific integrity.
+
+---
 
 ## Documentation in Quarto
 
@@ -65,21 +91,6 @@ Examples from the conservation/science community:
   https://github.com/SANBI-NBA/nba-website
 
 The KZN SCP follows these same principles of open science and transparent methodology.
-
----
-
-## Bibliography and References
-
-References are managed through .bib files stored in the repository.
-
-- Add new entries to [bspi_refs.bib](https://github.com/ekznw/refs/blob/main/bspi.bib).
-- Use citation keys in Quarto, e.g. [@mucina2018tvm], or @mucina2018tvm for with or without parentheses, respectively. Quarto will render citations appropriately.
-- Quarto automatically builds formatted reference lists.
-- Citations in MS Word:  
-   - Follow Quarto rules above.
-   - Word documents with citations will only be rendered from Quarto.
-
-This supports consistent, traceable documentation and improves scientific integrity.
 
 ---
 
