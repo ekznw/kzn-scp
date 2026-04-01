@@ -354,14 +354,14 @@
     "href": "features_spp_reptiles.html",
     "title": "Reptiles",
     "section": "",
-    "text": "0.1 Reptiles (championed by A. Armstrong)\nAll endemic, near-endemic and threatened (CR, EN, VU) species are included."
+    "text": "1 Reptiles\nAll endemic, near-endemic and threatened (CR, EN, VU) species are included."
   },
   {
     "objectID": "features_spp_mammals.html",
     "href": "features_spp_mammals.html",
     "title": "Mammals",
     "section": "",
-    "text": "0.1 Mammals (championed by B. Coverdale)"
+    "text": "1 Mammals"
   },
   {
     "objectID": "features_spp_amphibians.html",
@@ -375,7 +375,7 @@
     "href": "features_spp_aquatic.html",
     "title": "Aquatic species",
     "section": "",
-    "text": "0.1 Aquatic species (championed by S. Khubheka)"
+    "text": "1 Aquatic species"
   },
   {
     "objectID": "features_spp_invertebrates.html#introduction",
@@ -422,9 +422,9 @@
   {
     "objectID": "features_spp_avifauna.html",
     "href": "features_spp_avifauna.html",
-    "title": "Amphibians",
+    "title": "Birds",
     "section": "",
-    "text": "0.1 Avifauna\nAll endemic, near-endemic, and threatened (CR, EN, VU) species were included."
+    "text": "1 Birds\nAll endemic, near-endemic, and threatened (CR, EN, VU) species were included."
   },
   {
     "objectID": "features_spp_intro.html",
@@ -432,5 +432,103 @@
     "title": "Species representation",
     "section": "",
     "text": "The broad-ranging ecosystem representation is complemented by a targeted approach that focuses on specific species (see ?@sec-spp-rep). The targeted approach required a systematic selection of species (SANBI and UNEP-WCMC 2024). Ezemvelo KZN Wildlife scientists and a broad range of stakeholders developed the criteria for the inclusion of species (Elliot 2023). For the KwaZulu-Natal conservation plan, these criteria were applied to each group of taxa: Amphibians, Aquatic taxa, Invertebrates, Mammals, Plants, and Reptiles.\n\n\n\n\n\n\n\nTable 1: Criteria for inclusion of species in the targeted approach.\n\n\n\nIDCriteriaRules1Endemic to KwaZulu-Natal.Feature must be triggered by ≥1 criterion; criteria equal weighting; may include uncertain data but removed if insufficient; consider age and accuracy of data.2Near Endemic to KwaZulu-Natal (50–99% of taxon distribution falls within KwaZulu-Natal).3Threat status (CR, EN, Rare, VU, NT). Global or Regional. Highest threat status taken.4International obligation.5Umbrella species.6Isolated from core known range with genetic differences.7Edge of range species (may be well protected in KZN but globally/regionally threatened).8Life‑history stage essential for protection of species.9Species conservation plan or biodiversity management plan.10Other (specify).11Resource use threat.12Specific populations (e.g., Tembe elephants, berg eland)."
+  },
+  {
+    "objectID": "intro.html#notes",
+    "href": "intro.html#notes",
+    "title": "Introduction",
+    "section": "2.1 Notes",
+    "text": "2.1 Notes\n\n2.1.1 Eastern Cape BP integration of biodiversity realms\nThe following is taken/summarisied from the EC biodiversity plan (pg 5 of Desmet (2019)).\n\nEstuary CBA classification based on 2018 NBA.\nIntegrate estuary priorities into the freshwater Marxan cost layer.\nFreshwater Marxan analysis (PUs = sub quarternary).\nExtract selected PUs from freshwater Marxan analysis.\nAdd to these PUs NFEPA SQ4 fish sanctuaries, free flowing and flagship river catchments.\nAdd freshwater features based on CBA criteria (i.e. wetlands and strategic water source areas, Section 9).\nIntegrate freshwater priorities into terrestrial Marxan cost layer (Section 11.2).\nConduct terrestrial Marxan analysis.\nAdd terrestrial features based on CBA criteria.\n\nAreas selected through the MARXAN analysis aimed to select enough sites to achieve representation targets for vegetation types, species of conservation concern and expert mapped areas important for biodiversity.\nAreas already identified as CBAs in existing plans and incorporated as is into the EC plan include:\na. Estuary – All estuaries except those mapped by this project.\nb. Fresh water – NFEPA fish sanctuaries, Flagship Rivers and free flowing rivers.\nc. Terrestrial – none. CBAs in existing plan were integrated in to the Marxan cost layer.\nEntire mapped extent of features considered as being important for biodiversity pattern or process. Inputs used to inform the Marxan cost layer. These features do not appear in the final CBA map. They are use only to manipulate the cost layer to increase or decrease the likelihood of Marxan selecting a site to achieve any given target."
+  },
+  {
+    "objectID": "features_spp_plants.html",
+    "href": "features_spp_plants.html",
+    "title": "Plants",
+    "section": "",
+    "text": "1 Plants\nThe targeted plant species list for the updated KZN SCP revision was developed as follows:\n\nAn extract of the plant list used for the previous SCP by Escott (2010) was made.\nThe extract was evaluated by the plant group (Ezemvelo KZN Wildlife + SANBI) at the C‑Plan workshop at Didima, Jan 2025.\nThe list was further refined and checked.\nSpecies names were updated for taxonomic changes.\nRed List status updated to SANBI RL version 2024.\nThe list was tabled at the July 2025 C‑Plan Steering Committee meeting.\nApproved pending minor revision.\nFully revised in Aug 2025 per Steering Committee directives.\n~23 taxa were the focus: extinct or widespread non‑endemic taxa removed; endemic/near‑endemic or declining taxa retained.\nFinal revised list (Aug 2025) was uploaded to MS Teams as directed.\n\n\n\n\n\n\nReferences\n\nEscott, Boyd. 2010. Conservation Plan Work Notes. Technical Report No. 2. Ezemvelo KZN Wildlife."
+  },
+  {
+    "objectID": "features_spp_invertebrates.html",
+    "href": "features_spp_invertebrates.html",
+    "title": "Invertebrates",
+    "section": "",
+    "text": "1 Invertebrates\nAll endemic, near-endemic and threatened (CR, EN, VU) taxa are included. Only taxa in the Biodiversity Database are included in the analysis."
+  },
+  {
+    "objectID": "features_spp_intro-docx.html",
+    "href": "features_spp_intro-docx.html",
+    "title": "Species representation",
+    "section": "",
+    "text": "The broad-ranging ecosystem representation is complemented by a targeted approach that focuses on specific species (see ?@sec-spp-rep). The targeted approach required a systematic selection of species (SANBI and UNEP-WCMC 2024). Ezemvelo KZN Wildlife scientists and a broad range of stakeholders developed the criteria for the inclusion of species (Elliot 2023). For the KwaZulu-Natal conservation plan, these criteria were applied to each group of taxa: Amphibians, Aquatic taxa, Invertebrates, Mammals, Plants, and Reptiles.\n\n\n\n\n\n\n\nTable 1: Criteria for inclusion of species in the targeted approach.\n\n\n\nIDCriteriaRules1Endemic to KwaZulu-Natal.Feature must be triggered by ≥1 criterion; criteria equal weighting; may include uncertain data but removed if insufficient; consider age and accuracy of data.2Near Endemic to KwaZulu-Natal (50–99% of taxon distribution falls within KwaZulu-Natal).3Threat status (CR, EN, Rare, VU, NT). Global or Regional. Highest threat status taken.4International obligation.5Umbrella species.6Isolated from core known range with genetic differences.7Edge of range species (may be well protected in KZN but globally/regionally threatened).8Life‑history stage essential for protection of species.9Species conservation plan or biodiversity management plan.10Other (specify).11Resource use threat.12Specific populations (e.g., Tembe elephants, berg eland)."
+  },
+  {
+    "objectID": "features_spp_intro-docx.html#introduction",
+    "href": "features_spp_intro-docx.html#introduction",
+    "title": "Species representation",
+    "section": "",
+    "text": "The broad-ranging ecosystem representation is complemented by a targeted approach that focuses on specific species (see ?@sec-spp-rep). The targeted approach required a systematic selection of species (SANBI and UNEP-WCMC 2024). Ezemvelo KZN Wildlife scientists and a broad range of stakeholders developed the criteria for the inclusion of species (Elliot 2023). For the KwaZulu-Natal conservation plan, these criteria were applied to each group of taxa: Amphibians, Aquatic taxa, Invertebrates, Mammals, Plants, and Reptiles."
+  },
+  {
+    "objectID": "features_spp_intro-docx.html#criteria-for-inclusion",
+    "href": "features_spp_intro-docx.html#criteria-for-inclusion",
+    "title": "Species representation",
+    "section": "",
+    "text": "Table 1: Criteria for inclusion of species in the targeted approach.\n\n\n\nIDCriteriaRules1Endemic to KwaZulu-Natal.Feature must be triggered by ≥1 criterion; criteria equal weighting; may include uncertain data but removed if insufficient; consider age and accuracy of data.2Near Endemic to KwaZulu-Natal (50–99% of taxon distribution falls within KwaZulu-Natal).3Threat status (CR, EN, Rare, VU, NT). Global or Regional. Highest threat status taken.4International obligation.5Umbrella species.6Isolated from core known range with genetic differences.7Edge of range species (may be well protected in KZN but globally/regionally threatened).8Life‑history stage essential for protection of species.9Species conservation plan or biodiversity management plan.10Other (specify).11Resource use threat.12Specific populations (e.g., Tembe elephants, berg eland)."
+  },
+  {
+    "objectID": "features_spp_avifauna-docx.html",
+    "href": "features_spp_avifauna-docx.html",
+    "title": "Birds",
+    "section": "",
+    "text": "1 Birds\nAll endemic, near-endemic, and threatened (CR, EN, VU) species were included."
+  },
+  {
+    "objectID": "features_spp_aquatic-docx.html",
+    "href": "features_spp_aquatic-docx.html",
+    "title": "Aquatic species",
+    "section": "",
+    "text": "1 Aquatic species"
+  },
+  {
+    "objectID": "features_overview-docx.html",
+    "href": "features_overview-docx.html",
+    "title": "Features overview ― the what and where of biodiversity",
+    "section": "",
+    "text": "1 The what and where of biodiversity\nFor robust representation of biodiversity, and associated ecosystem infrastructure and services into the future, the what and where of biodiversity has to be considered. Moreover, the functions of biodiversity, and associated ecosystems, also need to be considered for accurate representation when attempting to ensure conservation of these features.\nIn order to maximise representation of biodiversity in a landscape, the conservation planning process adopts a two-pronged approach, specifically:\n\na wide-ranging (or coarse-filter): “Ecosystem representation” approach (see Ecosystems), and\n\na targeted (or fine-filter): “Species representation” approach (see section Species) (SANBI and UNEP-WCMC 2024).\n\nRepresentation of the ecosystem types in the area-of-interest largely fulfils the wide-ranging component, that is, if the SCP incorporates the full diversity of ecosystems, it is likely to represent their constituent taxa. The complementary approach, that is, the targeted approach, caters for specific, threatened taxa, or those not operating within the parameters of represented ecosystems (Margules and Pressey 2000).\n\n\n\n\n\n\nReferences\n\nMargules, Christopher Robert, and Robert L Pressey. 2000. “Systematic Conservation Planning.” Nature 405 (6783): 243–53.\n\n\nSANBI, and UNEP-WCMC. 2024. Mapping Biodiversity Priorities: A Practical Approach to Spatial Biodiversity Assessment and Priortisation to Inform National Policy, Planning, Decisions and Action. 2nd ed. South African National Biodiversity Institute. Pretoria, ZA."
+  },
+  {
+    "objectID": "features_spp_amphibians-docx.html",
+    "href": "features_spp_amphibians-docx.html",
+    "title": "Amphibians",
+    "section": "",
+    "text": "1 Amphibians\nAll endemic, near-endemic, and threatened (CR, EN, VU) species were included."
+  },
+  {
+    "objectID": "features_spp_invertebrates-docx.html",
+    "href": "features_spp_invertebrates-docx.html",
+    "title": "Invertebrates",
+    "section": "",
+    "text": "1 Invertebrates\nAll endemic, near-endemic and threatened (CR, EN, VU) taxa are included. Only taxa in the Biodiversity Database are included in the analysis."
+  },
+  {
+    "objectID": "features_spp_mammals-docx.html",
+    "href": "features_spp_mammals-docx.html",
+    "title": "Mammals",
+    "section": "",
+    "text": "1 Mammals"
+  },
+  {
+    "objectID": "features_spp_plants-docx.html",
+    "href": "features_spp_plants-docx.html",
+    "title": "Plants",
+    "section": "",
+    "text": "1 Plants\nThe targeted plant species list for the updated KZN SCP revision was developed as follows:\n\nAn extract of the plant list used for the previous SCP by Escott (2010) was made.\nThe extract was evaluated by the plant group (Ezemvelo KZN Wildlife + SANBI) at the C‑Plan workshop at Didima, Jan 2025.\nThe list was further refined and checked.\nSpecies names were updated for taxonomic changes.\nRed List status updated to SANBI RL version 2024.\nThe list was tabled at the July 2025 C‑Plan Steering Committee meeting.\nApproved pending minor revision.\nFully revised in Aug 2025 per Steering Committee directives.\n~23 taxa were the focus: extinct or widespread non‑endemic taxa removed; endemic/near‑endemic or declining taxa retained.\nFinal revised list (Aug 2025) was uploaded to MS Teams as directed.\n\n\n\n\n\n\nReferences\n\nEscott, Boyd. 2010. Conservation Plan Work Notes. Technical Report No. 2. Ezemvelo KZN Wildlife."
+  },
+  {
+    "objectID": "features_spp_reptiles-docx.html",
+    "href": "features_spp_reptiles-docx.html",
+    "title": "Reptiles",
+    "section": "",
+    "text": "1 Reptiles\nAll endemic, near-endemic and threatened (CR, EN, VU) species are included."
   }
 ]

@@ -120,6 +120,36 @@ The above linking from marine, estuary, freshwater to terrestrial, describes the
 
 Overlap between realms has to be dealt with systematically. For conservation planning in KwaZulu-Natal, the rugged topography with incised valleys and associated catchment systems is best addressed through a catchment management approach [@escott2016dkn; @desmet2019ecb]. This catchment management system neatly ties the terrestrial to the estuarine, coastal and marine realms.
 
+## Notes
+
+### Eastern Cape BP integration of biodiversity realms
+
+The following is taken/summarisied from the EC biodiversity plan (pg 5 of @desmet2019ecb). This is a description of their BP:  
+
+1. Estuary CBA classification based on 2018 NBA.
+1. Integrate estuary priorities into the freshwater Marxan cost layer.
+1. Freshwater Marxan analysis (PUs = sub quarternary).
+1. Extract selected PUs from freshwater Marxan analysis.
+1. Add to these PUs NFEPA SQ4 fish sanctuaries, free flowing and flagship river
+catchments.
+1. Add freshwater features based on CBA criteria (i.e. wetlands and strategic water source areas,
+Section 9).
+1. Integrate freshwater priorities into terrestrial Marxan cost layer (Section 11.2).
+1. Conduct terrestrial Marxan analysis.
+1. Add terrestrial features based on CBA criteria.
+
+Areas selected through the MARXAN analysis aimed to select enough sites to achieve representation
+targets for vegetation types, species of conservation concern and expert mapped areas important
+for biodiversity.  
+Areas already identified as CBAs in existing plans and incorporated as is into the EC plan include:  
+a. Estuary – All estuaries except those mapped by this project.  
+b. Fresh water – NFEPA fish sanctuaries, Flagship Rivers and free flowing rivers.  
+c. Terrestrial – none. CBAs in existing plan were integrated in to the Marxan cost layer.  
+Entire mapped extent of features considered as being important for biodiversity pattern or process.
+Inputs used to inform the Marxan cost layer. These features do not appear in the final CBA map.
+They are use only to manipulate the cost layer to increase or decrease the likelihood of Marxan
+selecting a site to achieve any given target.
+
 <!-- 
 ::: {#fig-full_flow}
 
