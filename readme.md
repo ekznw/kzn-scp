@@ -24,7 +24,7 @@ Quarto websites can be deployed from GitHub for free. Until that step is taken b
 2. Click the green `<> Code` button,
 3. Select the `Download ZIP` option,
 4. Extract the ZIP folder,
-5. Navigate to the extracted `website/_site` folder, &
+5. Navigate to the extracted `_site` folder, &
 6. Open the `index.html` file.
 
 ## How to contribute
