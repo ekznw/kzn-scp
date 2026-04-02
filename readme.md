@@ -44,7 +44,7 @@ Technical writing can either be contributed to in 'word' (DOCX) or Quarto (QMD) 
       >  3. Upload the document to Teams and share with collaborators.
       >     a. Teams folder for working word documents [click here](https://kznwildlife.sharepoint.com/sites/KZNConservationPlanRevision2023/_layouts/15/guestaccess.aspx?share=IgD9xn_vGo3pQZiBEw1SHmvcAaKeah6Ysf7PzKLSPzJjZNw&e=dWecjQ). All C-Plan committee members have access.  
       >     b. File naming & version control.  
-      >        +  Enable track changes in the Word document for Words version-control features.  
+      >        +  Enable track changes in the Word document for MS version-control features then save document.  
       >        + Retain filename, i.e., section/chapter name with YYYYMMDD suffix with addition of,  
       >        + The coordinator for respective document sections must save major revisions/incorporations of comments and edits with addition suffix: 'edt_YYYYMMDD'.  
       >           Final file names will be `sectionname_YYYYMMDD_edt_YYYYMMDD`, where the first date indicates the date of word document extraction from Quarto, and the second date represents the date of latest edits. 
