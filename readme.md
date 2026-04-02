@@ -41,7 +41,7 @@ Technical writing can either be contributed to in 'word' (DOCX) or Quarto (QMD) 
    > _To contribute as a team via word_:  
       >  1.  Download DOCX for the relevant section from [here](https://github.com/ekznw/kzn-scp/tree/main/docx_collab).  
       >  2. Select the most recent update (folders named by YYYYMMDD).  
-      >  3. Upload the document to Teams and share with collaborators.
+      >  3. Upload the document to Teams and share with collaborators.  
       >     a. Teams folder for working word documents [click here](https://kznwildlife.sharepoint.com/sites/KZNConservationPlanRevision2023/_layouts/15/guestaccess.aspx?share=IgD9xn_vGo3pQZiBEw1SHmvcAaKeah6Ysf7PzKLSPzJjZNw&e=dWecjQ). All C-Plan committee members have access.  
       >     b. File naming & version control.  
       >        +  Enable track changes in the Word document for MS version-control features then save document.  
