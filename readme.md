@@ -42,7 +42,13 @@ Technical writing can either be contributed to in 'word' (DOCX) or Quarto (QMD) 
       >  1.  Download DOCX for the relevant section from [here](https://github.com/ekznw/kzn-scp/tree/main/docx_collab).  
       >  2. Select the most recent update (folders named by YYYYMMDD).  
       >  3. Upload the document to Teams and share with collaborators.
-      >  4. Send to document/project coordinator for conversion to Quarto.
+      >     a. Teams folder for working word documents [click here](https://kznwildlife.sharepoint.com/sites/KZNConservationPlanRevision2023/_layouts/15/guestaccess.aspx?share=IgD9xn_vGo3pQZiBEw1SHmvcAaKeah6Ysf7PzKLSPzJjZNw&e=dWecjQ). All C-Plan committee members have access.  
+      >     b. File naming & version control.  
+      >        +  Enable track changes in the Word document for Words version-control features.  
+      >        + Retain filename, i.e., section/chapter name with YYYYMMDD suffix with addition of,  
+      >        + The coordinator for respective document sections must save major revisions/incorporations of comments and edits with addition suffix: 'edt_YYYYMMDD'.  
+      >           Final file names will be `sectionname_YYYYMMDD_edt_YYYYMMDD`, where the first date indicates the date of word document extraction from Quarto, and the second date represents the date of latest edits. 
+      >  4. Notify the website coordinator for conversion to Quarto for major version updates.
 
    >  Note: rendering from DOCX to QMD is not possible ― therefore keep formatting in word simple.  
  - For **citation management** see the 'Bibliography and Citations' section below.
