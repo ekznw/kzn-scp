@@ -91,9 +91,3 @@ BEGIN {
 
 # ---- 3. Render DOCX from the modified QMD ----
 quarto render "$OUT_QMD" --to docx -o "$OUT_DOCX"
-
-# ---- 4. Ensure _site exists and move the docx inside it ----
-mkdir -p _site
-mv "$OUT_DOCX" _site/
-
-echo "Done. DOCX available at _site/$OUT_DOCX"

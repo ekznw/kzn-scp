@@ -56,7 +56,7 @@ execute:
 # . scripts/build_word.sh
 ---
 
-[Download Word (docx)](intro.docx){.btn .btn-secondary}
+<!-- [Download Word (docx)](intro.docx){.btn .btn-secondary} -->
 
 # The KwaZulu-Natal systematic conservation plan {#sec-updated-scp}
 

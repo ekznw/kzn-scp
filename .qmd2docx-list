@@ -1,0 +1,13 @@
+# one line per qmd file
+# controls which qmd's are output to ms word
+intro.qmd
+features_overview.qmd
+features_ecosystems.qmd
+features_spp_intro.qmd
+features_spp_amphibians.qmd
+features_spp_aquatic.qmd
+features_spp_avifauna.qmd
+features_spp_invertebrates.qmd
+features_spp_mammals.qmd
+features_spp_plants.qmd
+features_spp_reptiles.qmd
