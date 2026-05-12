@@ -8,24 +8,14 @@
 
 ## Release versioning
 
-| Author(s) | Contributor(s) | Comments | Release version |
-| :-------- | ---------- | -------- | -------- |
-| Paul Gordijn |  | Beta version in progress  | 0.1 |
+| Author(s) | Contributor(s) | Comments | Date     | Release version |
+| :-------- | ---------- | -------- | ---- | -------- |
+| Paul Gordijn |  | Beta version in progress | 2025-11-01 | 0.1 |
+| Paul Gordijn |  | Refining collaborative processes | 2025-05-12 | 0.2 |
 
 ## Scientific documentation
 
-Documentation was done using Quarto which allows integrating technical reporting and simultaneous website development. Quarto code for the documentation and analyses are housed in the `kzn-scp` [GitHub repository](https://github.com/ekznw/kzn-scp) enabling fine-scaled product and analytical version controlling.
-
-## How to view the website
-
-Quarto websites can be deployed from GitHub for free. Until that step is taken by the Conservation Plan steering committee the website can be viewed 'locally' by:
-
-1. Going to the *draft* [kzn-scp GitHub site](https://github.com/ekznw/kzn-scp),
-2. Click the green `<> Code` button,
-3. Select the `Download ZIP` option,
-4. Extract the ZIP folder,
-5. Navigate to the extracted `_site` folder, &
-6. Open the `index.html` file.
+Documentation for the conservation plan was done using Quarto to allow integrating reporting, analyses and data wrangling, and website production. Quarto code for the documentation and analyses are housed in the `kzn-scp` [GitHub repository](https://github.com/ekznw/kzn-scp) enabling fine-scaled product and analytical version controlling.
 
 ## How to contribute
 
@@ -178,3 +168,14 @@ kzn_scp/
   └── .gitignore         # List of files not tracked/uploaded by git and GitHub.
 ```
 ---
+
+## How to view the website
+
+Quarto websites can be deployed from GitHub for free. Until that step is taken by the Conservation Plan steering committee the website can be viewed 'locally' by:
+
+1. Going to the *draft* [kzn-scp GitHub site](https://github.com/ekznw/kzn-scp),
+2. Click the green `<> Code` button,
+3. Select the `Download ZIP` option,
+4. Extract the ZIP folder,
+5. Navigate to the extracted `_site` folder, &
+6. Open the `index.html` file.
