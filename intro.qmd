@@ -142,11 +142,12 @@ b. Fresh water – NFEPA fish sanctuaries, Flagship Rivers and free flowing rive
 c. Terrestrial – none. CBAs in existing plan were integrated in to the Marxan cost layer.\
 Entire mapped extent of features considered as being important for biodiversity pattern or process. Inputs used to inform the Marxan cost layer. These features do not appear in the final CBA map. They are use only to manipulate the cost layer to increase or decrease the likelihood of Marxan selecting a site to achieve any given target.
 
-````{=html}
-<!-- 
-::: {#fig-full_flow}
+```{.markdown}
 
-```{mermaid}
+#| code-fold: true
+
+# mermaid code chunk for displaying the full work flow
+# mermaid
 
 %% png: images/intro/fig03.png
 
@@ -209,7 +210,5 @@ obj2_2([Provincial risk status]) --> obj2
 %% === Targets inputs ===
 obj3_1([National & international targets]) --> obj3
 obj3_2([Provincial targets]) --> obj3
-```
 
-::: -->
-````
+```

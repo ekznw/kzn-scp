@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "This terrestrial conservation plan aims to solve the problem of: how to ensure sufficient space for biodiversity conservation, in the KwaZulu-Natal terrestrial realm, whilst simultaneously minimising constraints and maximising opportunities (see Note 2). This is also known as the minimum set of protected areas’ solution (i.e., the ‘min set’) (Margules and Pressey 2000; Hanson et al. 2025). There are four broad stages that need to be addressed for resolution of this conservation problem (Escott et al. 2016; SANBI and UNEP-WCMC 2024) (Figure 1).\n\n\n\n\n\n\n\n\nNote 1: Costs & decision support\n\n\n\nConstraints and opportunities are referred as costs in conservation planning. These costs are more than the monetary value of acquiring protected areas for conservation efforts. In conservation planning ‘costing’ involves how complex socio-ecological factors are quantified and tradeoffs made. The balancing of these tradeoffs is the ‘decision support’ mechanism that helps optimise the conservation planning solution with other human land use activities (Escott et al. 2016; SANBI and UNEP-WCMC 2024).\n\n\n\n\n\n\n\n\n\n\n%% png: images/intro/fig01.png\n\nflowchart TD\n\n%% === Main stages ===\nobj1([1. Features: what & where])\n%%obj2([Status assessment])\nobj2([2. Representation & &lt;br&gt; persistence targets])\nobj3([3. Decision support])\nobj4([4. Prioritisation analysis])\n\n%%obj1 --&gt; obj2\nobj1 --&gt; obj2\nobj2 --&gt; obj3\nobj3 --&gt; obj4\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\n\n%%obj3 -.-&gt; obj2\nobj2 -.-&gt; obj1\nobj3 -.-&gt; obj2\nobj4 -.-&gt; obj3\n\n\n\n\n\n\n\n\nFigure 1: The iterative stages, from gathering data, target setting, to prioritisation analyses, in conservation planning (c.f. SANBI and UNEP-WCMC (2024)). (1) The first stage addresses the what and where of biodiversity-related landscape features. (2) The second speaks to goal setting for the space biodiversity needs. (3) The third stage deals with setting up decision-making criteria that helps balance tradeoffs between the ‘costs’ of conservation efforts and socio-ecological factors (see Note 2). (4) Finally, the forth involves a robust and transparent analysis that solves the problem of the where and how should conservation efforts be prioritised at minimum ‘cost’.\n\n\n\nThe what and where of biodiversity-related features requires a collation and modelling of biodiversity occurrence data in order to provide the best possible spatial representation of biodiversity. This helps guarantee that conservation efforts are directed to the most appropriate locations. Other important what and where features for biodiversity include key habitat features for breeding, or safe zones (refugia).\nThe second stage concerns determination of meaningful representation and persistence targets. In other words, how much of which ecosystems and ecological features need to be represented, in the conservation plan, to secure the persistence of biodiversity. Setting up decision-support mechanisms helps us ensure that conservation efforts are focused on optimal locations. For this, other land uses and socio-ecological dynamics have to be considered (Margules and Pressey 2000; Hanson et al. 2025). Once this data is gathered the final stage involves the prioritisation analysis. Multiple analyses are run showing different scenarios in a transparent process to demonstrate how the plan attempts to optimise conservation while supporting critical socio-ecological dynamics (Escott et al. 2016; SANBI and UNEP-WCMC 2024)."
+  },
+  {
+    "objectID": "intro.html#sec-stages",
+    "href": "intro.html#sec-stages",
+    "title": "Introduction",
+    "section": "",
+    "text": "This terrestrial conservation plan aims to solve the problem of: how to ensure sufficient space for biodiversity conservation, in the KwaZulu-Natal terrestrial realm, whilst simultaneously minimising constraints and maximising opportunities (see Note 2). This is also known as the minimum set of protected areas’ solution (i.e., the ‘min set’) (Margules and Pressey 2000; Hanson et al. 2025). There are four broad stages that need to be addressed for resolution of this conservation problem (Escott et al. 2016; SANBI and UNEP-WCMC 2024) (Figure 1).\n\n\n\n\n\n\n\n\nNote 1: Costs & decision support\n\n\n\nConstraints and opportunities are referred as costs in conservation planning. These costs are more than the monetary value of acquiring protected areas for conservation efforts. In conservation planning ‘costing’ involves how complex socio-ecological factors are quantified and tradeoffs made. The balancing of these tradeoffs is the ‘decision support’ mechanism that helps optimise the conservation planning solution with other human land use activities (Escott et al. 2016; SANBI and UNEP-WCMC 2024).\n\n\n\n\n\n\n\n\n\n\n%% png: images/intro/fig01.png\n\nflowchart TD\n\n%% === Main stages ===\nobj1([1. Features: what & where])\n%%obj2([Status assessment])\nobj2([2. Representation & &lt;br&gt; persistence targets])\nobj3([3. Decision support])\nobj4([4. Prioritisation analysis])\n\n%%obj1 --&gt; obj2\nobj1 --&gt; obj2\nobj2 --&gt; obj3\nobj3 --&gt; obj4\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\n\n%%obj3 -.-&gt; obj2\nobj2 -.-&gt; obj1\nobj3 -.-&gt; obj2\nobj4 -.-&gt; obj3\n\n\n\n\n\n\n\n\nFigure 1: The iterative stages, from gathering data, target setting, to prioritisation analyses, in conservation planning (c.f. SANBI and UNEP-WCMC (2024)). (1) The first stage addresses the what and where of biodiversity-related landscape features. (2) The second speaks to goal setting for the space biodiversity needs. (3) The third stage deals with setting up decision-making criteria that helps balance tradeoffs between the ‘costs’ of conservation efforts and socio-ecological factors (see Note 2). (4) Finally, the forth involves a robust and transparent analysis that solves the problem of the where and how should conservation efforts be prioritised at minimum ‘cost’.\n\n\n\nThe what and where of biodiversity-related features requires a collation and modelling of biodiversity occurrence data in order to provide the best possible spatial representation of biodiversity. This helps guarantee that conservation efforts are directed to the most appropriate locations. Other important what and where features for biodiversity include key habitat features for breeding, or safe zones (refugia).\nThe second stage concerns determination of meaningful representation and persistence targets. In other words, how much of which ecosystems and ecological features need to be represented, in the conservation plan, to secure the persistence of biodiversity. Setting up decision-support mechanisms helps us ensure that conservation efforts are focused on optimal locations. For this, other land uses and socio-ecological dynamics have to be considered (Margules and Pressey 2000; Hanson et al. 2025). Once this data is gathered the final stage involves the prioritisation analysis. Multiple analyses are run showing different scenarios in a transparent process to demonstrate how the plan attempts to optimise conservation while supporting critical socio-ecological dynamics (Escott et al. 2016; SANBI and UNEP-WCMC 2024)."
+  },
+  {
+    "objectID": "intro.html#notes",
+    "href": "intro.html#notes",
+    "title": "Introduction",
+    "section": "2.1 Notes",
+    "text": "2.1 Notes\n\n2.1.1 Eastern Cape BP integration of biodiversity realms\nThe following is taken/summarisied from the EC biodiversity plan (pg 5 of Desmet (2019)). This is a description of their BP:\n\nEstuary CBA classification based on 2018 NBA.\nIntegrate estuary priorities into the freshwater Marxan cost layer.\nFreshwater Marxan analysis (PUs = sub quarternary).\nExtract selected PUs from freshwater Marxan analysis.\nAdd to these PUs NFEPA SQ4 fish sanctuaries, free flowing and flagship river catchments.\nAdd freshwater features based on CBA criteria (i.e. wetlands and strategic water source areas, Section 9).\nIntegrate freshwater priorities into terrestrial Marxan cost layer (Section 11.2).\nConduct terrestrial Marxan analysis.\nAdd terrestrial features based on CBA criteria.\n\nAreas selected through the MARXAN analysis aimed to select enough sites to achieve representation targets for vegetation types, species of conservation concern and expert mapped areas important for biodiversity.\nAreas already identified as CBAs in existing plans and incorporated as is into the EC plan include:\na. Estuary – All estuaries except those mapped by this project.\nb. Fresh water – NFEPA fish sanctuaries, Flagship Rivers and free flowing rivers.\nc. Terrestrial – none. CBAs in existing plan were integrated in to the Marxan cost layer.\nEntire mapped extent of features considered as being important for biodiversity pattern or process. Inputs used to inform the Marxan cost layer. These features do not appear in the final CBA map. They are use only to manipulate the cost layer to increase or decrease the likelihood of Marxan selecting a site to achieve any given target.\n\n#| code-fold: true\n\n# mermaid code chunk for displaying the full work flow\n# mermaid\n\n%% png: images/intro/fig03.png\n\nflowchart TB\n\n%% === Main stages ===\nobj1[What & where]\nobj2[Status assessment]\nobj3[Representation & &lt;br&gt; persistence targets]\nobj4[prioritisation analysis]\n\nobj1 --&gt; obj2\nobj2 --&gt; obj3\nobj3 --&gt; obj4\n\n\n%% Feedback (use dashed; if not supported, we’ll restyle via linkStyle)\nobj2 -.-&gt; obj1\nobj3 -.-&gt; obj2\nobj4 -.-&gt; obj3\n\n\n%% === Inputs to obj1 (What & where) ===\nobj1_1([Ecosystem representation]) --&gt; obj1\nobj1_2([Refugia habitat & corridors]) --&gt; obj1\nobj1_3([Critical habitat features]) --&gt; obj1\nobj1_4([Species representation]) --&gt; obj1\nobj1_5([\"Spatial avoidance (cost)\"]) --&gt; obj1\n\n\n%% === Ecosystem representation details ===\n\nobj1_1_1([Baseline ecosystem]) --&gt; obj1_1_2([Landcover modification])\nobj1_1_2 --&gt; obj1_1_3([Ecosystem modification])\nobj1_1_3 --&gt; obj1_1_4([Development sprawl])\nobj1_1_4 --&gt; obj1_1_5([\"Fragmentation & connectivity\"])\nobj1_1_6([\"Climate refugia (& scenarios)\"])--&gt; obj1_1_5\n\n%% Link ecosystem detail back up\nobj1_1_2 --&gt; obj1_1\nobj1_1_5 --&gt; obj1_2\nobj1_1_6 --&gt; obj1_2\n\n%% Optional grey-ish relation represented as dashed\nobj1_1_2 -.-&gt; obj1_5\n\n%% === Species representation details ===\nobj1_4_1([Point locality data]) --&gt; obj1_4_2([Species Distribution Models])\nobj1_4_1 --&gt; obj1_4\nobj1_4_2 --&gt; obj1_4\n\n%% Bidirectional link: SDMs &lt;-&gt; Climate refugia\nobj1_4_2 --&gt; obj1_1_6\nobj1_1_6 --&gt; obj1_4_2\n\n%% === Status assessment inputs ===\nobj2_1([National & international risk status]) --&gt; obj2\nobj2_2([Provincial risk status]) --&gt; obj2\n\n%% === Targets inputs ===\nobj3_1([National & international targets]) --&gt; obj3\nobj3_2([Provincial targets]) --&gt; obj3"
+  },
+  {
+    "objectID": "usage.html",
+    "href": "usage.html",
+    "title": "Usage",
+    "section": "",
+    "text": "Page for describing the practical usage of the product and how to access the data."
+  },
+  {
+    "objectID": "support.html",
+    "href": "support.html",
+    "title": "Decision support layers",
+    "section": "",
+    "text": "Decision support layers are spatial coverages that inform decision-making in the prioritisation analyses. These coverages are therefore critical for influencing the conservation planning scenario solutions. Broadly specking, decision support coverages can be divided into the following themes:\n\n1 Constraints\n\n\n2 Penalties"
+  },
+  {
+    "objectID": "prioritize_framework.html",
+    "href": "prioritize_framework.html",
+    "title": "Priotitization analyses",
+    "section": "",
+    "text": "To find the best working solution to the KZN Conservation Plan the R Core Team (2025) prioritizR package (Hanson et al. 2025) was used. There are a number of advantages to this approach. Unlike simulated annealing (e.g., Marxan), where near-optimal solutions are obtained through multiple runs, prioritizR uses mixed-integer linear programming, in a single run, to solve for the optimal solution (Note 1). The formulation how ‘cost’ is balanced across a landscape to delineate space for biodiversity (or other) features, that is, the ‘conservation problem’, is highly customisable using the prioritizr framework. As such, planners can explicitly control many conservation-problem parameters. Running a single run, versus multiple, to find the optimal solution speeds up complex problem-solving substantially.\n\n\n\n\n\n\n\n\nNote 1: PrioritiR–Marxan integration\n\n\n\nPrioritizR was set up to compare and run Marxan simulations. For a Marxan run prioritizR will accept Marxan formatted data and perform a Marxan run simulation. This means that preparation of data for prioritizR can be the same as for a Marxan run making integration, comparison, and movement between these planning tools seamless.\n\n\nSome of this complexity in prioritizR conservation-problem solving includes advanced methods for zoning, and landscape connectivity and patch size (Hanson et al. 2025). The prioritizR package integrates with R Core Team (2025) GIS environments enabling open source data pipeline development for conservation planning.\nPrioritizR has had a broad uptake and is helping solve conservation problems; some interesting examples include:\n\nEuropean terrestrial realm priority areas for 10‒30% protection scenarios (Visconti et al. 2024),\nNational government marine biodiversity in Mozambique (Jones et al. 2021),\nFreshwater catchment and biodiversity conservation in Canada (Southee et al. 2021),\nMarine genetic diversity (and socio-economic scenarios) in South Africa (West Coast) (Nielsen et al. 2023),\nClimate resilience on South Africa’s West Coast (Nielsen et al. 2023),\nFunctional and taxonomic diversity conservation planning in China’s terrestrial realm (national) (Liu et al. 2026), and\nRestoration in the Brazilian Cerrado (Aragõ et al. 2026).\n\n\n\nThe ‘conservation problem’ in prioritizr is resolved as a function of the following (Hanson et al. 2025),\n\\[problem = f(objectives + targets + constraints + penalties),\\]\nwhere\n\nobjectives are the overall goals of the conservation planning exercise.\n\nConventionally, the ‘min set’ objective is aimed for whereby enough habitat for all species is sought at minimum cost.\nCustom objectives can be set and compared.\n\ntargets set the minimum proportion or amount of each feature’s spatial distribution that should ideally be protected.\nconstraints forbid solutions that either exhibit or do not exhibit a particular characteristic.\n\nFor example, ‘lock in’ or ‘lock out’ specific planning units to a zone, e.g., ‘irreplaceable’.\nThe contiguity of planning units can also be set to determine connectivity and patch size trade-offs. This can be achieved per feature.\nPlanning units can be constrained to a particular zone, e.g., restoration, or low utilisation.\n\npenalties function to limit or penalize solutions that do not meet a specific characteristic.\n\nFor example, favour clumping to produce contiguous areas, or\nreduce spatial fragmentation.\n\n\n\npkgs &lt;- c(\"prioritizr\")\nto_install &lt;- pkgs[!pkgs %in% installed.packages()[, \"Package\"]]\nif (length(to_install) &gt; 0) install.packages(to_install)\n\nlapply(pkgs, library, character.only = TRUE)\n\n[[1]]\n[1] \"prioritizr\" \"stats\"      \"graphics\"   \"grDevices\"  \"utils\"     \n[6] \"datasets\"   \"methods\"    \"base\""
+  },
+  {
+    "objectID": "prioritize_framework.html#the-conservation-problem",
+    "href": "prioritize_framework.html#the-conservation-problem",
+    "title": "Priotitization analyses",
+    "section": "",
+    "text": "The ‘conservation problem’ in prioritizr is resolved as a function of the following (Hanson et al. 2025),\n\\[problem = f(objectives + targets + constraints + penalties),\\]\nwhere\n\nobjectives are the overall goals of the conservation planning exercise.\n\nConventionally, the ‘min set’ objective is aimed for whereby enough habitat for all species is sought at minimum cost.\nCustom objectives can be set and compared.\n\ntargets set the minimum proportion or amount of each feature’s spatial distribution that should ideally be protected.\nconstraints forbid solutions that either exhibit or do not exhibit a particular characteristic.\n\nFor example, ‘lock in’ or ‘lock out’ specific planning units to a zone, e.g., ‘irreplaceable’.\nThe contiguity of planning units can also be set to determine connectivity and patch size trade-offs. This can be achieved per feature.\nPlanning units can be constrained to a particular zone, e.g., restoration, or low utilisation.\n\npenalties function to limit or penalize solutions that do not meet a specific characteristic.\n\nFor example, favour clumping to produce contiguous areas, or\nreduce spatial fragmentation.\n\n\n\npkgs &lt;- c(\"prioritizr\")\nto_install &lt;- pkgs[!pkgs %in% installed.packages()[, \"Package\"]]\nif (length(to_install) &gt; 0) install.packages(to_install)\n\nlapply(pkgs, library, character.only = TRUE)\n\n[[1]]\n[1] \"prioritizr\" \"stats\"      \"graphics\"   \"grDevices\"  \"utils\"     \n[6] \"datasets\"   \"methods\"    \"base\""
+  },
+  {
+    "objectID": "features_spp_plants.html",
+    "href": "features_spp_plants.html",
+    "title": "Plants",
+    "section": "",
+    "text": "1 Plants\nThe targeted plant species list for the updated KZN SCP revision was developed as follows:\n\nAn extract of the plant list used for the previous SCP by Escott (2010) was made.\nThe extract was evaluated by the plant group (Ezemvelo KZN Wildlife + SANBI) at the C‑Plan workshop at Didima, Jan 2025.\nThe list was further refined and checked.\nSpecies names were updated for taxonomic changes.\nRed List status updated to SANBI RL version 2024.\nThe list was tabled at the July 2025 C‑Plan Steering Committee meeting.\nApproved pending minor revision.\nFully revised in Aug 2025 per Steering Committee directives.\n~23 taxa were the focus: extinct or widespread non‑endemic taxa removed; endemic/near‑endemic or declining taxa retained.\nFinal revised list (Aug 2025) was uploaded to MS Teams as directed.\n\n\n\n\n\n\nReferences\n\nEscott, Boyd. 2010. Conservation Plan Work Notes. Technical Report No. 2. Ezemvelo KZN Wildlife."
+  },
+  {
+    "objectID": "features_spp_invertebrates.html",
+    "href": "features_spp_invertebrates.html",
+    "title": "Invertebrates",
+    "section": "",
+    "text": "1 Invertebrates\nAll endemic, near-endemic and threatened (CR, EN, VU) taxa are included. Only taxa in the Biodiversity Database are included in the analysis."
+  },
+  {
+    "objectID": "features_spp_avifauna.html",
+    "href": "features_spp_avifauna.html",
+    "title": "Birds",
+    "section": "",
+    "text": "1 Birds\nAll endemic, near-endemic, and threatened (CR, EN, VU) species were included."
+  },
+  {
+    "objectID": "features_spp_amphibians.html",
+    "href": "features_spp_amphibians.html",
+    "title": "Amphibians",
+    "section": "",
+    "text": "1 Amphibians\nAll endemic, near-endemic, and threatened (CR, EN, VU) species were included."
+  },
+  {
+    "objectID": "features_ecosystems.html",
+    "href": "features_ecosystems.html",
+    "title": "Ecosystem representation",
+    "section": "",
+    "text": "Incorporating ecosystem types in the conservation planning process serves to broadly capture the spatial distribution of distinct-biological communities, and associated species diversity, that is, the gamma diversity (Whittaker 1960) across the region of interest (Mucina 2024). Following the previous terrestrial SCP for KwaZulu-Natal (Escott 2010), a vegetation-type map formed a robust surrogate for ecosystem types. Vegetation types commonly serve as surrogates for ecosystem types because they largely capture differences in biodiversity patterns across the landscape (SANBI and UNEP-WCMC 2024).\nFor an up-to-date representation of ecosystem extent, the provincial-vegetation map (i.e., coverage) had to be adjusted. The provincial-vegetation coverage serves as a representation of “natural” vegetation communities prior to global change pressures ca. 1750 (Mucina et al. 2018). Therefore, the coverage had to be adjusted to reflect the current state of ecosystems using the best available data."
+  },
+  {
+    "objectID": "features_ecosystems.html#sec-eco-rep",
+    "href": "features_ecosystems.html#sec-eco-rep",
+    "title": "Ecosystem representation",
+    "section": "",
+    "text": "Incorporating ecosystem types in the conservation planning process serves to broadly capture the spatial distribution of distinct-biological communities, and associated species diversity, that is, the gamma diversity (Whittaker 1960) across the region of interest (Mucina 2024). Following the previous terrestrial SCP for KwaZulu-Natal (Escott 2010), a vegetation-type map formed a robust surrogate for ecosystem types. Vegetation types commonly serve as surrogates for ecosystem types because they largely capture differences in biodiversity patterns across the landscape (SANBI and UNEP-WCMC 2024).\nFor an up-to-date representation of ecosystem extent, the provincial-vegetation map (i.e., coverage) had to be adjusted. The provincial-vegetation coverage serves as a representation of “natural” vegetation communities prior to global change pressures ca. 1750 (Mucina et al. 2018). Therefore, the coverage had to be adjusted to reflect the current state of ecosystems using the best available data."
+  },
+  {
+    "objectID": "connectivity.html",
+    "href": "connectivity.html",
+    "title": "Landscape Integrity",
+    "section": "",
+    "text": "flowchart LR\n\na[(\"|1. Modification&lt;/br&gt;coverage\")]\nb[(\"|2. Resistance&lt;/br&gt;surface\")]\nc([\"|3. Landscape Integrity /&lt;/br&gt;Fragmentation metrics\"])\nd[\"|4. Corridor identification\"]\n\na --&gt; c\nb --&gt; c\nc --&gt; d\n\n\n\n\nFigure 1: Overview of the landscape integrity evaluation to idenifying landscape corridors. 1. A modification coverage is used to identify natural, near-natural, and functional areas. 2. By applying a resistance surface of species movement through the modified landscape, 3. a fragmentation analysis can be performed, to 4. identify corridors for species movement, and areas with good landscape integritiy, i.e., high connectivity, sufficient number and size of habitat patches. R Core Team (2025) packages ‘landscapemetrics’ (Hesselbarth et al. 2019) was used to analyse landscape integrity, and ‘gdistance’ (van Etten 2017) to estimate least-cost paths, and ‘grainscape’ (Chubaty et al. 2025) to evaluate graph connectivity.\n\n\n\n\n\n\n\n\n\nReferences\n\nChubaty, Alex M, Paul Galpern, and Sam Doctolero. 2025. grainscape: Landscape Connectivity, Habitat, and Protected Area Networks. https://CRAN.R-project.org/package=grainscape.\n\n\nHesselbarth, Maximilian HK, Marco Sciaini, Kimberly A With, Kerstin Wiegand, and Jakub Nowosad. 2019. “Landscapemetrics: An Open-Source r Tool to Calculate Landscape Metrics.” Ecography 42 (10): 1648–57. https://doi.org/https://doi.org/10.1111/ecog.04617.\n\n\nR Core Team. 2025. R Version 4.5.2: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nvan Etten, Jacob. 2017. “R Package Gdistance: Distances and Routes on Geographical Grids.” Journal of Statistical Software 76 (13): 1–21. https://doi.org/10.18637/jss.v076.i13."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Systematic Conservation Planning  in KwaZulu-Natal",
+    "section": "",
+    "text": "1 KZN biodiversity\nWhat’s special about KZN biodiversity?\n\nDescription of KZN taxa and their diversity + endemism.\nConservation status stats.\nLand use stats and emerging threats.\n\n\n\n2 The planning community\nThe KwaZulu-Natal Systematic Conservation Plan has a legacy of robust science that is backed and built through community involvement. The Ezemvelo KZN Wildlife Conservation Plan Steering Committee ― that was established to guide the plan ― works with internal and external scientists to maintain and revise the Conservation Plan. Input from partners, to ensure the plan is aligned to provincial and national objectives is essential.\n\nTable of partners/stakeholders/contributors.\nContributing authors should be cited per section/page."
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Conservation plan data pipeline",
+    "section": "",
+    "text": "To promote open science and smooth updates to the C-Plan the data to documentation pipeline in Figure 1 was adopted.\nflowchart TD\n\n%% Group 1: cloud storage\n%% === sub node ===\nsubgraph G1[Cloud storage]\n    direction LR\n    %%style G1 fill:#c4d8c282,stroke:#3d573bff,stroke-width:2px\n    d([Metadata])\n    e([Data])\n    d &lt;--&gt; e\nend\n\n%% === main nodes ===\nsubgraph G2[GitHub code repo]\n%%style G2 fill:#80a17d82,stroke:#3d573bff,stroke-width:2px\na([Metadata systems])\nb([Scripts & &lt;br&gt; GIS software])\nc([Documentation])\n\na --&gt; b\nb --&gt; c\n\nb -.-&gt; a\nc -.-&gt; b\n\nd --&gt; a\ne --&gt; a\nend\n\n\n\n\nFigure 1: Data to documentation pipeline overview. Boxes indicate the storage and backup locations of the data and code, in the cloud and on GitHub, respectively."
+  },
+  {
+    "objectID": "data.html#data-quality",
+    "href": "data.html#data-quality",
+    "title": "Conservation plan data pipeline",
+    "section": "1 Data quality",
+    "text": "1 Data quality\nStatement on data quality and assessments — using the best available data."
+  },
+  {
+    "objectID": "data.html#section",
+    "href": "data.html#section",
+    "title": "Conservation plan data pipeline",
+    "section": "2 ",
+    "text": "2"
+  },
+  {
+    "objectID": "features_overview.html",
+    "href": "features_overview.html",
+    "title": "Features overview ― the what and where of biodiversity",
+    "section": "",
+    "text": "1 The what and where of biodiversity\nFor robust representation of biodiversity, and associated ecosystem infrastructure and services into the future, the what and where of biodiversity has to be considered. Moreover, the functions of biodiversity, and associated ecosystems, also need to be considered for accurate representation when attempting to ensure conservation of these features.\nIn order to maximise representation of biodiversity in a landscape, the conservation planning process adopts a two-pronged approach, specifically:\n\na wide-ranging (or coarse-filter): “Ecosystem representation” approach (see Ecosystems), and\n\na targeted (or fine-filter): “Species representation” approach (see section Species) (SANBI and UNEP-WCMC 2024).\n\nRepresentation of the ecosystem types in the area-of-interest largely fulfils the wide-ranging component, that is, if the SCP incorporates the full diversity of ecosystems, it is likely to represent their constituent taxa. The complementary approach, that is, the targeted approach, caters for specific, threatened taxa, or those not operating within the parameters of represented ecosystems (Margules and Pressey 2000).\n\n\n\n\n\n\nReferences\n\nMargules, Christopher Robert, and Robert L Pressey. 2000. “Systematic Conservation Planning.” Nature 405 (6783): 243–53.\n\n\nSANBI, and UNEP-WCMC. 2024. Mapping Biodiversity Priorities: A Practical Approach to Spatial Biodiversity Assessment and Priortisation to Inform National Policy, Planning, Decisions and Action. 2nd ed. South African National Biodiversity Institute. Pretoria, ZA."
+  },
+  {
+    "objectID": "features_spp_aquatic.html",
+    "href": "features_spp_aquatic.html",
+    "title": "Aquatic species",
+    "section": "",
+    "text": "1 Aquatic species"
+  },
+  {
+    "objectID": "features_spp_intro.html",
+    "href": "features_spp_intro.html",
+    "title": "Species representation",
+    "section": "",
+    "text": "The broad-ranging ecosystem representation is complemented by a targeted approach that focuses on specific species (see ?@sec-spp-rep). The targeted approach required a systematic selection of species (SANBI and UNEP-WCMC 2024). Ezemvelo KZN Wildlife scientists and a broad range of stakeholders developed the criteria for the inclusion of species (Elliot 2023). For the KwaZulu-Natal conservation plan, these criteria were applied to each group of taxa: Amphibians, Aquatic taxa, Invertebrates, Mammals, Plants, and Reptiles.\n\n\n\n\n\n\n\nTable 1: Criteria for inclusion of species in the targeted approach.\n\n\n\nIDCriteriaRules1Endemic to KwaZulu-Natal.Feature must be triggered by ≥1 criterion; criteria equal weighting; may include uncertain data but removed if insufficient; consider age and accuracy of data.2Near Endemic to KwaZulu-Natal (50–99% of taxon distribution falls within KwaZulu-Natal).3Threat status (CR, EN, Rare, VU, NT). Global or Regional. Highest threat status taken.4International obligation.5Umbrella species.6Isolated from core known range with genetic differences.7Edge of range species (may be well protected in KZN but globally/regionally threatened).8Life‑history stage essential for protection of species.9Species conservation plan or biodiversity management plan.10Other (specify).11Resource use threat.12Specific populations (e.g., Tembe elephants, berg eland)."
+  },
+  {
+    "objectID": "features_spp_intro.html#introduction",
+    "href": "features_spp_intro.html#introduction",
+    "title": "Species representation",
+    "section": "",
+    "text": "The broad-ranging ecosystem representation is complemented by a targeted approach that focuses on specific species (see ?@sec-spp-rep). The targeted approach required a systematic selection of species (SANBI and UNEP-WCMC 2024). Ezemvelo KZN Wildlife scientists and a broad range of stakeholders developed the criteria for the inclusion of species (Elliot 2023). For the KwaZulu-Natal conservation plan, these criteria were applied to each group of taxa: Amphibians, Aquatic taxa, Invertebrates, Mammals, Plants, and Reptiles."
+  },
+  {
+    "objectID": "features_spp_intro.html#criteria-for-inclusion",
+    "href": "features_spp_intro.html#criteria-for-inclusion",
+    "title": "Species representation",
+    "section": "",
+    "text": "Table 1: Criteria for inclusion of species in the targeted approach.\n\n\n\nIDCriteriaRules1Endemic to KwaZulu-Natal.Feature must be triggered by ≥1 criterion; criteria equal weighting; may include uncertain data but removed if insufficient; consider age and accuracy of data.2Near Endemic to KwaZulu-Natal (50–99% of taxon distribution falls within KwaZulu-Natal).3Threat status (CR, EN, Rare, VU, NT). Global or Regional. Highest threat status taken.4International obligation.5Umbrella species.6Isolated from core known range with genetic differences.7Edge of range species (may be well protected in KZN but globally/regionally threatened).8Life‑history stage essential for protection of species.9Species conservation plan or biodiversity management plan.10Other (specify).11Resource use threat.12Specific populations (e.g., Tembe elephants, berg eland)."
+  },
+  {
+    "objectID": "features_spp_mammals.html",
+    "href": "features_spp_mammals.html",
+    "title": "Mammals",
+    "section": "",
+    "text": "1 Mammals"
+  },
+  {
+    "objectID": "features_spp_reptiles.html",
+    "href": "features_spp_reptiles.html",
+    "title": "Reptiles",
+    "section": "",
+    "text": "1 Reptiles\nAll endemic, near-endemic and threatened (CR, EN, VU) species are included."
+  },
+  {
+    "objectID": "sdm.html",
+    "href": "sdm.html",
+    "title": "Species distribution models",
+    "section": "",
+    "text": "1 Intro\n\nDetermine which areas of kzn (and proximal areas) are critical for biodiversity under current and future climate scenarios.\n\n\n\n2 Predictor variables\n\n\n\n\n\n\nflowchart TD\n\nsubgraph g1[Species Distribution Models]\na[(Current)]\nb[(Future)]\nend\n\nsubgraph g2[Predictors]\ng([BIOCLIM&lt;/br&gt;current])\nh([BIOCLIM&lt;/br&gt;scenario's])\ni([Abiotic&lt;/br&gt;template])\nend\n\ng --&gt; a\nh --&gt; b\ni -.-&gt; a\ni -.-&gt; b\n\n\n\n\nFigure 1: The BIOCLIM variables under ‘current’ climate are consistent with ‘future’ climate scenario’s enabling robust prediciton of distribution shifts.\n\n\n\n\n\n\n\n3 Model building\n\n\n\n\n\n\nflowchart LR\n\na[(Model&lt;/br&gt;variables)]\nb([Redundancy&lt;/br&gt;checks:&lt;/br&gt;PCA/VIF])\nc[SDM&lt;/br&gt;create]\nd{SDM&lt;/br&gt;predictions}\ne[Current&lt;/br&gt;climate]\nf[Future&lt;/br&gt;climate]\ng[(Contiguous&lt;/br&gt;Outputs)]\n\na --&gt; b --&gt; c --&gt; d\nd --&gt; e\nd --&gt; f\ne --&gt; g\nf --&gt; g\n\n\n\n\nFigure 2: Process of taking input predictor variables and generating contiguous current- to future- climate species disrtibution maps. Species data is fed into SDM models as a variable to determine relations between predictors and species distributions.\n\n\n\n\n\n\n\n4 Outputs\n\n\n5 Products"
+  },
+  {
+    "objectID": "targets.html",
+    "href": "targets.html",
+    "title": "Conservation targets",
+    "section": "",
+    "text": "1 Conservation targets categories"
+  }
+]
