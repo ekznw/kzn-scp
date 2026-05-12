@@ -6,7 +6,7 @@ project:
   output-dir: docs
 
 website:
-  title: "<span title='DRAFT WEBSITE: KZN Conservation Plan'>KwaZulu-Natal <br/> Conservation Plan </span>"
+  title: "<span title='DRAFT WEBSITE: KZN Conservation Plan'>KwaZulu-Natal <br/> DRAFT WEBSITE: Conservation Plan </span>"
   navbar:
     left:
       - text: About
