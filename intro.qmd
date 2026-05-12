@@ -64,14 +64,13 @@ execute:
 
 This terrestrial conservation plan aims to solve the problem of: how to ensure sufficient space for biodiversity conservation, in the KwaZulu-Natal terrestrial realm, whilst simultaneously minimising constraints and maximising opportunities (see @nte-cost). This is also known as the minimum set of protected areas' solution (i.e., the 'min set') [@margules2000scp; @hanson2025scp]. There are four broad stages that need to be addressed for resolution of this conservation problem [@escott2016dkn; @sanbi2024mbp] (@fig-flow_main).
 
-::::{.column-margin}
-::: {.callout-note #nte-cost title='Costs & decision support'}
+:::: column-margin
+::: {#nte-cost .callout-note title="Costs & decision support"}
 Constraints and opportunities are referred as **costs** in conservation planning. These costs are more than the monetary value of acquiring protected areas for conservation efforts. In conservation planning 'costing' involves how complex socio-ecological factors are quantified and tradeoffs made. The balancing of these tradeoffs is the **'decision support'** mechanism that helps optimise the conservation planning solution *with* other human land use activities [@escott2016dkn; @sanbi2024mbp].
 :::
 ::::
 
 ::: {#fig-flow_main}
-
 ```{mermaid}
 %%| fig-align: center
 
@@ -110,13 +109,13 @@ The second stage concerns determination of meaningful representation and persist
 
 Integrating the terrestrial conservation plan with the marine, estuarine, and freshwater biodiversity realms is critical for an overall *land- to sea-scape* approach. This integration ensures that critical marine realms are supported by important estuaries. These estuaries are supported by a freshwater plan, and conservation in linked terrestrial environs is prioritised to promote this overall land–ocean 'scape' ― a multi-realm *'ecoscape'* [@wedding2025bla].
 
-::::{.column-margin}
-::: {.callout-note #nte-cost title='Terrestrial and freshwater overlap'}
+:::: column-margin
+::: {#nte-cost .callout-note title="Terrestrial and freshwater overlap"}
 Wetlands provide an interesting case of overlap in the terrestrial and freshwater realms. Many species directly use both of 'realms'. The terrestrial plan accounts for this overlap through its incorporation freshwater features, that is, 'freshwater' associated species, and freshwater bodies [@escott2016dkn; @lotter2015trf]. The terrestrial plan is however specifically engineered to address terrestrial-focused conservation problems necessitating a separate exercise to address freshwater conservation planning.
 :::
 ::::
 
-The above linking from marine, estuary, freshwater to terrestrial, describes the hierarchical approach recommended for integrating biodiversity plans [@escott2016dkn; @lotter2015trf]. This 'linking' is done from the most dependant, that is, most affected by other adjacent realms, to the least-dependent realm. In conservation planning, the terrestrial realm is considered the least dependent, compared with the marine and estuarine realms, in KwaZulu-Natal [@escott2016dkn; @desmet2019ecb]. 
+The above linking from marine, estuary, freshwater to terrestrial, describes the hierarchical approach recommended for integrating biodiversity plans [@escott2016dkn; @lotter2015trf]. This 'linking' is done from the most dependant, that is, most affected by other adjacent realms, to the least-dependent realm. In conservation planning, the terrestrial realm is considered the least dependent, compared with the marine and estuarine realms, in KwaZulu-Natal [@escott2016dkn; @desmet2019ecb].
 
 Overlap between realms has to be dealt with systematically. For conservation planning in KwaZulu-Natal, the rugged topography with incised valleys and associated catchment systems is best addressed through a catchment management approach [@escott2016dkn; @desmet2019ecb]. This catchment management system neatly ties the terrestrial to the estuarine, coastal and marine realms.
 
@@ -124,32 +123,26 @@ Overlap between realms has to be dealt with systematically. For conservation pla
 
 ### Eastern Cape BP integration of biodiversity realms
 
-The following is taken/summarisied from the EC biodiversity plan (pg 5 of @desmet2019ecb). This is a description of their BP:  
+The following is taken/summarisied from the EC biodiversity plan (pg 5 of @desmet2019ecb). This is a description of their BP:
 
-1. Estuary CBA classification based on 2018 NBA.
-1. Integrate estuary priorities into the freshwater Marxan cost layer.
-1. Freshwater Marxan analysis (PUs = sub quarternary).
-1. Extract selected PUs from freshwater Marxan analysis.
-1. Add to these PUs NFEPA SQ4 fish sanctuaries, free flowing and flagship river
-catchments.
-1. Add freshwater features based on CBA criteria (i.e. wetlands and strategic water source areas,
-Section 9).
-1. Integrate freshwater priorities into terrestrial Marxan cost layer (Section 11.2).
-1. Conduct terrestrial Marxan analysis.
-1. Add terrestrial features based on CBA criteria.
+1.  Estuary CBA classification based on 2018 NBA.
+2.  Integrate estuary priorities into the freshwater Marxan cost layer.
+3.  Freshwater Marxan analysis (PUs = sub quarternary).
+4.  Extract selected PUs from freshwater Marxan analysis.
+5.  Add to these PUs NFEPA SQ4 fish sanctuaries, free flowing and flagship river catchments.
+6.  Add freshwater features based on CBA criteria (i.e. wetlands and strategic water source areas, Section 9).
+7.  Integrate freshwater priorities into terrestrial Marxan cost layer (Section 11.2).
+8.  Conduct terrestrial Marxan analysis.
+9.  Add terrestrial features based on CBA criteria.
 
-Areas selected through the MARXAN analysis aimed to select enough sites to achieve representation
-targets for vegetation types, species of conservation concern and expert mapped areas important
-for biodiversity.  
-Areas already identified as CBAs in existing plans and incorporated as is into the EC plan include:  
-a. Estuary – All estuaries except those mapped by this project.  
-b. Fresh water – NFEPA fish sanctuaries, Flagship Rivers and free flowing rivers.  
-c. Terrestrial – none. CBAs in existing plan were integrated in to the Marxan cost layer.  
-Entire mapped extent of features considered as being important for biodiversity pattern or process.
-Inputs used to inform the Marxan cost layer. These features do not appear in the final CBA map.
-They are use only to manipulate the cost layer to increase or decrease the likelihood of Marxan
-selecting a site to achieve any given target.
+Areas selected through the MARXAN analysis aimed to select enough sites to achieve representation targets for vegetation types, species of conservation concern and expert mapped areas important for biodiversity.\
+Areas already identified as CBAs in existing plans and incorporated as is into the EC plan include:\
+a. Estuary – All estuaries except those mapped by this project.\
+b. Fresh water – NFEPA fish sanctuaries, Flagship Rivers and free flowing rivers.\
+c. Terrestrial – none. CBAs in existing plan were integrated in to the Marxan cost layer.\
+Entire mapped extent of features considered as being important for biodiversity pattern or process. Inputs used to inform the Marxan cost layer. These features do not appear in the final CBA map. They are use only to manipulate the cost layer to increase or decrease the likelihood of Marxan selecting a site to achieve any given target.
 
+````{=html}
 <!-- 
 ::: {#fig-full_flow}
 
@@ -219,3 +212,4 @@ obj3_2([Provincial targets]) --> obj3
 ```
 
 ::: -->
+````

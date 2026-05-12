@@ -68,8 +68,7 @@ website:
 
 format:
   html:
-    title-block-banner: "#e2dfd0"
-    color: '#554838'
+    title-block-banner: true
     embed-resources: true
     theme:
       - cosmo
