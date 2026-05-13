@@ -9,7 +9,7 @@ bibliography: /home/paulg/refs/bspi.bib
 To find the best working solution to the KZN Conservation Plan the @coreteam2025rv4 *prioritizR* package [@hanson2025scp] was used. There are a number of advantages to this approach. Unlike simulated annealing (e.g., Marxan), where *near*-optimal solutions are obtained through multiple runs, *prioritizR* uses mixed-integer linear programming, in a single run, to solve for _the_ optimal solution (@nte-marxan). The formulation how 'cost' is balanced across a landscape to delineate space for biodiversity (or other) features, that is, the 'conservation problem', is highly customisable using the *prioritizr* framework. As such, planners can explicitly control many conservation-problem parameters. Running a single run, versus multiple, to find the optimal solution speeds up complex problem-solving substantially.
 
 ::::{.column-margin}
-::: {.callout-note #nte-marxan title='PrioritiR–Marxan integration'}
+::: {.callout-note #nte-marxan title='PrioritizR–Marxan integration'}
 PrioritizR was set up to compare and run Marxan simulations. For a Marxan run prioritizR will accept Marxan formatted data and perform a Marxan run simulation. This means that preparation of data for prioritizR can be the same as for a Marxan run making integration, comparison, and movement between these planning tools seamless.
 :::
 ::::
