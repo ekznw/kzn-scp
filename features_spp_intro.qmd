@@ -70,7 +70,7 @@ The *broad-ranging* ecosystem representation is complemented by a *targeted* app
 #| tbl-cap: "Criteria for inclusion of species in the targeted approach."
 #| label: tbl-spp-criteria
 #| echo: false
-#| 
+#| eval: true
 
 library(knitr)
 library(kableExtra)
