@@ -72,6 +72,7 @@ The *broad-ranging* ecosystem representation is complemented by a *targeted* app
 #| echo: false
 #| eval: true
 
+# load packages
 library(knitr)
 library(kableExtra)
 library(flextable)
