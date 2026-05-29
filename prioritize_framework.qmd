@@ -47,7 +47,7 @@ where
   - The contiguity of planning units can also be set to determine connectivity and patch size trade-offs. This can be achieved per feature.
   - Planning units can be constrained to a particular zone, e.g., restoration, or low utilisation.
 
-- **penalties** function to *limit* or *penalize* solutions that do not meet a specific characteristic.
+- **penalties** function to *limit* or *penalise* solutions that do not meet a specific characteristic.
 
   - For example, favour clumping to produce contiguous areas, or
   - reduce spatial fragmentation.

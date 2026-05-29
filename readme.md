@@ -150,7 +150,20 @@ This helps build institutional memory and shared capacity in EKZNW.
     - Quarto
     - VSCodium (or Positron)
 
-2.  Clone the repository: git clone https://github.com/ekznw/kzn_scp.git cd kzn_scp
+1. Create a new folder (named e.g., '~/Documents/github_repos') _wherein_ the KZN SCP repository will be cloned to.
+
+``` md
+github_repos/         # parent directory for some github projects
+  |                      
+  └── kzn-scp         # Don't create this folder yet ... go to the next step
+```
+
+1. Open VSCodium and the 'github_repos' folder.
+
+1. Clone the repository:
+  a. Click the ![git icon](images/readme/vscode-git.png) on the left menu pane.  
+  a. 
+
 
 3.  Open the project in VSCodium:
 
