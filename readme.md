@@ -160,9 +160,15 @@ github_repos/         # parent directory for some github projects
 
 1. Open VSCodium and the 'github_repos' folder.
 
-1. Clone the repository:
-  a. Click the ![git icon](images/readme/vscode-git.png) on the left menu pane.  
-  a. 
+2. Select the ![git icon](images/readme/vscode-git.png) on the left menu pane.
+
+3. In VSCodium an option will appear (top-centre) select 'Clone from GitHub'.
+  - Use text filter and select the ekznw/kzn-scp repository.
+  - Follow the authorization prompts to allow the connection with GitHub.
+  - Select your folder, e.g., github_repose, where the 'clone' of the repository will be copied to.
+  - Follow the prompts to open the new 'kzn-scp' folder/repo in VSCodium.
+
+4.
 
 
 3.  Open the project in VSCodium:
