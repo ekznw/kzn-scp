@@ -144,55 +144,71 @@ This helps build institutional memory and shared capacity in EKZNW.
 
 ## How to contribute via git
 
+### Install software
 1.  Install:
 
     - Git
     - Quarto
     - VSCodium (or Positron)
 
-1. Create a new folder (named e.g., '~/Documents/github_repos') _wherein_ the KZN SCP repository will be cloned to.
+---
+### Clone repository
+1. Create a new folder (named e.g., '~/Documents/github_repos') _where_ the KZN SCP repository will be cloned to.
 
 ``` md
-github_repos/         # parent directory for some github projects --- create this.
-  |                      
+github_repos/         # parent directory for some github projects --- create this.               
   └── kzn-scp         # Don't create this yet ... go to the next step
 ```
 
-2. Open VSCodium and the 'github_repos' folder.
+2. Open VSCodium.
 
 3. Select the ![git icon](images/readme/vscode-git.png) on the left menu pane.
 
-4. In VSCodium an option will appear (top-centre) select '**Clone from GitHub**'.
-  - Use text and select the ekznw/kzn-scp repository.
-  - Follow the authorization prompts to allow the connection with GitHub.
-  - Select your folder, e.g., github_repose, where the 'clone' of the repository will be copied to.
-  - Follow the prompts to open the new 'kzn-scp' folder/repo in VSCodium.
+4. Select '**Clone from GitHub**'.  
+  ↪️ Search for ekznw/kzn-scp repository.  
+  ↪️ Follow the authorization prompts to allow the connection with GitHub.  
+  ↪️ Choose the folder (e.g., github_repo).  
+  ↪️ When prompted, open the folder.  
 
-4.
+✅ Repository cloned and opened.
 
-### Git team tips
+---
+### Editing
 
- - Before doing any work --- comminicate with the leads on where you are working.
- - Before begining work: **pull** from the remote repository.
+1. Open VSCodium in the new cloned repository folder:
+  - File / Open folder ➡️ select e.g., kzn-scp.
 
-3.  Open the project in VSCodium:
+2. Before editing, update your local copy.  
+    - Select 'Pull'.  
+    - Pull will bring in all changes from the remote.  
+  ℹ️ Always pull before you start working to avoid merge conflicts.
+3. Edit you local files in VSCodium and save.
+---
 
-    - Edit .qmd files
-    - Render documentation with Quarto Preview
+### 'Commit' edits to GitHub
 
-4.  Create a feature branch: git checkout -b your-feature-name
+1. Select the ![git icon](images/readme/vscode-git.png).
+2. Your edits will have been tracked by Git and listed as 'changes'. Select the '+' for individual or all changes you want to commit back to the GitHub 'remote'.  
+  ↪️ now you changes are 'staged', that is, ready to 'commit'.
+3. Enter the commit message in the 'Message' text box.
+4. Select ✔️ Commit.  
+  a. If this is your first commit you may have to enter your GitHub username and email in the terminal. Check the Git outputs for details.  
+    ```
+    git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"
+    ```
+    After entering these details, that will get saved to your PC's git system, run the commit.  
+5. Select 'Push' or 'Sync' to send your staged changes to GitHub.  
 
-5.  Edit analysis or documentation:
+✅ Edits 'pushed' to GitHub.  
+    ℹ️ You will need 'write permission' on the GitHub repo for your changes to be integrated. This can be granted by a repo administrator.  
 
-    - R scripts in R/ (using terra + data.table where possible)
-    - Quarto documents in docs/ or website/
-    - Bibliography in .bib
+### Important rules
 
-6.  Preview documentation: quarto preview
-
-7.  Commit and push: git add . git commit -m "Describe your changes" git push origin your-feature-name
-
-8.  Open a Pull Request on GitHub.
+- Always pull before working.
+- Commit regularly with clear messages.
+- Avoid editing the same file as others.
+- You need 'write' permission for changes to be accepted.
 
 ------------------------------------------------------------------------
 
