@@ -11,7 +11,7 @@ author:
         name: Scientific Services, Conservation and Research, Ezemvelo KZN Wildlife
 
 title-block-banner: true
-bibliography: /home/paulg/refs/bspi.bib
+bibliography: refs/bspi.bib
 
 execute: 
   warning: false

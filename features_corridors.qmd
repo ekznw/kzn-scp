@@ -4,7 +4,7 @@ title: "Corridors & refugia for landscape integrity and biodiversity persistence
 abstract:
     This section summarises selected critical habitat features to promote persistence of biodiversity.
 title-block-banner: true
-bibliography: /home/paulg/refs/bspi.bib
+bibliography: refs/bspi.bib
 
 execute: 
   warning: false

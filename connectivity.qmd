@@ -2,7 +2,7 @@
 title: "Landscape Integrity"
 abstract: Landscape integrity, derived from habitat fragmentation and connectivity metrics, provides a means to assess the resilience of a landscape in consrevation. In conservation planning assessing connectivty in the form of corridors is particularly important.
 title-block-banner: true
-bibliography: /home/paulg/refs/bspi.bib
+bibliography: refs/bspi.bib
 ---
 
 ```{mermaid}

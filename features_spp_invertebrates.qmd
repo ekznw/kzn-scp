@@ -10,7 +10,7 @@ author:
         id: cra
         name: Scientific Services, Conservation and Research, Ezemvelo KZN Wildlife
 
-bibliography: /home/paulg/refs/bspi.bib
+bibliography: refs/bspi.bib
 
 execute: 
   warning: false

@@ -3,3 +3,24 @@ title: "The KwaZulu-Natal Conservation Plan"
 ---
 
   - Summary info on kzn and why the conservation plan.
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+
+# all website packages
+# library(ekznwr)
+# library(flextable)
+# library(kableExtra)
+# library(knitr)
+# library(prioritizr)
+# library(renv)
+
+# create r env snapshot
+# run this if the package list is updated
+# renv::snapshot()
+
+# run this if it is the first time running the project on a PC - once off
+# renv::restore()
+```

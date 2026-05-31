@@ -44,7 +44,7 @@ author:
       affiliations:
         ref: cra
 
-bibliography: /home/paulg/refs/bspi.bib
+bibliography: refs/bspi.bib
 
 execute: 
   warning: false
