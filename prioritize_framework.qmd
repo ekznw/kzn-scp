@@ -1,7 +1,7 @@
 ---
 title: Priotitization analyses
 title-block-banner: true
-bibliography: /home/paulg/refs/bspi.bib
+bibliography: refs/bspi.bib
 ---
 
 # Analysis framework and software
