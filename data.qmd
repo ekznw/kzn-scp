@@ -1,32 +1,41 @@
 ---
 title: "Conservation plan data pipeline"
+author:
+    - name: Paul Gordijn
+      orcid: "0000-0002-0580-3107"
+      affiliations:
+        id: bspi
+        name: Biodiversity, Spatial Planning and Information, Ezemvelo KZN Wildlife
 ---
 
+# Data flow and repositories
+
+## Systems overview
 To promote open science and smooth updates to the C-Plan the data to documentation pipeline in @fig-dataflow was adopted.
 
 ```{mermaid}
 %%| label: fig-dataflow
-%%| fig-cap: Data to documentation pipeline overview. Boxes indicate the storage and backup locations of the data and code, in the cloud and on GitHub, respectively.
+%%| fig-cap: Data to documentation pipeline overview. Boxes indicate the storage locations of the data and code, that is, in the cloud and on GitHub, respectively. The principle adopted for data system continuity and interoperability was that code, and other described workflows, must link directly to the data store (A.2 in @fig-dataflow). This would enable re-running of analyses as requried by FAIR data standards.
 %%| fig-align: center
 
 flowchart TD
 
 %% Group 1: cloud storage
 %% === sub node ===
-subgraph G1[Cloud storage]
+subgraph G1[A: Cloud storage]
     direction LR
     %%style G1 fill:#c4d8c282,stroke:#3d573bff,stroke-width:2px
-    d([Metadata])
-    e([Data])
+    d([1. Metadata])
+    e([2. Data])
     d <--> e
 end
 
 %% === main nodes ===
-subgraph G2[GitHub code repo]
+subgraph G2[B: GitHub code repo]
 %%style G2 fill:#80a17d82,stroke:#3d573bff,stroke-width:2px
-a([Metadata systems])
-b([Scripts & <br> GIS software])
-c([Documentation])
+a([1. Metadata systems])
+b([2. Scripts & <br> GIS software])
+c([3. Documentation])
 
 a --> b
 b --> c
@@ -38,6 +47,7 @@ d --> a
 e --> a
 end
 ```
+
 
 ## Data quality
 
