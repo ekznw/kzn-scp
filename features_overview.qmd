@@ -64,9 +64,9 @@ For robust representation of biodiversity, and associated ecosystem infrastructu
 In order to maximise representation of biodiversity in a landscape, the conservation planning process adopts a two-pronged approach, specifically:
 
 1) a **wide-ranging** (or coarse-filter): “Ecosystem representation” approach (see [Ecosystems](features_ecosystems.qmd)), and  
-2) a **targeted** (or fine-filter): “Species representation” approach (see section [Species](features_spp_intro.qmd)) [@sanbi2024mbp].
+2) a **targeted** (or fine-filter): “Species representation” approach (see section [Species](features_spp_intro.qmd)) [@sanbi2024mbp-a].
 
-Representation of the ecosystem types in the area-of-interest largely fulfils the **wide-ranging** component, that is, if the SCP incorporates the full diversity of ecosystems, it is likely to represent their constituent taxa. The complementary approach, that is, the **targeted** approach, caters for specific, threatened taxa, or those not operating within the parameters of represented ecosystems [@margules2000scp].
+Representation of the ecosystem types in the area-of-interest largely fulfils the **wide-ranging** component, that is, if the SCP incorporates the full diversity of ecosystems, it is likely to represent their constituent taxa. The complementary approach, that is, the **targeted** approach, caters for specific, threatened taxa, or those not operating within the parameters of represented ecosystems [@margules2000scp-a].
 
 <!-- ::: {#fig-what_where}
 ```{mermaid}

@@ -62,7 +62,7 @@ execute:
 
 ## Introduction
 
-The *broad-ranging* ecosystem representation is complemented by a *targeted* approach that focuses on specific species (see @sec-spp-rep). The targeted approach required a systematic selection of species [@sanbi2024mbp]. Ezemvelo KZN Wildlife scientists and a broad range of stakeholders developed the criteria for the inclusion of species [@elliot2023bcp]. For the KwaZulu-Natal conservation plan, these criteria were applied to each group of taxa: [Amphibians](features_spp_amphibians.qmd), [Aquatic taxa](features_spp_aquatic.qmd), [Invertebrates](features_spp_invertebrates.qmd), [Mammals](features_spp_mammals.qmd), [Plants](features_spp_plants.qmd), and [Reptiles](features_spp_reptiles.qmd).
+The *broad-ranging* ecosystem representation is complemented by a *targeted* approach that focuses on specific species. The targeted approach required a systematic selection of species [@sanbi2024mbp-a]. Ezemvelo KZN Wildlife scientists and a broad range of stakeholders developed the criteria for the inclusion of species [@elliot2023bcp-a]. For the KwaZulu-Natal conservation plan, these criteria were applied to each group of taxa: [Amphibians](features_spp_amphibians.qmd), [Aquatic taxa](features_spp_aquatic.qmd), [Invertebrates](features_spp_invertebrates.qmd), [Mammals](features_spp_mammals.qmd), [Plants](features_spp_plants.qmd), and [Reptiles](features_spp_reptiles.qmd).
 
 ## Criteria for inclusion
 

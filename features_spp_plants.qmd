@@ -28,7 +28,7 @@ execute:
 
 The targeted plant species list for the updated KZN SCP revision was developed as follows:
 
-1. An extract of the plant list used for the previous SCP by @escott2010cpw was made.
+1. An extract of the plant list used for the previous SCP by @escott2010cpw-a was made.
 1. The extract was evaluated by the plant group (Ezemvelo KZN Wildlife + SANBI) at the C‑Plan workshop at Didima, Jan 2025.
 1. The list was further refined and checked.
 1. Species names were updated for taxonomic changes.

@@ -9,13 +9,23 @@ title: "The KwaZulu-Natal Conservation Plan"
 #| echo: false
 #| message: false
 
+# install packages from GitHub
+library(pak)
+# use pak to install from github repo
+pak("ekznw/ekznwr")
+
 # all website packages
-# library(ekznwr)
-# library(flextable)
-# library(kableExtra)
-# library(knitr)
-# library(prioritizr)
-# library(renv)
+library(devtools)
+library(ekznwr)
+library(flextable)
+library(kableExtra)
+library(knitr)
+library(prioritizr)
+library(rayshader)
+library(remotes)
+library(renv)
+library(rmarkdown)
+library(terra)
 
 # create r env snapshot
 # run this if the package list is updated

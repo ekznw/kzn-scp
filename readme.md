@@ -76,7 +76,7 @@ The documentation of the conservation plan is divided into the following section
 References are managed through .bib files stored in the [BSPI repository](https://github.com/ekznw/refs).
 
 - Add new entries to [bspi_refs.bib](https://github.com/ekznw/refs/blob/main/bspi.bib).
-- Use citation keys in Quarto, e.g. [@mucina2018tvm], or @mucina2018tvm for with or without parentheses, respectively. Quarto will render citations appropriately.
+- Use citation keys in Quarto, e.g. [@mucina2018tvm-a], or @mucina2018tvm-a for with or without parentheses, respectively. Quarto will render citations appropriately.
 - Quarto automatically builds formatted reference lists.
 - Citations in MS Word:
   - Follow Quarto rules above.
@@ -240,3 +240,13 @@ Quarto websites can be deployed from GitHub for free. Until that step is taken b
 4.  Extract the ZIP folder,
 5.  Navigate to the extracted `_site` folder, &
 6.  Open the `index.html` file.
+
+
+---
+
+## Technical notes
+
+### Updating the reference database
+The bibliography for the website is maintained through GitHub. The latest version of this bibliography can be downloaded using the `update_refs.sh` script.
+
+> Note this bibliography is not specific to the conservation plan it contains references from broader BSPI projects. If necessary it could be trimmed to reduced file size.
